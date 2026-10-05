@@ -3,6 +3,7 @@ import Link from "next/link";
 const links = [
   { href: "/calculators", label: "Calculators" },
   { href: "/quote", label: "Quote generator" },
+  { href: "/signin", label: "Sign in" },
 ];
 
 export default function Navbar() {
