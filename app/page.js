@@ -99,7 +99,7 @@ export default function Home() {
           <p className="lead">
             CalcBid is the calculator-and-quote pad for contractors. Punch in
             the job, get exact materials and costs, and send a quote your
-            client can sign off on \u2014 all before you&apos;ve left the driveway.
+            client can sign off on &mdash; all before you&apos;ve left the driveway.
           </p>
           <div className="hero-cta">
             <Link href="/calculator" className="btn btn-primary">
@@ -138,7 +138,7 @@ export default function Home() {
           <div className="kicker">Trades</div>
           <h2 className="h2">One pad, every trade you work</h2>
           <p className="sub">
-            Painting is live today. Tell us your trade on the waitlist \u2014 it
+            Painting is live today. Tell us your trade on the waitlist &mdash; it
             genuinely decides what we build next.
           </p>
           <div className="grid3">
@@ -162,7 +162,7 @@ export default function Home() {
           <div className="kicker">Why CalcBid</div>
           <h2 className="h2">Built for the 70% still estimating in Excel</h2>
           <p className="sub">
-            Most contractors burn 4\u20138 unpaid hours scoping every bid \u2014 and
+            Most contractors burn 4&ndash;8 unpaid hours scoping every bid &mdash; and
             close barely a quarter of them. Evenings back, quotes out the same
             day. That&apos;s the whole pitch.
           </p>
@@ -243,7 +243,7 @@ export default function Home() {
           <h2 className="h2">Get in before your trade launches</h2>
           <p className="sub">
             Lock in launch pricing and vote on which trade we build next. One
-            email when it&apos;s ready \u2014 no drip campaign, we hate those too.
+            email when it&apos;s ready &mdash; no drip campaign, we hate those too.
           </p>
           <EmailCapture />
         </div>
