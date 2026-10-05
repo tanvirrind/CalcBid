@@ -13,7 +13,12 @@ const calcs = [
     href: "/calculators/paint-calculator",
     live: true,
   },
-  { name: "Roofing calculator", note: "Squares, shingles & waste", live: false },
+  {
+    name: "Roofing calculator",
+    note: "Squares, shingles, tear-off & labor",
+    href: "/calculators/roofing-calculator",
+    live: true,
+  },
   { name: "Tile & flooring calculator", note: "Boxes, cuts & layout", live: false },
   { name: "Deck & fence calculator", note: "Boards, posts & concrete", live: false },
   { name: "HVAC / BTU calculator", note: "Load sizing per room", live: false },

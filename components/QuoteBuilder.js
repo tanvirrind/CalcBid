@@ -41,6 +41,20 @@ export default function QuoteBuilder() {
       setClientView(shared);
       return;
     }
+    // Generic prefill: ?items=<url-encoded JSON array of {desc, qty, price}>
+    const itemsParam = params.get("items");
+    if (itemsParam) {
+      try {
+        const parsed = JSON.parse(itemsParam);
+        if (Array.isArray(parsed) && parsed.length) {
+          setQ(blankQuote(parsed));
+          return;
+        }
+      } catch {
+        /* fall through to legacy params */
+      }
+    }
+    // Legacy: paint calculator params
     const paint = parseFloat(params.get("paint"));
     const paintCost = parseFloat(params.get("paintCost"));
     const labor = parseFloat(params.get("labor"));

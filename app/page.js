@@ -21,7 +21,7 @@ const steps = [
 
 const trades = [
   { name: "Paint", note: "Gallons, coats & labor", live: true },
-  { name: "Roofing", note: "Squares, shingles & waste", live: false },
+  { name: "Roofing", note: "Squares, shingles & waste", live: true },
   { name: "Tile & flooring", note: "Boxes, cuts & layout", live: false },
   { name: "Deck & fence", note: "Boards, posts & concrete", live: false },
   { name: "HVAC / BTU", note: "Load sizing per room", live: false },

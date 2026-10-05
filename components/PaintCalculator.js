@@ -33,6 +33,17 @@ export default function PaintCalculator({ onSendToQuote }) {
     return { wallArea, paintable, gallons, paintCost, laborCost, total: paintCost + laborCost };
   }, [length, width, height, doors, windows, coats, coverage, priceGal, laborHours, laborRate]);
 
+  const quoteItems = [
+    {
+      desc: `Interior paint — ${r.gallons} gal (materials)`,
+      qty: 1,
+      price: Math.round(r.paintCost * 100) / 100,
+    },
+    { desc: "Labor", qty: 1, price: Math.round(r.laborCost * 100) / 100 },
+  ];
+  const quoteHref =
+    "/quote?items=" + encodeURIComponent(JSON.stringify(quoteItems));
+
   const F = ({ label, value, set, step = "any", min = "0", hint }) => (
     <div className="field">
       <label>{label}</label>
@@ -86,10 +97,7 @@ export default function PaintCalculator({ onSendToQuote }) {
               Send to quote →
             </button>
           ) : (
-            <Link
-              className="btn btn-primary"
-              href={`/quote?paint=${r.gallons}&paintCost=${r.paintCost.toFixed(2)}&labor=${r.laborCost.toFixed(2)}`}
-            >
+            <Link className="btn btn-primary" href={quoteHref}>
               Send to quote →
             </Link>
           )}
