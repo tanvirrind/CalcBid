@@ -18,6 +18,11 @@ export default function RoofingCalculatorPage() {
           into a quote.
         </p>
         <RoofingCalculator />
+        <p className="disclaimer">
+          <strong>Ballpark, not gospel.</strong> This estimates squares, bundles,
+          and costs from the numbers you punch in — always check against your
+          supplier&apos;s specs and your own measurements before ordering or quoting.
+        </p>
       </div>
     </section>
   );

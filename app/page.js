@@ -195,7 +195,7 @@ export default function Home() {
               <Link href="/calculators/paint-calculator" className="btn btn-ghost">Start free</Link>
             </div>
             <div className="card price-card featured">
-              <div className="p-name">Starter</div>
+              <div className="p-name">Solo</div>
               <div className="p-price">$19</div>
               <div className="p-per">per month</div>
               <ul>
@@ -207,11 +207,11 @@ export default function Home() {
               <Link href="#waitlist" className="btn btn-primary">Join the waitlist</Link>
             </div>
             <div className="card price-card">
-              <div className="p-name">Pro</div>
+              <div className="p-name">Crew</div>
               <div className="p-price">$49</div>
               <div className="p-per">per month</div>
               <ul>
-                <li>Everything in Starter</li>
+                <li>Everything in Solo</li>
                 <li>All trades &amp; calculators</li>
                 <li>Client follow-up reminders</li>
                 <li>Priority support</li>

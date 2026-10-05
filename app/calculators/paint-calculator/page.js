@@ -16,6 +16,11 @@ export default function PaintCalculatorPage() {
           straight into a quote your client can sign off on.
         </p>
         <PaintCalculator />
+        <p className="disclaimer">
+          <strong>Ballpark, not gospel.</strong> This estimates materials from
+          the numbers you punch in — always check against your supplier&apos;s
+          specs and your own tape before ordering or quoting.
+        </p>
       </div>
     </section>
   );
