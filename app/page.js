@@ -102,7 +102,7 @@ export default function Home() {
             client can sign off on &mdash; all before you&apos;ve left the driveway.
           </p>
           <div className="hero-cta">
-            <Link href="/calculator" className="btn btn-primary">
+            <Link href="/calculators/paint-calculator" className="btn btn-primary">
               Try the paint calculator
             </Link>
             <Link href="/quote" className="btn btn-ghost">
@@ -192,7 +192,7 @@ export default function Home() {
                 <li>3 quotes per month</li>
                 <li>Shareable quote links</li>
               </ul>
-              <Link href="/calculator" className="btn btn-ghost">Start free</Link>
+              <Link href="/calculators/paint-calculator" className="btn btn-ghost">Start free</Link>
             </div>
             <div className="card price-card featured">
               <div className="p-name">Starter</div>

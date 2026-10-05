@@ -9,7 +9,7 @@ export default function Footer() {
           <div>Calculate the job. Send the quote. Get paid.</div>
         </div>
         <div style={{ display: "flex", gap: 18 }}>
-          <Link href="/calculator" style={{ color: "inherit" }}>Calculator</Link>
+          <Link href="/calculators" style={{ color: "inherit" }}>Calculators</Link>
           <Link href="/quote" style={{ color: "inherit" }}>Quote generator</Link>
         </div>
         <div>© {new Date().getFullYear()} CalcBid. All rights reserved.</div>
