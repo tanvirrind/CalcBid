@@ -12,8 +12,8 @@ export default function CalculatorPage() {
         <div className="kicker">Free calculator</div>
         <h1 className="h2">Paint quantity calculator</h1>
         <p className="sub">
-          Enter the room, get gallons and job cost. Then send it straight into
-          a client-ready quote.
+          Punch in the room, get the gallons and the job cost. Then send it
+          straight into a quote your client can sign off on.
         </p>
         <PaintCalculator />
       </div>

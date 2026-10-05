@@ -4,18 +4,18 @@ import EmailCapture from "../components/EmailCapture";
 const steps = [
   {
     n: "1",
-    title: "Calculate the job",
-    text: "Enter room dimensions, materials, and rates. CalcBid crunches quantities, gallons, and costs instantly — no spreadsheet, no guesswork.",
+    title: "Work the numbers",
+    text: "Room size, coats, your paint, your rate. CalcBid figures the gallons, the waste, and the labor while you're still standing there with the tape measure.",
   },
   {
     n: "2",
-    title: "Build the quote",
-    text: "One click turns your estimate into a branded, professional quote with line items, totals, and your terms.",
+    title: "Make it official",
+    text: "One tap turns the estimate into a clean, branded quote — line items, totals, expiry date, your terms. No more Word docs at midnight.",
   },
   {
     n: "3",
-    title: "Send it to your client",
-    text: "Share a link, download a PDF-ready file, or open it in email. Your client sees a quote that wins jobs.",
+    title: "Send it today",
+    text: "Text the link, print the PDF, or email it straight from the driveway. No more \u201CI'll send it tonight\u201D and then forgetting.",
   },
 ];
 
@@ -30,49 +30,57 @@ const trades = [
 
 const features = [
   {
-    title: "Trade-accurate calculators",
-    text: "Built for how contractors actually estimate — waste factors, coats, openings, and real coverage rates included.",
+    title: "Math that holds up",
+    text: "Waste factors, door and window deductions, real coverage rates. The numbers still make sense when you're standing at the paint counter.",
   },
   {
-    title: "Quotes that close",
-    text: "Branded quote documents with line items, taxes, discounts, and expiry dates. Look like the biggest crew in town.",
+    title: "Quotes that look like you mean it",
+    text: "Branded documents with line items, taxes, discounts, and expiry dates. Show up on paper like the biggest crew in town.",
   },
   {
-    title: "Send anywhere",
-    text: "Shareable link, printable PDF layout, or straight into email. Meet the client wherever they are.",
+    title: "Send it however they want it",
+    text: "A link they can open on their phone, a PDF they can print, or straight into email. You meet the client where they are.",
   },
   {
-    title: "Priced for small crews",
-    text: "No $200/mo suite. CalcBid is built for independents and small teams who just need to win more bids.",
+    title: "Priced like a tool, not a tax",
+    text: "No $200-a-month suite with features you'll never touch. Built for independents and small crews who just need to win more bids.",
   },
   {
-    title: "Estimates in minutes",
-    text: "What takes 4–8 unpaid hours per bid today becomes a 10-minute job on your phone, on-site.",
+    title: "Bids in minutes, not evenings",
+    text: "The 4\u20138 unpaid hours you spend scoping every bid? That's a ten-minute job on your phone now. On-site, between coats.",
   },
   {
-    title: "Your numbers, your brand",
-    text: "Your logo, your rates, your terms on every quote. No marketplace taking a cut of your work.",
+    title: "Your name on everything",
+    text: "Your logo, your rates, your terms on every quote. No marketplace in the middle taking a cut of your work.",
   },
 ];
 
 const faqs = [
   {
-    q: "Is CalcBid free?",
-    a: "The calculators are free forever. Quoting plans start at $19/mo — a fraction of the $49–199/mo suites — because independent contractors shouldn't need enterprise software to send a quote.",
+    q: "Is it really free?",
+    a: "The calculators are free, forever \u2014 no account, no catch. When you want unlimited branded quotes with your logo, plans start at $19 a month. That's it.",
   },
   {
-    q: "Which trades are supported?",
-    a: "Painting is live today. Roofing, tile & flooring, deck & fence, and HVAC sizing are on the roadmap, prioritized by waitlist demand.",
+    q: "I'm not a painter. When's my trade coming?",
+    a: "Painting is live because it's the trade we could nail first. Roofing, tile, deck, and HVAC are next \u2014 join the waitlist and tell us your trade, it genuinely decides the order we build.",
   },
   {
-    q: "Can my client open the quote without an account?",
-    a: "Yes. Every quote gets a shareable link your client can open on any device — no signup, no app to install.",
+    q: "Does my client need an account to see the quote?",
+    a: "Nope. They get a link, they open it on their phone, they see your quote. Nothing to install, nothing to sign up for.",
   },
   {
     q: "How is this different from Joist or Houzz Pro?",
-    a: "Those start with quoting and bolt on generic fields. CalcBid starts with trade-accurate material calculators, so your quote is built on real quantities — not guesses typed into a template.",
+    a: "Those start with a blank quote template and make you fill in the numbers by hand. CalcBid starts with the calculator \u2014 real quantities, real material costs \u2014 so the quote builds itself from math, not guesses.",
   },
 ];
+
+function Squiggle() {
+  return (
+    <svg className="squiggle" viewBox="0 0 200 16" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M3 11 C 40 4, 70 13, 105 8 S 170 5, 197 10" fill="none" stroke="currentColor" strokeWidth="5" strokeLinecap="round" />
+    </svg>
+  );
+}
 
 export default function Home() {
   return (
@@ -82,12 +90,16 @@ export default function Home() {
           <h1>
             Calculate the job.
             <br />
-            Send the quote. <span className="hl">Get paid.</span>
+            Send the quote.{" "}
+            <span className="hl">
+              Get paid.
+              <Squiggle />
+            </span>
           </h1>
           <p className="lead">
-            CalcBid pairs trade-accurate material calculators with professional
-            quoting — so contractors estimate in minutes and send client-ready
-            quotes that win jobs.
+            CalcBid is the calculator-and-quote pad for contractors. Punch in
+            the job, get exact materials and costs, and send a quote your
+            client can sign off on \u2014 all before you&apos;ve left the driveway.
           </p>
           <div className="hero-cta">
             <Link href="/calculator" className="btn btn-primary">
@@ -98,9 +110,9 @@ export default function Home() {
             </Link>
           </div>
           <div className="hero-proof">
-            <span>✓ Free calculators, forever</span>
-            <span>✓ No spreadsheet required</span>
-            <span>✓ Client-ready in minutes</span>
+            <span>free calculators, forever</span>
+            <span>no spreadsheet required</span>
+            <span>client-ready in minutes</span>
           </div>
         </div>
       </header>
@@ -108,7 +120,7 @@ export default function Home() {
       <section className="section">
         <div className="wrap">
           <div className="kicker">How it works</div>
-          <h2 className="h2">From tape measure to signed quote in three steps</h2>
+          <h2 className="h2">Tape measure to signed quote, three steps</h2>
           <div className="grid3">
             {steps.map((s) => (
               <div className="card" key={s.n}>
@@ -124,10 +136,10 @@ export default function Home() {
       <section className="section alt">
         <div className="wrap">
           <div className="kicker">Trades</div>
-          <h2 className="h2">One platform, every trade you work</h2>
+          <h2 className="h2">One pad, every trade you work</h2>
           <p className="sub">
-            Painting is live today. Tell us your trade on the waitlist and help
-            decide what we build next.
+            Painting is live today. Tell us your trade on the waitlist \u2014 it
+            genuinely decides what we build next.
           </p>
           <div className="grid3">
             {trades.map((t) => (
@@ -136,7 +148,7 @@ export default function Home() {
                   <div className="t-name">{t.name}</div>
                   <div className="t-note">{t.note}</div>
                 </div>
-                <span className={`pill ${t.live ? "live" : "soon"}`}>
+                <span className={`stamp ${t.live ? "live" : "soon"}`}>
                   {t.live ? "Live" : "Soon"}
                 </span>
               </div>
@@ -150,8 +162,9 @@ export default function Home() {
           <div className="kicker">Why CalcBid</div>
           <h2 className="h2">Built for the 70% still estimating in Excel</h2>
           <p className="sub">
-            Most contractors lose 4–8 unpaid hours scoping every bid — and close
-            barely a quarter of them. CalcBid turns that into minutes.
+            Most contractors burn 4\u20138 unpaid hours scoping every bid \u2014 and
+            close barely a quarter of them. Evenings back, quotes out the same
+            day. That&apos;s the whole pitch.
           </p>
           <div className="grid3">
             {features.map((f) => (
@@ -167,8 +180,8 @@ export default function Home() {
       <section className="section alt">
         <div className="wrap">
           <div className="kicker">Pricing</div>
-          <h2 className="h2">Software priced like a tool, not a tax</h2>
-          <p className="sub">Launch pricing. Lock it in on the waitlist.</p>
+          <h2 className="h2">Priced like a tool, not a tax</h2>
+          <p className="sub">Launch pricing. Get on the waitlist and it&apos;s yours for good.</p>
           <div className="grid3">
             <div className="card price-card">
               <div className="p-name">Free</div>
@@ -188,7 +201,7 @@ export default function Home() {
               <ul>
                 <li>Everything in Free</li>
                 <li>Unlimited quotes</li>
-                <li>Your logo & branding</li>
+                <li>Your logo &amp; branding</li>
                 <li>Quote templates</li>
               </ul>
               <Link href="#waitlist" className="btn btn-primary">Join the waitlist</Link>
@@ -199,7 +212,7 @@ export default function Home() {
               <div className="p-per">per month</div>
               <ul>
                 <li>Everything in Starter</li>
-                <li>All trades & calculators</li>
+                <li>All trades &amp; calculators</li>
                 <li>Client follow-up reminders</li>
                 <li>Priority support</li>
               </ul>
@@ -212,7 +225,7 @@ export default function Home() {
       <section className="section">
         <div className="wrap faq">
           <div className="kicker">FAQ</div>
-          <h2 className="h2">Questions, answered</h2>
+          <h2 className="h2">Straight answers</h2>
           <div style={{ marginTop: 24 }}>
             {faqs.map((f) => (
               <details key={f.q}>
@@ -227,10 +240,10 @@ export default function Home() {
       <section className="section alt" id="waitlist">
         <div className="wrap">
           <div className="kicker">Waitlist</div>
-          <h2 className="h2">Be first in when your trade launches</h2>
+          <h2 className="h2">Get in before your trade launches</h2>
           <p className="sub">
-            Join the waitlist for launch pricing and to vote on which trade we
-            build next.
+            Lock in launch pricing and vote on which trade we build next. One
+            email when it&apos;s ready \u2014 no drip campaign, we hate those too.
           </p>
           <EmailCapture />
         </div>

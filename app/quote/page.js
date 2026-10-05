@@ -13,8 +13,8 @@ export default function QuotePage() {
         <div className="kicker">Quote generator</div>
         <h1 className="h2">Build a quote worth signing</h1>
         <p className="sub">
-          Fill in the details, watch the professional preview update live, then
-          send it to your client.
+          Fill in the details, watch the quote take shape below, then send it
+          to your client before you&apos;ve left the driveway.
         </p>
         <Suspense fallback={<div className="card">Loading quote builder…</div>}>
           <QuoteBuilder />
