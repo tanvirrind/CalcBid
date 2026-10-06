@@ -2,6 +2,7 @@ import Link from "next/link";
 import TileCalculator from "../../../components/TileCalculator";
 import Faq, { faqJsonLd } from "../../../components/Faq";
 import JsonLd from "../../../components/JsonLd";
+import Breadcrumbs from "../../../components/Breadcrumbs";
 
 export const metadata = {
   title: "Tile Calculator — How Many Tiles Do I Need?",
@@ -16,10 +17,23 @@ export const metadata = {
   ],
   alternates: { canonical: "https://calcbid.com/calculators/tile-flooring-calculator" },
   openGraph: {
+    images: [
+      {
+        url: "https://calcbid.com/og-image",
+        width: 1200,
+        height: 630,
+        alt: "CalcBid — Calculate the job. Send the quote. Get paid.",
+      },
+    ],
     title: "Tile Calculator — How Many Tiles Do I Need? | CalcBid",
     description:
       "Free tile calculator: tiles, boxes, material cost and labor for any floor — then send it as a professional quote.",
     url: "https://calcbid.com/calculators/tile-flooring-calculator",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Tile Calculator — How Many Tiles Do I Need? | CalcBid",
+    description: "Free tile calculator: tiles, boxes, material cost and labor for any floor — then send it as a professional quote.",
   },
 };
 
@@ -60,6 +74,7 @@ export default function TileCalculatorPage() {
       <div className="wrap">
         <JsonLd data={appJsonLd} />
         <JsonLd data={faqJsonLd(faqs)} />
+        <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Calculators", href: "/calculators" }, { label: "Tile & Flooring Calculator", href: "/calculators/tile-flooring-calculator" }]} />
         <div className="kicker">Free calculator</div>
         <h1 className="h2">Tile & flooring calculator</h1>
         <p className="sub">

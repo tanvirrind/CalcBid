@@ -6,10 +6,23 @@ export const metadata = {
     "Contact CalcBid — questions, feedback, or a trade we should cover next. Email info@calcbid.com, we read everything.",
   alternates: { canonical: "https://calcbid.com/contact" },
   openGraph: {
+    images: [
+      {
+        url: "https://calcbid.com/og-image",
+        width: 1200,
+        height: 630,
+        alt: "CalcBid — Calculate the job. Send the quote. Get paid.",
+      },
+    ],
     title: "Contact CalcBid",
     description:
       "Questions, feedback, or a trade we should cover next — email info@calcbid.com.",
     url: "https://calcbid.com/contact",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact CalcBid",
+    description: "Questions, feedback, or a trade we should cover next — email info@calcbid.com.",
   },
 };
 

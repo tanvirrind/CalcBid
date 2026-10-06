@@ -11,10 +11,23 @@ export const metadata = {
   ],
   alternates: { canonical: "https://calcbid.com/guides/bundles-per-square" },
   openGraph: {
+    images: [
+      {
+        url: "https://calcbid.com/og-image",
+        width: 1200,
+        height: 630,
+        alt: "CalcBid — Calculate the job. Send the quote. Get paid.",
+      },
+    ],
     title: "How Many Bundles of Shingles Per Square? | CalcBid",
     description:
       "The standard bundle count, the exceptions, and the order math.",
     url: "https://calcbid.com/guides/bundles-per-square",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "How Many Bundles of Shingles Per Square? | CalcBid",
+    description: "The standard bundle count, the exceptions, and the order math.",
   },
 };
 

@@ -12,10 +12,23 @@ export const metadata = {
   ],
   alternates: { canonical: "https://calcbid.com/guides/cost-to-paint-12x12-room" },
   openGraph: {
+    images: [
+      {
+        url: "https://calcbid.com/og-image",
+        width: 1200,
+        height: 630,
+        alt: "CalcBid — Calculate the job. Send the quote. Get paid.",
+      },
+    ],
     title: "How Much Does It Cost to Paint a 12×12 Room? | CalcBid",
     description:
       "DIY vs pro pricing for a 12x12 room, gallons needed, and what changes the number.",
     url: "https://calcbid.com/guides/cost-to-paint-12x12-room",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "How Much Does It Cost to Paint a 12×12 Room? | CalcBid",
+    description: "DIY vs pro pricing for a 12x12 room, gallons needed, and what changes the number.",
   },
 };
 

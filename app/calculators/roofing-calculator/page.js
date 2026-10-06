@@ -2,6 +2,7 @@ import Link from "next/link";
 import RoofingCalculator from "../../../components/RoofingCalculator";
 import Faq, { faqJsonLd } from "../../../components/Faq";
 import JsonLd from "../../../components/JsonLd";
+import Breadcrumbs from "../../../components/Breadcrumbs";
 
 export const metadata = {
   title: "Roofing Calculator — Replacement Cost Estimator",
@@ -16,10 +17,23 @@ export const metadata = {
   ],
   alternates: { canonical: "https://calcbid.com/calculators/roofing-calculator" },
   openGraph: {
+    images: [
+      {
+        url: "https://calcbid.com/og-image",
+        width: 1200,
+        height: 630,
+        alt: "CalcBid — Calculate the job. Send the quote. Get paid.",
+      },
+    ],
     title: "Roofing Calculator — Roof Replacement Cost Estimator | CalcBid",
     description:
       "Free roofing calculator: squares, shingle bundles, tear-off and labor from footprint and pitch.",
     url: "https://calcbid.com/calculators/roofing-calculator",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Roofing Calculator — Roof Replacement Cost Estimator | CalcBid",
+    description: "Free roofing calculator: squares, shingle bundles, tear-off and labor from footprint and pitch.",
   },
 };
 
@@ -60,6 +74,7 @@ export default function RoofingCalculatorPage() {
       <div className="wrap">
         <JsonLd data={appJsonLd} />
         <JsonLd data={faqJsonLd(faqs)} />
+        <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Calculators", href: "/calculators" }, { label: "Roofing Calculator", href: "/calculators/roofing-calculator" }]} />
         <div className="kicker">Free calculator</div>
         <h1 className="h2">Roofing calculator</h1>
         <p className="sub">
