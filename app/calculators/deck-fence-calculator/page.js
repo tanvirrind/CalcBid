@@ -74,7 +74,7 @@ export default function DeckFenceCalculatorPage() {
           against your supplier&apos;s specs and your own measurements before
           ordering or quoting.
         </p>
-        <Faq items={faqs} />
+        <Faq items={faqs} heading="Questions deck & fence builders actually ask" />
         <p style={{ marginTop: 32, maxWidth: 640, color: "var(--muted)" }}>
           Got your material list?{" "}
           <Link href="/quote" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>

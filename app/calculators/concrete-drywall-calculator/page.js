@@ -73,7 +73,7 @@ export default function ConcreteDrywallCalculatorPage() {
           against your supplier&apos;s specs and your own measurements before
           ordering or quoting.
         </p>
-        <Faq items={faqs} />
+        <Faq items={faqs} heading="Questions concrete & drywall contractors actually ask" />
         <p style={{ marginTop: 32, maxWidth: 640, color: "var(--muted)" }}>
           Got your quantities?{" "}
           <Link href="/quote" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>

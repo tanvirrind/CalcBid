@@ -73,7 +73,7 @@ export default function RoofingCalculatorPage() {
           and costs from the numbers you punch in — always check against your
           supplier&apos;s specs and your own measurements before ordering or quoting.
         </p>
-        <Faq items={faqs} />
+        <Faq items={faqs} heading="Questions roofers actually ask" />
         <p style={{ marginTop: 32, maxWidth: 640, color: "var(--muted)" }}>
           Got your squares?{" "}
           <Link href="/quote" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>

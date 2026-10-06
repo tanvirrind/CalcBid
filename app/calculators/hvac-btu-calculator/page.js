@@ -72,7 +72,7 @@ export default function HvacCalculatorPage() {
           numbers you punch in — run a proper Manual J calculation and check
           local code before sizing equipment or quoting a system.
         </p>
-        <Faq items={faqs} />
+        <Faq items={faqs} heading="Questions HVAC contractors actually ask" />
         <p style={{ marginTop: 32, maxWidth: 640, color: "var(--muted)" }}>
           Got your tonnage?{" "}
           <Link href="/quote" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>

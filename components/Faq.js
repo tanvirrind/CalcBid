@@ -1,8 +1,8 @@
-export default function Faq({ items }) {
+export default function Faq({ items, heading = "Questions contractors actually ask" }) {
   return (
     <div style={{ marginTop: 56, maxWidth: 780 }}>
       <h2 className="h2" style={{ marginBottom: 8 }}>
-        Questions painters actually ask
+        {heading}
       </h2>
       <p className="sub" style={{ marginBottom: 24 }}>
         Straight answers, no fluff. Then run your own numbers above.
