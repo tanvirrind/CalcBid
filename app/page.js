@@ -102,8 +102,8 @@ export default function Home() {
             client can sign off on &mdash; all before you&apos;ve left the driveway.
           </p>
           <div className="hero-cta">
-            <Link href="/calculators/paint-calculator" className="btn btn-primary">
-              Try the paint calculator
+            <Link href="/calculators" className="btn btn-primary">
+              Try the calculators
             </Link>
             <Link href="/quote" className="btn btn-ghost">
               Build a quote
