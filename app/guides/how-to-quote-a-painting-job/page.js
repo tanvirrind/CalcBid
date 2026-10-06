@@ -12,10 +12,23 @@ export const metadata = {
   ],
   alternates: { canonical: "https://calcbid.com/guides/how-to-quote-a-painting-job" },
   openGraph: {
+    images: [
+      {
+        url: "https://calcbid.com/og-image",
+        width: 1200,
+        height: 630,
+        alt: "CalcBid — Calculate the job. Send the quote. Get paid.",
+      },
+    ],
     title: "How to Quote a Painting Job (Without Underbidding) | CalcBid",
     description:
       "Measure, price materials and labor, add markup, send the quote — the full walkthrough for painting contractors.",
     url: "https://calcbid.com/guides/how-to-quote-a-painting-job",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "How to Quote a Painting Job (Without Underbidding) | CalcBid",
+    description: "Measure, price materials and labor, add markup, send the quote — the full walkthrough for painting contractors.",
   },
 };
 

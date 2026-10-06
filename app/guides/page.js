@@ -14,10 +14,23 @@ export const metadata = {
   ],
   alternates: { canonical: "https://calcbid.com/guides" },
   openGraph: {
+    images: [
+      {
+        url: "https://calcbid.com/og-image",
+        width: 1200,
+        height: 630,
+        alt: "CalcBid — Calculate the job. Send the quote. Get paid.",
+      },
+    ],
     title: "Contractor Guides — Estimating, Pricing & Quoting | CalcBid",
     description:
       "Practical guides for contractors: quoting painting jobs, real project costs, and pricing for profit.",
     url: "https://calcbid.com/guides",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Contractor Guides — Estimating, Pricing & Quoting | CalcBid",
+    description: "Practical guides for contractors: quoting painting jobs, real project costs, and pricing for profit.",
   },
 };
 

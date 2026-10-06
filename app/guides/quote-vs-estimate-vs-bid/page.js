@@ -12,10 +12,23 @@ export const metadata = {
   ],
   alternates: { canonical: "https://calcbid.com/guides/quote-vs-estimate-vs-bid" },
   openGraph: {
+    images: [
+      {
+        url: "https://calcbid.com/og-image",
+        width: 1200,
+        height: 630,
+        alt: "CalcBid — Calculate the job. Send the quote. Get paid.",
+      },
+    ],
     title: "Quote vs Estimate vs Bid: What to Send When | CalcBid",
     description:
       "What each document means, when to send it, and which one protects you.",
     url: "https://calcbid.com/guides/quote-vs-estimate-vs-bid",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Quote vs Estimate vs Bid: What to Send When | CalcBid",
+    description: "What each document means, when to send it, and which one protects you.",
   },
 };
 

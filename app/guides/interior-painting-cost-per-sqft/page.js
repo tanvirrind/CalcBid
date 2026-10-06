@@ -12,10 +12,23 @@ export const metadata = {
   ],
   alternates: { canonical: "https://calcbid.com/guides/interior-painting-cost-per-sqft" },
   openGraph: {
+    images: [
+      {
+        url: "https://calcbid.com/og-image",
+        width: 1200,
+        height: 630,
+        alt: "CalcBid — Calculate the job. Send the quote. Get paid.",
+      },
+    ],
     title: "Interior Painting Cost Per Square Foot (2026) | CalcBid",
     description:
       "Real 2026 US price ranges per square foot — and what moves your number.",
     url: "https://calcbid.com/guides/interior-painting-cost-per-sqft",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Interior Painting Cost Per Square Foot (2026) | CalcBid",
+    description: "Real 2026 US price ranges per square foot — and what moves your number.",
   },
 };
 

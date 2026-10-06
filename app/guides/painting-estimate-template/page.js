@@ -12,10 +12,23 @@ export const metadata = {
   ],
   alternates: { canonical: "https://calcbid.com/guides/painting-estimate-template" },
   openGraph: {
+    images: [
+      {
+        url: "https://calcbid.com/og-image",
+        width: 1200,
+        height: 630,
+        alt: "CalcBid — Calculate the job. Send the quote. Get paid.",
+      },
+    ],
     title: "Painting Estimate Template: What to Include (Free) | CalcBid",
     description:
       "Every line item and clause a painting quote needs — then generate yours free.",
     url: "https://calcbid.com/guides/painting-estimate-template",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Painting Estimate Template: What to Include (Free) | CalcBid",
+    description: "Every line item and clause a painting quote needs — then generate yours free.",
   },
 };
 
