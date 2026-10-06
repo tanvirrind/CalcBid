@@ -7,8 +7,8 @@ export const metadata = {
     images: [
       {
         url: "https://calcbid.com/og-image",
-        width: 1200,
-        height: 630,
+        width: 800,
+        height: 420,
         alt: "CalcBid — Calculate the job. Send the quote. Get paid.",
       },
     ],
