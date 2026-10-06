@@ -2,6 +2,7 @@ import Link from "next/link";
 import PaintCalculator from "../../../components/PaintCalculator";
 import Faq, { faqJsonLd } from "../../../components/Faq";
 import JsonLd from "../../../components/JsonLd";
+import Breadcrumbs from "../../../components/Breadcrumbs";
 
 export const metadata = {
   title: "Paint Calculator — How Much Paint Do You Need?",
@@ -16,10 +17,23 @@ export const metadata = {
   ],
   alternates: { canonical: "https://calcbid.com/calculators/paint-calculator" },
   openGraph: {
+    images: [
+      {
+        url: "https://calcbid.com/og-image",
+        width: 1200,
+        height: 630,
+        alt: "CalcBid — Calculate the job. Send the quote. Get paid.",
+      },
+    ],
     title: "Paint Calculator — How Much Paint Do You Need? | CalcBid",
     description:
       "Free paint calculator: gallons, paint cost and labor for any room — then send it as a professional quote.",
     url: "https://calcbid.com/calculators/paint-calculator",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Paint Calculator — How Much Paint Do You Need? | CalcBid",
+    description: "Free paint calculator: gallons, paint cost and labor for any room — then send it as a professional quote.",
   },
 };
 
@@ -60,6 +74,7 @@ export default function PaintCalculatorPage() {
       <div className="wrap">
         <JsonLd data={appJsonLd} />
         <JsonLd data={faqJsonLd(faqs)} />
+        <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Calculators", href: "/calculators" }, { label: "Paint Calculator", href: "/calculators/paint-calculator" }]} />
         <div className="kicker">Free calculator</div>
         <h1 className="h2">Paint quantity calculator</h1>
         <p className="sub">

@@ -1,7 +1,8 @@
 import Link from "next/link";
+import Breadcrumbs from "../../components/Breadcrumbs";
 
 export const metadata = {
-  title: "Free Contractor Calculators — Paint, Roofing & More",
+  title: "Free Calculators — Paint, Roofing, Tile & More",
   description:
     "Free contractor calculators: paint, roofing, tile, deck & fence, HVAC/BTU, concrete & drywall. Every result feeds a client-ready quote.",
   keywords: [
@@ -16,10 +17,23 @@ export const metadata = {
   ],
   alternates: { canonical: "https://calcbid.com/calculators" },
   openGraph: {
+    images: [
+      {
+        url: "https://calcbid.com/og-image",
+        width: 1200,
+        height: 630,
+        alt: "CalcBid — Calculate the job. Send the quote. Get paid.",
+      },
+    ],
     title: "Free Contractor Calculators — Paint, Roofing & More | CalcBid",
     description:
       "Six free material calculators for contractors: paint, roofing, tile, deck & fence, HVAC/BTU, concrete & drywall. Every result feeds a client-ready quote.",
     url: "https://calcbid.com/calculators",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Free Contractor Calculators — Paint, Roofing & More | CalcBid",
+    description: "Six free material calculators for contractors: paint, roofing, tile, deck & fence, HVAC/BTU, concrete & drywall. Every result feeds a client-ready quote.",
   },
 };
 
@@ -36,6 +50,7 @@ export default function CalculatorsHub() {
   return (
     <section className="section">
       <div className="wrap">
+        <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Calculators", href: "/calculators" }]} />
         <div className="kicker">Free calculators</div>
         <h1 className="h2">One pad, every trade you work</h1>
         <p className="sub">

@@ -2,6 +2,7 @@ import Link from "next/link";
 import DeckFenceCalculator from "../../../components/DeckFenceCalculator";
 import Faq, { faqJsonLd } from "../../../components/Faq";
 import JsonLd from "../../../components/JsonLd";
+import Breadcrumbs from "../../../components/Breadcrumbs";
 
 export const metadata = {
   title: "Deck Calculator — Boards, Joists & Fence Materials",
@@ -17,10 +18,23 @@ export const metadata = {
   ],
   alternates: { canonical: "https://calcbid.com/calculators/deck-fence-calculator" },
   openGraph: {
+    images: [
+      {
+        url: "https://calcbid.com/og-image",
+        width: 1200,
+        height: 630,
+        alt: "CalcBid — Calculate the job. Send the quote. Get paid.",
+      },
+    ],
     title: "Deck & Fence Calculator | CalcBid",
     description:
       "Deck boards, joists, posts — or fence pickets, rails and concrete. Free material + labor estimates, then send it as a quote.",
     url: "https://calcbid.com/calculators/deck-fence-calculator",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Deck & Fence Calculator | CalcBid",
+    description: "Deck boards, joists, posts — or fence pickets, rails and concrete. Free material + labor estimates, then send it as a quote.",
   },
 };
 
@@ -61,6 +75,7 @@ export default function DeckFenceCalculatorPage() {
       <div className="wrap">
         <JsonLd data={appJsonLd} />
         <JsonLd data={faqJsonLd(faqs)} />
+        <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Calculators", href: "/calculators" }, { label: "Deck & Fence Calculator", href: "/calculators/deck-fence-calculator" }]} />
         <div className="kicker">Free calculator</div>
         <h1 className="h2">Deck & fence calculator</h1>
         <p className="sub">

@@ -4,10 +4,23 @@ export const metadata = {
     "CalcBid is the calculator-and-quote pad for contractors: free trade calculators plus a quote builder that turns estimates into signed jobs.",
   alternates: { canonical: "https://calcbid.com/about" },
   openGraph: {
+    images: [
+      {
+        url: "https://calcbid.com/og-image",
+        width: 1200,
+        height: 630,
+        alt: "CalcBid — Calculate the job. Send the quote. Get paid.",
+      },
+    ],
     title: "About CalcBid",
     description:
       "Free trade calculators plus a quote builder for contractors — estimate the job, send the quote, get paid.",
     url: "https://calcbid.com/about",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About CalcBid",
+    description: "Free trade calculators plus a quote builder for contractors — estimate the job, send the quote, get paid.",
   },
 };
 

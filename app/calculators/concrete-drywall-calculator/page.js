@@ -2,6 +2,7 @@ import Link from "next/link";
 import ConcreteDrywallCalculator from "../../../components/ConcreteDrywallCalculator";
 import Faq, { faqJsonLd } from "../../../components/Faq";
 import JsonLd from "../../../components/JsonLd";
+import Breadcrumbs from "../../../components/Breadcrumbs";
 
 export const metadata = {
   title: "Concrete Calculator — Yards, Bags & Drywall Sheets",
@@ -16,10 +17,23 @@ export const metadata = {
   ],
   alternates: { canonical: "https://calcbid.com/calculators/concrete-drywall-calculator" },
   openGraph: {
+    images: [
+      {
+        url: "https://calcbid.com/og-image",
+        width: 1200,
+        height: 630,
+        alt: "CalcBid — Calculate the job. Send the quote. Get paid.",
+      },
+    ],
     title: "Concrete & Drywall Calculator | CalcBid",
     description:
       "Cubic yards, bags, or drywall sheets — free material + labor estimates, then send it as a professional quote.",
     url: "https://calcbid.com/calculators/concrete-drywall-calculator",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Concrete & Drywall Calculator | CalcBid",
+    description: "Cubic yards, bags, or drywall sheets — free material + labor estimates, then send it as a professional quote.",
   },
 };
 
@@ -60,6 +74,7 @@ export default function ConcreteDrywallCalculatorPage() {
       <div className="wrap">
         <JsonLd data={appJsonLd} />
         <JsonLd data={faqJsonLd(faqs)} />
+        <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Calculators", href: "/calculators" }, { label: "Concrete & Drywall Calculator", href: "/calculators/concrete-drywall-calculator" }]} />
         <div className="kicker">Free calculator</div>
         <h1 className="h2">Concrete & drywall calculator</h1>
         <p className="sub">
