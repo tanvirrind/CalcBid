@@ -6,6 +6,7 @@ const routes = [
   { path: "/calculators/", priority: 0.9, changeFrequency: "weekly" },
   { path: "/calculators/paint-calculator", priority: 0.9, changeFrequency: "weekly" },
   { path: "/calculators/roofing-calculator", priority: 0.9, changeFrequency: "weekly" },
+  { path: "/calculators/tile-flooring-calculator", priority: 0.9, changeFrequency: "weekly" },
   { path: "/quote", priority: 0.8, changeFrequency: "weekly" },
 ];
 

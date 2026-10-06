@@ -33,7 +33,7 @@ const calcs = [
     href: "/calculators/roofing-calculator",
     live: true,
   },
-  { name: "Tile & flooring calculator", note: "Boxes, cuts & layout", live: false },
+  { name: "Tile & flooring calculator", note: "Tiles, boxes, cuts & labor", href: "/calculators/tile-flooring-calculator", live: true },
   { name: "Deck & fence calculator", note: "Boards, posts & concrete", live: false },
   { name: "HVAC / BTU calculator", note: "Load sizing per room", live: false },
   { name: "Concrete & drywall calculator", note: "Yards, sheets & mud", live: false },
