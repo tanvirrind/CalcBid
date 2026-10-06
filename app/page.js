@@ -16,10 +16,23 @@ export const metadata = {
   ],
   alternates: { canonical: "https://calcbid.com" },
   openGraph: {
+    images: [
+      {
+        url: "https://calcbid.com/og-image",
+        width: 1200,
+        height: 630,
+        alt: "CalcBid — Calculate the job. Send the quote. Get paid.",
+      },
+    ],
     title: "CalcBid — Free Contractor Calculators & Quote Builder",
     description:
       "Six free trade calculators plus a quote builder: estimate materials and job costs, then send a client-ready quote in minutes.",
     url: "https://calcbid.com",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "CalcBid — Free Contractor Calculators & Quote Builder",
+    description: "Six free trade calculators plus a quote builder: estimate materials and job costs, then send a client-ready quote in minutes.",
   },
 };
 

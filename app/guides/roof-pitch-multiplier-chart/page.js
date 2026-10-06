@@ -12,10 +12,23 @@ export const metadata = {
   ],
   alternates: { canonical: "https://calcbid.com/guides/roof-pitch-multiplier-chart" },
   openGraph: {
+    images: [
+      {
+        url: "https://calcbid.com/og-image",
+        width: 1200,
+        height: 630,
+        alt: "CalcBid — Calculate the job. Send the quote. Get paid.",
+      },
+    ],
     title: "Roof Pitch Multiplier Chart (3/12–12/12) | CalcBid",
     description:
       "Footprint to true roof area for every common pitch — the chart roofers actually use.",
     url: "https://calcbid.com/guides/roof-pitch-multiplier-chart",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Roof Pitch Multiplier Chart (3/12–12/12) | CalcBid",
+    description: "Footprint to true roof area for every common pitch — the chart roofers actually use.",
   },
 };
 

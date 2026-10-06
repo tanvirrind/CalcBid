@@ -12,10 +12,23 @@ export const metadata = {
   ],
   alternates: { canonical: "https://calcbid.com/guides/roof-replacement-cost-2026" },
   openGraph: {
+    images: [
+      {
+        url: "https://calcbid.com/og-image",
+        width: 1200,
+        height: 630,
+        alt: "CalcBid — Calculate the job. Send the quote. Get paid.",
+      },
+    ],
     title: "How Much Does a Roof Replacement Cost in 2026? | CalcBid",
     description:
       "Real 2026 US price ranges by roofing material, what drives quotes up, and how to estimate your own roof.",
     url: "https://calcbid.com/guides/roof-replacement-cost-2026",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "How Much Does a Roof Replacement Cost in 2026? | CalcBid",
+    description: "Real 2026 US price ranges by roofing material, what drives quotes up, and how to estimate your own roof.",
   },
 };
 

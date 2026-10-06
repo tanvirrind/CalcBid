@@ -12,10 +12,23 @@ export const metadata = {
   ],
   alternates: { canonical: "https://calcbid.com/guides/roofing-squares-chart" },
   openGraph: {
+    images: [
+      {
+        url: "https://calcbid.com/og-image",
+        width: 1200,
+        height: 630,
+        alt: "CalcBid — Calculate the job. Send the quote. Get paid.",
+      },
+    ],
     title: "How Many Squares of Shingles Do I Need? (Chart) | CalcBid",
     description:
       "Roofing squares by home size, pitch-adjusted — plus the bundle math.",
     url: "https://calcbid.com/guides/roofing-squares-chart",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "How Many Squares of Shingles Do I Need? (Chart) | CalcBid",
+    description: "Roofing squares by home size, pitch-adjusted — plus the bundle math.",
   },
 };
 
