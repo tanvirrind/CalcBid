@@ -14,10 +14,23 @@ export const metadata = {
   ],
   alternates: { canonical: "https://calcbid.com/quote" },
   openGraph: {
+    images: [
+      {
+        url: "https://calcbid.com/og-image",
+        width: 1200,
+        height: 630,
+        alt: "CalcBid — Calculate the job. Send the quote. Get paid.",
+      },
+    ],
     title: "Free Contractor Quote Generator — Build & Send Estimates | CalcBid",
     description:
       "Build a professional contractor quote in minutes — line items, tax, discounts — and send it by link, email or PDF.",
     url: "https://calcbid.com/quote",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Free Contractor Quote Generator — Build & Send Estimates | CalcBid",
+    description: "Build a professional contractor quote in minutes — line items, tax, discounts — and send it by link, email or PDF.",
   },
 };
 

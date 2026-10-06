@@ -14,10 +14,23 @@ export const metadata = {
   ],
   alternates: { canonical: "https://calcbid.com/pricing" },
   openGraph: {
+    images: [
+      {
+        url: "https://calcbid.com/og-image",
+        width: 1200,
+        height: 630,
+        alt: "CalcBid — Calculate the job. Send the quote. Get paid.",
+      },
+    ],
     title: "Pricing — Free, Solo $19, Crew $49 | CalcBid",
     description:
       "Free calculators and quote builder forever. Paid plans add saved quotes, customers, and pipeline tracking.",
     url: "https://calcbid.com/pricing",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Pricing — Free, Solo $19, Crew $49 | CalcBid",
+    description: "Free calculators and quote builder forever. Paid plans add saved quotes, customers, and pipeline tracking.",
   },
 };
 

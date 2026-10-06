@@ -1,5 +1,6 @@
 import Link from "next/link";
 import JsonLd from "./JsonLd";
+import Breadcrumbs from "./Breadcrumbs";
 
 // Shared shell for /guides articles: breadcrumb, headline, Article schema,
 // and CTA boxes pointing at the calculators and quote builder.
@@ -30,11 +31,13 @@ export default function GuideArticle({
     <article className="section">
       <div className="wrap">
         <JsonLd data={articleJsonLd} />
-        <nav style={{ fontSize: 13, color: "var(--muted)", marginBottom: 18 }}>
-          <Link href="/" style={{ color: "inherit" }}>Home</Link>
-          {"  →  "}
-          <Link href="/guides" style={{ color: "inherit" }}>Guides</Link>
-        </nav>
+        <Breadcrumbs
+          items={[
+            { label: "Home", href: "/" },
+            { label: "Guides", href: "/guides" },
+            { label: title, href: `/guides/${slug}` },
+          ]}
+        />
         <div className="kicker">Contractor guide</div>
         <h1 className="h2" style={{ maxWidth: 720 }}>{title}</h1>
         <p className="sub" style={{ maxWidth: 680 }}>{description}</p>

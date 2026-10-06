@@ -4,8 +4,21 @@ export const metadata = {
     "CalcBid's terms of service: acceptable use, estimates disclaimer, accounts, and liability. Contact info@calcbid.com with questions.",
   alternates: { canonical: "https://calcbid.com/terms" },
   openGraph: {
+    images: [
+      {
+        url: "https://calcbid.com/og-image",
+        width: 1200,
+        height: 630,
+        alt: "CalcBid — Calculate the job. Send the quote. Get paid.",
+      },
+    ],
     title: "Terms of Service | CalcBid",
     url: "https://calcbid.com/terms",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Terms of Service | CalcBid",
+    description: "The terms governing your use of CalcBid's calculators and quote builder.",
   },
 };
 

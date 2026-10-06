@@ -177,7 +177,7 @@ h1, h2, h3, .display {
   padding: 26px; box-shadow: 5px 5px 0 var(--line);
 }
 .card h3 { margin: 0 0 8px; font-size: 21px; font-weight: 600; }
-.card p { margin: 0; color: var(--muted); font-size: 15.5px; }
+.card p { margin: 0; color: var(--muted); font-size: 16px; }
 .step-num {
   width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center;
   background: var(--ink); color: var(--paper);
@@ -252,7 +252,7 @@ h1, h2, h3, .display {
 .q-totals .r-row { display: flex; justify-content: space-between; padding: 7px 0; }
 .q-totals .r-row span:last-child { font-family: var(--font-mono); }
 .q-totals .grand { font-size: 24px; border-top: 2px solid var(--ink); padding-top: 10px; margin-top: 6px; font-family: var(--font-display); text-transform: uppercase; }
-.q-notes { background: var(--paper-deep); border: 2px dashed var(--line); border-radius: 8px; padding: 16px 18px; font-size: 14.5px; color: var(--ink-soft); margin-top: 20px; }
+.q-notes { background: var(--paper-deep); border: 2px dashed var(--line); border-radius: 8px; padding: 16px 18px; font-size: 15.5px; color: var(--ink-soft); margin-top: 20px; }
 .q-foot { padding: 20px 36px; border-top: 2px solid var(--line); color: var(--muted); font-size: 13px; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; font-family: var(--font-mono); }
 
 .line-items .li-row { display: grid; grid-template-columns: 1fr 90px 110px 40px; gap: 8px; margin-bottom: 8px; align-items: center; }

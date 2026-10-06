@@ -3,7 +3,7 @@ const SITE_URL = "https://calcbid.com";
 // Public, indexable routes. Auth pages are intentionally excluded.
 const routes = [
   { path: "/", priority: 1.0, changeFrequency: "weekly" },
-  { path: "/calculators/", priority: 0.9, changeFrequency: "weekly" },
+  { path: "/calculators", priority: 0.9, changeFrequency: "weekly" },
   { path: "/calculators/paint-calculator", priority: 0.9, changeFrequency: "weekly" },
   { path: "/calculators/roofing-calculator", priority: 0.9, changeFrequency: "weekly" },
   { path: "/calculators/tile-flooring-calculator", priority: 0.9, changeFrequency: "weekly" },

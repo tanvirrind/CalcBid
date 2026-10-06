@@ -4,8 +4,21 @@ export const metadata = {
     "CalcBid's privacy policy: what data we collect, how we use it, and your rights. Contact info@calcbid.com with questions.",
   alternates: { canonical: "https://calcbid.com/privacy" },
   openGraph: {
+    images: [
+      {
+        url: "https://calcbid.com/og-image",
+        width: 1200,
+        height: 630,
+        alt: "CalcBid — Calculate the job. Send the quote. Get paid.",
+      },
+    ],
     title: "Privacy Policy | CalcBid",
     url: "https://calcbid.com/privacy",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Privacy Policy | CalcBid",
+    description: "How CalcBid collects, uses, and protects your information.",
   },
 };
 
