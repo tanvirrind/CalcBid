@@ -20,12 +20,12 @@ const steps = [
 ];
 
 const trades = [
-  { name: "Paint", note: "Gallons, coats & labor", live: true, href: "/calculators/paint-calculator" },
-  { name: "Roofing", note: "Squares, shingles & waste", live: true, href: "/calculators/roofing-calculator" },
-  { name: "Tile & flooring", note: "Tiles, boxes & labor", live: true, href: "/calculators/tile-flooring-calculator" },
-  { name: "Deck & fence", note: "Boards, posts & concrete", live: false },
-  { name: "HVAC / BTU", note: "Load sizing per room", live: false },
-  { name: "Concrete & drywall", note: "Yards, sheets & mud", live: false },
+  { name: "Paint", note: "Gallons, coats & labor", href: "/calculators/paint-calculator" },
+  { name: "Roofing", note: "Squares, shingles & waste", href: "/calculators/roofing-calculator" },
+  { name: "Tile & flooring", note: "Tiles, boxes & labor", href: "/calculators/tile-flooring-calculator" },
+  { name: "Deck & fence", note: "Boards, posts & concrete", href: "/calculators/deck-fence-calculator" },
+  { name: "HVAC / BTU", note: "Load sizing per room", href: "/calculators/hvac-btu-calculator" },
+  { name: "Concrete & drywall", note: "Yards, sheets & mud", href: "/calculators/concrete-drywall-calculator" },
 ];
 
 const features = [
@@ -62,7 +62,7 @@ const faqs = [
   },
   {
     q: "What trades does CalcBid cover?",
-    a: "Painting, roofing, and tile & flooring calculators are live today, and every one feeds the quote builder. Deck & fence, HVAC, and concrete & drywall are next \u2014 join the waitlist and tell us your trade, it genuinely decides the order we build.",
+    a: "Painting, roofing, tile & flooring, deck & fence, HVAC, and concrete & drywall \u2014 six calculators live today, and every one feeds the quote builder. Join the waitlist and tell us your trade, it genuinely decides what we build next.",
   },
   {
     q: "Does my client need an account to see the quote?",
@@ -138,38 +138,23 @@ export default function Home() {
           <div className="kicker">Trades</div>
           <h2 className="h2">One pad, every trade you work</h2>
           <p className="sub">
-            Paint, roofing, and tile &amp; flooring are live today. Tell us
-            your trade on the waitlist &mdash; it genuinely decides what we
-            build next.
+            Six trades live today, free to use. Tell us your trade on the
+            waitlist &mdash; it genuinely decides what we build next.
           </p>
           <div className="grid3">
-            {trades.map((t) => {
-              const inner = (
-                <>
-                  <div>
-                    <div className="t-name">{t.name}</div>
-                    <div className="t-note">{t.note}</div>
-                  </div>
-                  <span className={`stamp ${t.live ? "live" : "soon"}`}>
-                    {t.live ? "Live" : "Soon"}
-                  </span>
-                </>
-              );
-              return t.live ? (
-                <Link
-                  key={t.name}
-                  href={t.href}
-                  className="card trade"
-                  style={{ textDecoration: "none", color: "inherit" }}
-                >
-                  {inner}
-                </Link>
-              ) : (
-                <div className="card trade" key={t.name}>
-                  {inner}
+            {trades.map((t) => (
+              <Link
+                key={t.name}
+                href={t.href}
+                className="card trade"
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                <div>
+                  <div className="t-name">{t.name}</div>
+                  <div className="t-note">{t.note}</div>
                 </div>
-              );
-            })}
+              </Link>
+            ))}
           </div>
         </div>
       </section>

@@ -187,17 +187,6 @@ h1, h2, h3, .display {
 .trade .t-name { font-family: var(--font-display); font-weight: 600; font-size: 19px; text-transform: uppercase; }
 .trade .t-note { color: var(--muted); font-size: 14px; }
 
-/* rubber stamps */
-.stamp {
-  font-family: var(--font-mono); font-size: 12px; font-weight: 600;
-  text-transform: uppercase; letter-spacing: .12em;
-  padding: 5px 12px; border: 2px solid currentColor; border-radius: 6px;
-  transform: rotate(-4deg); white-space: nowrap; display: inline-block;
-  mask-image: var(--grain); -webkit-mask-image: var(--grain);
-}
-.stamp.live { color: var(--good); }
-.stamp.soon { color: var(--muted); }
-
 /* ---------- pricing ---------- */
 .price-card { text-align: center; position: relative; }
 .price-card .p-name { font-family: var(--font-display); font-weight: 600; font-size: 20px; text-transform: uppercase; }

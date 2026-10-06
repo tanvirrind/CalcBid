@@ -13,6 +13,9 @@ observed intent strength, SERP weakness, and fit with the product.
 | `/calculators/roofing-calculator` | roofing calculator | roof replacement cost calculator, roofing squares calculator, how many shingles do i need, roof cost estimator |
 | `/calculators/` | contractor calculators | construction calculators, trade calculators |
 | `/calculators/tile-flooring-calculator` | tile calculator | how many tiles do i need, floor tile calculator, tile estimator, tiles needed calculator |
+| `/calculators/deck-fence-calculator` | deck calculator | how many deck boards do i need, fence calculator, how many fence pickets do i need, deck board calculator |
+| `/calculators/hvac-btu-calculator` | btu calculator | what size ac do i need, ac size calculator, what size air conditioner do i need, hvac load calculator |
+| `/calculators/concrete-drywall-calculator` | concrete calculator | how many bags of concrete do i need, cubic yards calculator, drywall calculator, how many drywall sheets do i need |
 | `/quote` | free contractor quote generator | contractor estimate generator, quote builder for contractors, painting estimate template, free estimate maker |
 
 ## What the SERPs show
