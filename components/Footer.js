@@ -25,7 +25,20 @@ export default function Footer() {
           <Link href="/privacy" style={link}>Privacy</Link>
           <Link href="/terms" style={link}>Terms</Link>
         </div>
-        <div>© {new Date().getFullYear()} CalcBid. All rights reserved.</div>
+        <div>
+          <div>© {new Date().getFullYear()} CalcBid. All rights reserved.</div>
+          <div style={{ marginTop: 6 }}>
+            Made with ❤️ by{" "}
+            <a
+              href="https://tanlytics.com"
+              target="_blank"
+              rel="noopener"
+              style={{ color: "var(--accent-deep)", fontWeight: 700 }}
+            >
+              Tanlytics
+            </a>
+          </div>
+        </div>
       </div>
     </footer>
   );
