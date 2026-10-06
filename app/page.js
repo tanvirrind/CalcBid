@@ -22,7 +22,7 @@ const steps = [
 const trades = [
   { name: "Paint", note: "Gallons, coats & labor", live: true },
   { name: "Roofing", note: "Squares, shingles & waste", live: true },
-  { name: "Tile & flooring", note: "Boxes, cuts & layout", live: false },
+  { name: "Tile & flooring", note: "Tiles, boxes & labor", live: true },
   { name: "Deck & fence", note: "Boards, posts & concrete", live: false },
   { name: "HVAC / BTU", note: "Load sizing per room", live: false },
   { name: "Concrete & drywall", note: "Yards, sheets & mud", live: false },
@@ -61,8 +61,8 @@ const faqs = [
     a: "The calculators are free, forever \u2014 no account, no catch. When you want unlimited branded quotes with your logo, plans start at $19 a month. That's it.",
   },
   {
-    q: "I'm not a painter. When's my trade coming?",
-    a: "Painting is live because it's the trade we could nail first. Roofing, tile, deck, and HVAC are next \u2014 join the waitlist and tell us your trade, it genuinely decides the order we build.",
+    q: "What trades does CalcBid cover?",
+    a: "Painting, roofing, and tile & flooring calculators are live today, and every one feeds the quote builder. Deck & fence, HVAC, and concrete & drywall are next \u2014 join the waitlist and tell us your trade, it genuinely decides the order we build.",
   },
   {
     q: "Does my client need an account to see the quote?",
@@ -138,8 +138,9 @@ export default function Home() {
           <div className="kicker">Trades</div>
           <h2 className="h2">One pad, every trade you work</h2>
           <p className="sub">
-            Painting is live today. Tell us your trade on the waitlist &mdash; it
-            genuinely decides what we build next.
+            Paint, roofing, and tile &amp; flooring are live today. Tell us
+            your trade on the waitlist &mdash; it genuinely decides what we
+            build next.
           </p>
           <div className="grid3">
             {trades.map((t) => (

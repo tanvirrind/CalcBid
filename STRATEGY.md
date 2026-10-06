@@ -1,6 +1,6 @@
 # CalcBid business strategy
 
-*Authored by Tanveer, pasted into chat 2026-10-06. Saved verbatim.*
+*Authored by Tanveer, pasted into chat 2026-10-06. Updated with his later decisions (multi-trade pivot 2026-10-06).*
 
 ## 1. Strategic position
 
@@ -10,7 +10,7 @@ CalcBid’s wedge should be:
 
 > Trade-accurate estimating for small contractors who still use spreadsheets, notes, or generic quote templates.
 
-Start with painting. Win one trade deeply before expanding.
+Rank the free calculators for SEO in every trade covered, and convert calculator users into paying customers from any trade. No per-trade customer gate — expand trade coverage based on SEO traction and customer demand.
 
 ## 2. Ideal customer
 
@@ -18,9 +18,9 @@ Start with painting. Win one trade deeply before expanding.
 
 Primary customer:
 
-- Solo painters and small painting crews
+- Solo contractors and small crews (painters, roofers, tile & flooring installers)
 - 1–10 employees
-- Residential repaint and light commercial work
+- Residential and light commercial work
 - 10–100 estimates per month
 - Currently using Excel, Google Sheets, paper, or generic invoicing tools
 - Wants faster bids and fewer pricing mistakes
@@ -29,10 +29,9 @@ Primary customer:
 Secondary customers:
 
 - Handymen
-- Flooring and tile installers
 - Drywall contractors
 - Deck and fence crews
-- Roofing contractors
+- HVAC contractors
 
 Avoid initially:
 
@@ -52,13 +51,10 @@ The current “calculate the job, send the quote, get paid” message is strong,
 
 ### Free acquisition product
 
-Keep the free paint calculator:
+Keep the free calculators (paint, roofing, and tile & flooring are live):
 
-- Room dimensions
-- Doors and windows
-- Coats and coverage
+- Trade-specific inputs (room dimensions, pitch, tile size, waste factors)
 - Materials and labor
-- Waste factor
 - Job total
 - Shareable result
 - SEO landing pages for specific searches
@@ -67,9 +63,10 @@ Examples:
 
 - Paint calculator for contractors
 - How many gallons of paint for a room
-- Interior painting labor calculator
-- Painting estimate calculator
-- Paint coverage calculator
+- Roofing squares calculator
+- How many tiles do I need
+- Roof replacement cost calculator
+- Floor tile cost estimator
 
 ### Paid product
 
@@ -96,7 +93,7 @@ The highest-value feature is not “a nicer quote.” It is reliable trade-speci
 | 0–3 months | Accounts, saved quotes, customer records, markup/overhead, branded PDF |
 | 3–6 months | Quote tracking, approval links, follow-up reminders, invoice conversion |
 | 6–12 months | Payments, change orders, reusable estimating templates, team accounts |
-| 12+ months | Roofing, flooring, drywall, decks, HVAC, supplier integrations |
+| 12+ months | Decks, HVAC, drywall, concrete, supplier integrations |
 
 Do not build scheduling, payroll, full accounting, or a general CRM until customers repeatedly request them.
 
@@ -169,12 +166,12 @@ This aligns with the industry’s recurring pain around materials, labor, overhe
 
 ### Channel 3: Direct founder-led sales
 
-Recruit the first 50 customers manually:
+Recruit the first 50 customers manually, from any of the live trades:
 
-- Local painting companies
+- Local painting, roofing, and tile/flooring companies
 - Facebook contractor groups
 - Trade associations
-- Paint stores
+- Paint and tile stores
 - Contractor coaches
 - YouTube creators
 - Estimating consultants
@@ -185,21 +182,21 @@ Offer a 30-minute setup call and import their existing rate sheet.
 
 Potential partners:
 
-- Independent paint stores
-- Paint consultants
+- Independent paint and tile stores
+- Trade consultants
 - Contractor accountants
 - Insurance agents
 - Trade schools
 - Local builder associations
 - Supplier referral programs
 
-A paint store can recommend CalcBid when contractors ask how much material to buy.
+A paint or tile store can recommend CalcBid when contractors ask how much material to buy.
 
 ## 7. Launch plan
 
 ### Phase 1 — Learn
 
-- Interview 15 painters
+- Interview 15 contractors across the live trades (painters, roofers, tile installers)
 - Watch at least five people create real estimates
 - Identify their actual estimating spreadsheet fields
 - Recruit five pilot businesses
@@ -217,12 +214,12 @@ A paint store can recommend CalcBid when contractors ask how much material to bu
 - Charge the first customers
 - Publish 10 calculator or educational pages
 - Collect before/after time-saved evidence
-- Launch publicly to painting contractors
+- Launch publicly to contractors
 - Publish customer case studies
 - Add referral incentives
 - Test $19 versus $29 pricing
 - Add invoice conversion
-- Begin research for the second trade
+- Begin research for the next trades (deck, HVAC, concrete)
 
 ## 8. Metrics that matter
 
@@ -294,6 +291,6 @@ Mitigation: move shared quotes to backend-generated records with expiring or rev
 
 Build CalcBid as:
 
-> The estimating and margin-protection system for small painting contractors.
+> The estimating and margin-protection system for small contractors.
 
-Do not expand to every trade yet. Get 50 paying painting businesses, prove that CalcBid helps them quote faster and avoid underbidding, then use the same engine and customer base to expand into adjacent trades.
+Rank the free calculators for SEO in every trade covered, and win paying customers from any trade — painters, roofers, tile and flooring installers alike. Expand trade coverage based on SEO traction and customer demand, not a per-trade customer gate.
