@@ -6,7 +6,7 @@ import JsonLd from "../../../components/JsonLd";
 export const metadata = {
   title: "BTU Calculator — What Size AC Do I Need?",
   description:
-    "Free BTU calculator: find the right AC size for any room or house based on square footage, climate, insulation, and sun exposure. Built for HVAC contractors.",
+    "Free BTU calculator: find the right AC size for any room from square footage, climate, insulation, and sun exposure. Built for contractors.",
   keywords: [
     "btu calculator",
     "what size ac do i need",

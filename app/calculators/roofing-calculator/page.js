@@ -4,7 +4,7 @@ import Faq, { faqJsonLd } from "../../../components/Faq";
 import JsonLd from "../../../components/JsonLd";
 
 export const metadata = {
-  title: "Roofing Calculator — Roof Replacement Cost Estimator",
+  title: "Roofing Calculator — Replacement Cost Estimator",
   description:
     "Free roofing calculator: estimate roof squares, shingle bundles, tear-off and labor cost from footprint and pitch. Built for roofing contractors.",
   keywords: [

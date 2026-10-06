@@ -18,9 +18,9 @@ const mono = IBM_Plex_Mono({
 
 const SITE_URL = "https://calcbid.com";
 const SITE_NAME = "CalcBid";
-const DEFAULT_TITLE = "CalcBid — Free Paint & Roofing Calculators + Contractor Quote Builder";
+const DEFAULT_TITLE = "CalcBid — Free Contractor Calculators & Quote Builder";
 const DEFAULT_DESC =
-  "Free trade calculators and a contractor quote builder in one place. Estimate paint and roofing materials plus job costs, then build and send a professional quote in minutes.";
+  "Free trade calculators and a contractor quote builder. Estimate materials and job costs, then build and send a professional quote in minutes.";
 
 export const metadata = {
   metadataBase: new URL(SITE_URL),
@@ -30,13 +30,14 @@ export const metadata = {
   },
   description: DEFAULT_DESC,
   keywords: [
+    "contractor calculators",
     "paint calculator",
     "roofing calculator",
+    "tile calculator",
     "painting cost calculator",
     "roof replacement cost calculator",
     "contractor quote generator",
     "free quote builder for contractors",
-    "painting estimate template",
     "how much paint do i need",
   ],
   authors: [{ name: SITE_NAME, url: SITE_URL }],

@@ -2,9 +2,9 @@ import { Suspense } from "react";
 import QuoteBuilder from "../../components/QuoteBuilder";
 
 export const metadata = {
-  title: "Free Contractor Quote Generator — Build & Send Estimates",
+  title: "Free Contractor Quote Generator — Build & Send",
   description:
-    "Free contractor quote generator: build a professional estimate with line items, tax and discounts, then share it by link, email or PDF. No spreadsheet needed.",
+    "Free contractor quote generator: build a professional estimate with line items, tax and discounts — share it by link, email or PDF.",
   keywords: [
     "free contractor quote generator",
     "contractor estimate generator",

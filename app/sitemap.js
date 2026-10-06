@@ -14,6 +14,10 @@ const routes = [
   { path: "/guides/how-to-quote-a-painting-job", priority: 0.7, changeFrequency: "monthly" },
   { path: "/guides/cost-to-paint-12x12-room", priority: 0.7, changeFrequency: "monthly" },
   { path: "/guides/roof-replacement-cost-2026", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/about", priority: 0.5, changeFrequency: "monthly" },
+  { path: "/contact", priority: 0.5, changeFrequency: "monthly" },
+  { path: "/privacy", priority: 0.3, changeFrequency: "yearly" },
+  { path: "/terms", priority: 0.3, changeFrequency: "yearly" },
   { path: "/quote", priority: 0.8, changeFrequency: "weekly" },
 ];
 

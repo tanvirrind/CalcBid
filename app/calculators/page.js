@@ -3,7 +3,7 @@ import Link from "next/link";
 export const metadata = {
   title: "Free Contractor Calculators — Paint, Roofing & More",
   description:
-    "Free construction calculators for contractors: paint, roofing, tile, deck & fence, HVAC/BTU, and concrete & drywall. Every result feeds a client-ready quote.",
+    "Free contractor calculators: paint, roofing, tile, deck & fence, HVAC/BTU, concrete & drywall. Every result feeds a client-ready quote.",
   keywords: [
     "contractor calculators",
     "construction calculators",
@@ -14,12 +14,12 @@ export const metadata = {
     "concrete calculator",
     "trade calculators",
   ],
-  alternates: { canonical: "https://calcbid.com/calculators/" },
+  alternates: { canonical: "https://calcbid.com/calculators" },
   openGraph: {
     title: "Free Contractor Calculators — Paint, Roofing & More | CalcBid",
     description:
       "Six free material calculators for contractors: paint, roofing, tile, deck & fence, HVAC/BTU, concrete & drywall. Every result feeds a client-ready quote.",
-    url: "https://calcbid.com/calculators/",
+    url: "https://calcbid.com/calculators",
   },
 };
 

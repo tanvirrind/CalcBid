@@ -4,7 +4,7 @@ import Faq, { faqJsonLd } from "../../../components/Faq";
 import JsonLd from "../../../components/JsonLd";
 
 export const metadata = {
-  title: "Concrete Calculator — Cubic Yards, Bags & Drywall Sheets",
+  title: "Concrete Calculator — Yards, Bags & Drywall Sheets",
   description:
     "Free concrete calculator: cubic yards to order or bags to buy for any slab — plus a drywall mode for sheets, mud, and tape. Built for contractors.",
   keywords: [
