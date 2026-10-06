@@ -18,6 +18,7 @@ export default function Footer() {
           <Link href="/calculators" style={link}>Calculators</Link>
           <Link href="/guides" style={link}>Guides</Link>
           <Link href="/quote" style={link}>Quote generator</Link>
+          <Link href="/pricing" style={link}>Pricing</Link>
           <Link href="/about" style={link}>About</Link>
           <Link href="/contact" style={link}>Contact</Link>
         </div>

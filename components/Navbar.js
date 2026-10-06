@@ -8,6 +8,7 @@ const baseLinks = [
   { href: "/calculators", label: "Calculators" },
   { href: "/guides", label: "Guides" },
   { href: "/quote", label: "Quote generator" },
+  { href: "/pricing", label: "Pricing" },
 ];
 
 export default function Navbar() {
