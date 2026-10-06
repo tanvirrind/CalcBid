@@ -44,6 +44,16 @@ const calcs = [
   { name: "Deck & fence calculator", note: "Boards, posts, pickets & concrete", href: "/calculators/deck-fence-calculator" },
   { name: "HVAC / BTU calculator", note: "Load sizing per room", href: "/calculators/hvac-btu-calculator" },
   { name: "Concrete & drywall calculator", note: "Yards, sheets & mud", href: "/calculators/concrete-drywall-calculator" },
+  { name: "Siding calculator", note: "Squares, materials & labor", href: "/calculators/siding-calculator" },
+  { name: "Pressure washing calculator", note: "Price any wash job", href: "/calculators/pressure-washing-calculator" },
+  { name: "Attic insulation calculator", note: "Bags, R-value & cost", href: "/calculators/attic-insulation-calculator" },
+  { name: "Gutter calculator", note: "Linear feet, downspouts & guards", href: "/calculators/gutter-calculator" },
+  { name: "Fence staining calculator", note: "Stain gallons & job cost", href: "/calculators/fence-staining-calculator" },
+  { name: "Window replacement calculator", note: "Per-window & whole-house cost", href: "/calculators/window-replacement-calculator" },
+  { name: "Epoxy garage floor calculator", note: "Kits, DIY vs pro", href: "/calculators/epoxy-garage-floor-calculator" },
+  { name: "Paver calculator", note: "Pavers, base & labor", href: "/calculators/paver-calculator" },
+  { name: "Water heater calculator", note: "Sizing & installed cost", href: "/calculators/water-heater-calculator" },
+  { name: "Mulch calculator", note: "Cubic yards & bags", href: "/calculators/mulch-calculator" },
 ];
 
 export default function CalculatorsHub() {
