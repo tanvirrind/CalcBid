@@ -3,7 +3,6 @@
 import { useState } from "react";
 import { signIn } from "next-auth/react";
 import Link from "next/link";
-import Navbar from "../../components/Navbar";
 
 export default function SignInPage() {
   const [email, setEmail] = useState("");
@@ -40,15 +39,13 @@ export default function SignInPage() {
   };
 
   return (
-    <div>
-      <Navbar />
-      <main className="section">
-        <div className="container" style={{ maxWidth: 480 }}>
-          <h1 style={{ fontSize: "clamp(28px, 4vw, 40px)", marginBottom: 8 }}>Sign in</h1>
-          <p className="lead" style={{ marginBottom: 28 }}>
-            Back to the shop — your saved customers and quotes are waiting.
-          </p>
-          <form onSubmit={handleSubmit} className="card" style={{ padding: 28 }}>
+    <main className="section">
+      <div className="container" style={{ maxWidth: 480, textAlign: "center" }}>
+        <h1 style={{ fontSize: "clamp(28px, 4vw, 40px)", marginBottom: 8 }}>Sign in</h1>
+        <p className="lead" style={{ marginBottom: 28 }}>
+          Back to the shop — your saved customers and quotes are waiting.
+        </p>
+        <form onSubmit={handleSubmit} className="card" style={{ padding: 28, textAlign: "left" }}>
             {error && (
               <div className="notice" style={{ marginBottom: 16, borderColor: "#b3261e", color: "#b3261e" }}>
                 {error}
@@ -85,6 +82,5 @@ export default function SignInPage() {
           </form>
         </div>
       </main>
-    </div>
   );
 }
