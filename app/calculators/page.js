@@ -1,9 +1,23 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Free trade calculators — CalcBid",
+  title: "Free Contractor Calculators — Paint, Roofing & More",
   description:
-    "Free material calculators for contractors: paint, roofing, tile, deck, HVAC and more. Exact quantities, job costs, no spreadsheet.",
+    "Free construction calculators for contractors: paint quantity, roofing squares and cost, plus tile, deck, HVAC and concrete tools coming soon.",
+  keywords: [
+    "contractor calculators",
+    "construction calculators",
+    "paint calculator",
+    "roofing calculator",
+    "trade calculators",
+  ],
+  alternates: { canonical: "https://calcbid.com/calculators/" },
+  openGraph: {
+    title: "Free Contractor Calculators — Paint, Roofing & More | CalcBid",
+    description:
+      "Free material calculators for contractors: paint, roofing squares and job costs. Every result feeds a client-ready quote.",
+    url: "https://calcbid.com/calculators/",
+  },
 };
 
 const calcs = [
