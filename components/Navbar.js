@@ -2,16 +2,24 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { signOut } from "next-auth/react";
 
-const links = [
+const baseLinks = [
   { href: "/calculators", label: "Calculators" },
   { href: "/guides", label: "Guides" },
   { href: "/quote", label: "Quote generator" },
-  { href: "/signin", label: "Sign in" },
 ];
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
+  const [session, setSession] = useState(null);
+
+  useEffect(() => {
+    fetch("/api/auth/session")
+      .then((r) => r.json())
+      .then((s) => setSession(s?.user ? s : null))
+      .catch(() => setSession(null));
+  }, []);
 
   useEffect(() => {
     const onKey = (e) => {
@@ -20,6 +28,19 @@ export default function Navbar() {
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
   }, []);
+
+  const links = session
+    ? [...baseLinks, { href: "/dashboard", label: "Dashboard" }]
+    : [...baseLinks, { href: "/signin", label: "Sign in" }];
+
+  const authAction = session ? (
+    <button
+      className="btn btn-ghost btn-sm"
+      onClick={() => signOut({ callbackUrl: "/" })}
+    >
+      Sign out
+    </button>
+  ) : null;
 
   return (
     <nav className="nav">
@@ -34,6 +55,7 @@ export default function Navbar() {
               {l.label}
             </Link>
           ))}
+          {authAction}
           <Link href="/quote" className="btn btn-primary btn-sm">
             Send a quote
           </Link>
@@ -63,6 +85,18 @@ export default function Navbar() {
         >
           Send a quote
         </Link>
+        {session && (
+          <button
+            className="btn btn-ghost"
+            style={{ marginTop: 10 }}
+            onClick={() => {
+              setOpen(false);
+              signOut({ callbackUrl: "/" });
+            }}
+          >
+            Sign out
+          </button>
+        )}
       </div>
     </nav>
   );

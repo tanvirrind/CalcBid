@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { useSearchParams } from "next/navigation";
+import Link from "next/link";
 import { fmt$, encodeQuote, decodeQuote } from "../lib/format";
 
 const uid = () =>
@@ -33,9 +34,53 @@ export default function QuoteBuilder() {
   const [q, setQ] = useState(() => blankQuote());
   const [clientView, setClientView] = useState(null);
   const [copied, setCopied] = useState(false);
+  const [session, setSession] = useState(null);
+  const [saving, setSaving] = useState(false);
+  const [saved, setSaved] = useState(null);
+  const [saveError, setSaveError] = useState("");
 
-  // Prefill from calculator, or load a shared quote from the URL hash.
+  // Who's signed in? (drives the Save button)
   useEffect(() => {
+    fetch("/api/auth/session")
+      .then((r) => r.json())
+      .then((s) => setSession(s?.user ? s : null))
+      .catch(() => setSession(null));
+  }, []);
+
+  // Prefill from calculator, load a saved quote, or load a shared quote from the URL hash.
+  useEffect(() => {
+    // Load a saved quote: ?load=<quoteId>
+    const loadId = params.get("load");
+    if (loadId) {
+      fetch(`/api/quotes/${loadId}`)
+        .then((r) => (r.ok ? r.json() : null))
+        .then((j) => {
+          if (!j?.quote) return;
+          const sq = j.quote;
+          setQ({
+            number: sq.number,
+            date: (sq.quoteDate || "").slice(0, 10) || today(),
+            validDays: sq.validDays ?? 30,
+            biz: {
+              name: sq.biz?.name || "",
+              email: sq.biz?.email || "",
+              phone: sq.biz?.phone || "",
+            },
+            client: {
+              name: sq.customer?.name || "",
+              email: sq.customer?.email || "",
+              address: sq.customer?.address || "",
+            },
+            items: Array.isArray(sq.items) && sq.items.length ? sq.items : [{ desc: "", qty: 1, price: 0 }],
+            tax: sq.taxRate ?? 0,
+            discount: sq.discount ?? 0,
+            notes: sq.notes || "",
+          });
+          setSaved({ id: sq.id, number: sq.number });
+        })
+        .catch(() => {});
+      return;
+    }
     const shared = decodeQuote(window.location.hash);
     if (shared) {
       setClientView(shared);
@@ -133,6 +178,38 @@ ${q.notes ? `<p><strong>Notes:</strong> ${esc(q.notes)}</p>` : ""}</body></html>
     URL.revokeObjectURL(a.href);
   };
 
+  const saveQuote = async () => {
+    setSaving(true);
+    setSaveError("");
+    try {
+      const res = await fetch("/api/quotes", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          number: saved?.id ? undefined : q.number,
+          date: q.date,
+          validDays: q.validDays,
+          biz: q.biz,
+          client: { name: q.client.name, email: q.client.email, address: q.client.address },
+          items: q.items,
+          tax: q.tax,
+          discount: q.discount,
+          notes: q.notes,
+        }),
+      });
+      const j = await res.json().catch(() => ({}));
+      if (!res.ok) {
+        setSaveError(j.error || "Couldn't save the quote.");
+      } else if (j.quote) {
+        setSaved({ id: j.quote.id, number: j.quote.number });
+        setQ((prev) => ({ ...prev, number: j.quote.number }));
+      }
+    } catch {
+      setSaveError("Couldn't reach the server. Try again.");
+    }
+    setSaving(false);
+  };
+
   const emailQuote = () => {
     const subject = encodeURIComponent(`Quote ${q.number} from ${q.biz.name || "us"}`);
     const body = encodeURIComponent(
@@ -199,18 +276,41 @@ ${q.notes ? `<p><strong>Notes:</strong> ${esc(q.notes)}</p>` : ""}</body></html>
       </div>
 
       <div className="toolbar no-print">
-        <button className="btn btn-primary" onClick={copyLink}>
+        {session ? (
+          <button className="btn btn-primary" onClick={saveQuote} disabled={saving}>
+            {saving ? "Saving…" : saved ? "✓ Saved — save as new" : "Save quote"}
+          </button>
+        ) : (
+          <Link href="/signin" className="btn btn-primary">
+            Sign in to save quotes
+          </Link>
+        )}
+        <button className="btn btn-ghost" onClick={copyLink}>
           {copied ? "✓ Link copied" : "Copy shareable link"}
         </button>
         <button className="btn btn-dark" onClick={() => window.print()}>Print / PDF</button>
         <button className="btn btn-ghost" onClick={downloadHtml}>Download HTML</button>
         <button className="btn btn-ghost" onClick={emailQuote}>Open in email</button>
       </div>
+      {saved && (
+        <div className="notice no-print" style={{ marginBottom: 16 }}>
+          Quote <strong>{saved.number}</strong> saved.{" "}
+          <Link href="/dashboard" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>
+            View it in your dashboard →
+          </Link>
+        </div>
+      )}
+      {saveError && (
+        <div className="notice no-print" style={{ marginBottom: 16, borderColor: "#b3261e", color: "#b3261e" }}>
+          {saveError}
+        </div>
+      )}
 
       <QuoteDoc data={q} totals={totals} validUntil={validUntil} />
       <p className="no-print" style={{ color: "var(--muted)", fontSize: 13.5, marginTop: 14 }}>
-        Demo note: shareable links encode the quote in the URL — no account needed.
-        Real send-by-email and saved quotes arrive with the SaaS backend.
+        {session
+          ? "Signed in — hit Save quote to keep it in your dashboard, or copy the shareable link to send it right now."
+          : "Shareable links encode the quote in the URL — no account needed. Sign in to save quotes to your dashboard."}
       </p>
     </div>
   );

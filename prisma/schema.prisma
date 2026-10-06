@@ -96,6 +96,7 @@ model Quote {
   taxRate    Float     @default(0)
   discount   Float     @default(0)
   notes      String?   @db.Text
+  biz        Json? // { name, email, phone } — snapshot of business info at save time
   validDays  Int       @default(30)
   quoteDate  DateTime  @default(now())
   createdAt  DateTime  @default(now())
