@@ -20,9 +20,9 @@ const steps = [
 ];
 
 const trades = [
-  { name: "Paint", note: "Gallons, coats & labor", live: true },
-  { name: "Roofing", note: "Squares, shingles & waste", live: true },
-  { name: "Tile & flooring", note: "Tiles, boxes & labor", live: true },
+  { name: "Paint", note: "Gallons, coats & labor", live: true, href: "/calculators/paint-calculator" },
+  { name: "Roofing", note: "Squares, shingles & waste", live: true, href: "/calculators/roofing-calculator" },
+  { name: "Tile & flooring", note: "Tiles, boxes & labor", live: true, href: "/calculators/tile-flooring-calculator" },
   { name: "Deck & fence", note: "Boards, posts & concrete", live: false },
   { name: "HVAC / BTU", note: "Load sizing per room", live: false },
   { name: "Concrete & drywall", note: "Yards, sheets & mud", live: false },
@@ -143,17 +143,33 @@ export default function Home() {
             build next.
           </p>
           <div className="grid3">
-            {trades.map((t) => (
-              <div className="card trade" key={t.name}>
-                <div>
-                  <div className="t-name">{t.name}</div>
-                  <div className="t-note">{t.note}</div>
+            {trades.map((t) => {
+              const inner = (
+                <>
+                  <div>
+                    <div className="t-name">{t.name}</div>
+                    <div className="t-note">{t.note}</div>
+                  </div>
+                  <span className={`stamp ${t.live ? "live" : "soon"}`}>
+                    {t.live ? "Live" : "Soon"}
+                  </span>
+                </>
+              );
+              return t.live ? (
+                <Link
+                  key={t.name}
+                  href={t.href}
+                  className="card trade"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  {inner}
+                </Link>
+              ) : (
+                <div className="card trade" key={t.name}>
+                  {inner}
                 </div>
-                <span className={`stamp ${t.live ? "live" : "soon"}`}>
-                  {t.live ? "Live" : "Soon"}
-                </span>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>
