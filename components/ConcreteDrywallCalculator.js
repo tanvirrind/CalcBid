@@ -29,7 +29,7 @@ const ModeBtn = ({ active, onClick, children }) => (
   </button>
 );
 
-export default function ConcreteDrywallCalculator() {
+export default function ConcreteDrywallCalculator({ defaultPriceYard, defaultLabor } = {}) {
   const [mode, setMode] = useState("concrete");
 
   // concrete state
@@ -37,9 +37,9 @@ export default function ConcreteDrywallCalculator() {
   const [slabW, setSlabW] = useState("10");
   const [thick, setThick] = useState("4");
   const [concWaste, setConcWaste] = useState("10");
-  const [priceYard, setPriceYard] = useState("150");
+  const [priceYard, setPriceYard] = useState(defaultPriceYard || "150");
   const [bagPrice, setBagPrice] = useState("6");
-  const [concLabor, setConcLabor] = useState("8");
+  const [concLabor, setConcLabor] = useState(defaultLabor || "8");
 
   // drywall state
   const [roomL, setRoomL] = useState("12");

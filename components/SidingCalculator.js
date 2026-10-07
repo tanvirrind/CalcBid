@@ -16,10 +16,10 @@ const SIDING = {
   metal: { label: "Metal / aluminum", mat: 8, labor: 6.5 },
 };
 
-export default function SidingCalculator() {
+export default function SidingCalculator({ defaultType } = {}) {
   const [wallSqft, setWallSqft] = useState("1800");
   const [openingsPct, setOpeningsPct] = useState("15");
-  const [type, setType] = useState("vinyl");
+  const [type, setType] = useState(defaultType || "vinyl");
   const [matRate, setMatRate] = useState("");
   const [laborRate, setLaborRate] = useState("");
   const [waste, setWaste] = useState("10");

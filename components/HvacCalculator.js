@@ -36,16 +36,16 @@ const Seg = ({ label, options, value, set }) => (
   </div>
 );
 
-export default function HvacCalculator() {
+export default function HvacCalculator({ defaultClimate, defaultInstallPerTon } = {}) {
   const [length, setLength] = useState("20");
   const [width, setWidth] = useState("15");
   const [height, setHeight] = useState("8");
-  const [climate, setClimate] = useState("moderate");
+  const [climate, setClimate] = useState(defaultClimate || "moderate");
   const [insulation, setInsulation] = useState("average");
   const [sun, setSun] = useState("average");
   const [roomType, setRoomType] = useState("living");
   const [people, setPeople] = useState("2");
-  const [installPerTon, setInstallPerTon] = useState("3500");
+  const [installPerTon, setInstallPerTon] = useState(defaultInstallPerTon || "3500");
 
   const r = useMemo(() => {
     const sqft = Math.max(1, num(length)) * Math.max(1, num(width));

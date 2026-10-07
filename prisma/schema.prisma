@@ -106,6 +106,24 @@ model Quote {
   @@index([userId, status])
 }
 
+model Lead {
+  id          String   @id @default(cuid())
+  name        String
+  phone       String
+  email       String?
+  trade       String // concrete | siding | hvac | ...
+  city        String // boise-id (slug)
+  cityLabel   String // "Boise, ID"
+  details     String?  @db.Text
+  contactTime String? // morning | afternoon | evening
+  consentAt   DateTime // TCPA consent timestamp
+  status      String   @default("new") // new | contacted | quoted | won | lost
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([trade, city, status])
+}
+
 model RateCard {
   id     String @id @default(cuid())
   userId String
