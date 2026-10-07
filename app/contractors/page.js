@@ -58,13 +58,18 @@ export default function ContractorsHub() {
           has real local pricing, a free cost calculator, and quote requests
           that go to one local pro. More cities coming if the pilot works.
         </p>
-        <div className="card-grid" style={{ marginTop: 28 }}>
+        <div className="grid3" style={{ marginTop: 28 }}>
           {listings.map((l) => (
-            <Link key={l.href} href={l.href} className="card card-link">
-              <div style={{ fontSize: 13, textTransform: "uppercase", letterSpacing: ".08em", color: "var(--muted)" }}>
-                {l.trade} — {l.city}
+            <Link
+              key={l.href}
+              href={l.href}
+              className="card trade"
+              style={{ textDecoration: "none", color: "inherit" }}
+            >
+              <div>
+                <div className="t-name">{l.trade} — {l.city}</div>
+                <div className="t-note">{l.note}</div>
               </div>
-              <p style={{ margin: "8px 0 0", color: "var(--muted)" }}>{l.note}</p>
             </Link>
           ))}
         </div>

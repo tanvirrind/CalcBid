@@ -91,7 +91,7 @@ export default function BoiseConcretePage() {
           free calculator preset to Boise rates and quotes from local pros.
         </p>
 
-        <h2 className="h3">What concrete work costs in Boise (2026)</h2>
+        <h2>What concrete work costs in Boise (2026)</h2>
         <p>
           Boise runs slightly below the national average for concrete labor,
           which is good news in a market where half the metro seems to be a
@@ -113,14 +113,14 @@ export default function BoiseConcretePage() {
           driveway.
         </p>
 
-        <h2 className="h3">Estimate your project</h2>
+        <h2>Estimate your project</h2>
         <p>
           Punch in your dimensions — the calculator below is preset with Boise-area
           material and labor rates. Adjust anything to match a bid you&apos;ve received.
         </p>
         <ConcreteDrywallCalculator defaultPriceYard="145" defaultLabor="7" />
 
-        <h2 className="h3">Boise-specific things to get right</h2>
+        <h2>Boise-specific things to get right</h2>
         <ul>
           <li><strong>Frost depth:</strong> footings go ~24 inches deep here. Shallow footings heave.</li>
           <li><strong>De-icers:</strong> magnesium chloride eats concrete surfaces. Seal every 2–3 years if you use it.</li>
@@ -129,7 +129,7 @@ export default function BoiseConcretePage() {
           <li><strong>Soil:</strong> much of the valley sits on expansive clay or sandy loam. A proper 4-inch compacted gravel base isn&apos;t optional.</li>
         </ul>
 
-        <h2 className="h3">Choosing a Boise concrete contractor</h2>
+        <h2>Choosing a Boise concrete contractor</h2>
         <p>
           Ask for the mix design (4,000 PSI, air-entrained for exterior), the
           joint spacing plan, and how they handle the base. A pro talks about

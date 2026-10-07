@@ -91,7 +91,7 @@ export default function ColoradoSpringsSidingPage() {
           calculator preset to local rates and quotes from local pros.
         </p>
 
-        <h2 className="h3">What siding costs in Colorado Springs (2026)</h2>
+        <h2>What siding costs in Colorado Springs (2026)</h2>
         <p>
           This is hail alley. The Front Range sees some of the most damaging
           hail in the country, and it shows up directly in siding choices —
@@ -114,14 +114,14 @@ export default function ColoradoSpringsSidingPage() {
           visit is worth real money when warranty time comes.
         </p>
 
-        <h2 className="h3">Estimate your project</h2>
+        <h2>Estimate your project</h2>
         <p>
           The calculator below opens on fiber cement — the Springs default —
           with local installed rates. Switch to vinyl to compare tiers.
         </p>
         <SidingCalculator defaultType="fiber" />
 
-        <h2 className="h3">Colorado Springs specifics</h2>
+        <h2>Colorado Springs specifics</h2>
         <ul>
           <li><strong>Permits:</strong> Pikes Peak Regional Building Department handles siding permits for the city and county. Your contractor pulls it.</li>
           <li><strong>Hail:</strong> ask about impact-rated products and whether the bid includes an ice-and-water-style backup layer at vulnerable walls.</li>
@@ -130,7 +130,7 @@ export default function ColoradoSpringsSidingPage() {
           <li><strong>Paint:</strong> fiber cement holds paint 2–3× longer than wood at altitude. Factory-finished (ColorPlus) costs more upfront and pays back in maintenance.</li>
         </ul>
 
-        <h2 className="h3">Choosing a siding contractor here</h2>
+        <h2>Choosing a siding contractor here</h2>
         <p>
           Ask how many full replacements they did in El Paso County last year,
           what they do about rotted sheathing found during tear-off (it&apos;s

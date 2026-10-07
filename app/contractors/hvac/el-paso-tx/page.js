@@ -91,7 +91,7 @@ export default function ElPasoHvacPage() {
           the Chihuahuan Desert — with a free sizing calculator and quotes from local pros.
         </p>
 
-        <h2 className="h3">What HVAC work costs in El Paso (2026)</h2>
+        <h2>What HVAC work costs in El Paso (2026)</h2>
         <p>
           El Paso is one of the hottest major cities in the country — 100°F+
           days are routine from May through September, and AC isn&apos;t
@@ -114,7 +114,7 @@ export default function ElPasoHvacPage() {
           the point.
         </p>
 
-        <h2 className="h3">Size your system</h2>
+        <h2>Size your system</h2>
         <p>
           The calculator below is set to hot-desert climate with El Paso-area
           installed rates. Desert heat pushes sizing up — don&apos;t let anyone
@@ -122,7 +122,7 @@ export default function ElPasoHvacPage() {
         </p>
         <HvacCalculator defaultClimate="hot" defaultInstallPerTon="3200" />
 
-        <h2 className="h3">El Paso specifics</h2>
+        <h2>El Paso specifics</h2>
         <ul>
           <li><strong>Permits:</strong> mechanical permits via City of El Paso Planning &amp; Inspections. Conversions trigger current-code electrical and duct requirements.</li>
           <li><strong>Refrigerant:</strong> new systems use R-454B (R-410A is phased down). If a bidder quotes R-410A equipment in late 2026, ask questions.</li>
@@ -131,7 +131,7 @@ export default function ElPasoHvacPage() {
           <li><strong>Fort Bliss turnover:</strong> constant PCS moves mean steady demand — established local shops stay booked, which is both a scheduling note and a vetting signal.</li>
         </ul>
 
-        <h2 className="h3">Choosing an El Paso HVAC contractor</h2>
+        <h2>Choosing an El Paso HVAC contractor</h2>
         <p>
           Demand a Manual J load calculation — any contractor sizing by
           &ldquo;tons per square foot&rdquo; alone is guessing, and oversized
