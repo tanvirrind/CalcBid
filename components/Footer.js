@@ -22,6 +22,17 @@ export default function Footer() {
           <Link href="/about" style={link}>About</Link>
           <Link href="/contact" style={link}>Contact</Link>
         </div>
+        <div>
+          <strong style={{ color: "var(--ink)" }}>Try our other tools</strong>
+          <div style={{ marginTop: 6, display: "flex", flexDirection: "column", gap: 6 }}>
+            <a href="https://cubicyardcalculator.site" target="_blank" rel="noopener" style={link}>
+              Cubic Yard Calculator
+            </a>
+            <a href="https://solarcalculatorhub.com" target="_blank" rel="noopener" style={link}>
+              Solar Calculator Hub
+            </a>
+          </div>
+        </div>
         <div style={{ display: "flex", gap: 18, flexWrap: "wrap" }}>
           <Link href="/privacy" style={link}>Privacy</Link>
           <Link href="/terms" style={link}>Terms</Link>
