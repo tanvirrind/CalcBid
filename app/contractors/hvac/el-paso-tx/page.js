@@ -27,13 +27,13 @@ export const metadata = {
     ],
     title: "HVAC Contractors in El Paso, TX | CalcBid",
     description:
-      "Local El Paso HVAC pricing, a free AC sizing calculator, and quotes from local pros.",
+      "Local El Paso HVAC pricing, a free AC sizing calculator, and a quote from a local pro.",
     url: "https://calcbid.com/contractors/hvac/el-paso-tx",
   },
   twitter: {
     card: "summary_large_image",
     title: "HVAC Contractors in El Paso, TX | CalcBid",
-    description: "Local El Paso HVAC pricing, a free AC sizing calculator, and quotes from local pros.",
+    description: "Local El Paso HVAC pricing, a free AC sizing calculator, and a quote from a local pro.",
   },
 };
 
@@ -88,7 +88,10 @@ export default function ElPasoHvacPage() {
         <h1 className="h2">HVAC contractors in El Paso, TX</h1>
         <p className="sub">
           AC replacement, mini-splits, and swamp-cooler conversions priced for
-          the Chihuahuan Desert — with a free sizing calculator and quotes from local pros.
+          the Chihuahuan Desert — with a free sizing calculator and a quote from a local pro.
+        </p>
+        <p style={{ marginTop: 18 }}>
+          <a href="#quote-form" className="btn btn-primary">Get a free quote &rarr;</a>
         </p>
 
         <h2>What HVAC work costs in El Paso (2026)</h2>

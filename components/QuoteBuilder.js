@@ -34,7 +34,7 @@ export default function QuoteBuilder() {
   const [q, setQ] = useState(() => blankQuote());
   const [clientView, setClientView] = useState(null);
   const [copied, setCopied] = useState(false);
-  const [session, setSession] = useState(null);
+  const [session, setSession] = useState(undefined); // undefined = still loading (prevents layout shift)
   const [saving, setSaving] = useState(false);
   const [saved, setSaved] = useState(null);
   const [saveError, setSaveError] = useState("");
@@ -224,7 +224,7 @@ ${q.notes ? `<p><strong>Notes:</strong> ${esc(q.notes)}</p>` : ""}</body></html>
   const F = ({ label, value, on, type = "text", span }) => (
     <div className="field" style={span ? { gridColumn: "1 / -1" } : undefined}>
       <label>{label}</label>
-      <input type={type} value={value} onChange={(e) => on(e.target.value)} />
+      <input type={type} value={value} onChange={(e) => on(e.target.value)} aria-label={label} />
     </div>
   );
 
@@ -250,9 +250,9 @@ ${q.notes ? `<p><strong>Notes:</strong> ${esc(q.notes)}</p>` : ""}</body></html>
           <div className="line-items">
             {q.items.map((it, i) => (
               <div className="li-row" key={i}>
-                <input placeholder="Description" value={it.desc} onChange={(e) => setItem(i, "desc", e.target.value)} />
-                <input type="number" min="0" placeholder="Qty" value={it.qty} onChange={(e) => setItem(i, "qty", e.target.value)} />
-                <input type="number" min="0" placeholder="$ Price" value={it.price} onChange={(e) => setItem(i, "price", e.target.value)} />
+                <input placeholder="Description" aria-label="Item description" value={it.desc} onChange={(e) => setItem(i, "desc", e.target.value)} />
+                <input type="number" min="0" placeholder="Qty" aria-label="Quantity" value={it.qty} onChange={(e) => setItem(i, "qty", e.target.value)} />
+                <input type="number" min="0" placeholder="$ Price" aria-label="Unit price" value={it.price} onChange={(e) => setItem(i, "price", e.target.value)} />
                 <button className="li-del" onClick={() => delItem(i)} title="Remove">×</button>
               </div>
             ))}
@@ -270,18 +270,23 @@ ${q.notes ? `<p><strong>Notes:</strong> ${esc(q.notes)}</p>` : ""}</body></html>
           <div className="field">
             <label>Notes / terms</label>
             <textarea rows={3} value={q.notes} onChange={(e) => set({ notes: e.target.value })}
+              aria-label="Notes / terms"
               placeholder="e.g. 50% deposit to schedule. Price includes materials and labor." />
           </div>
         </div>
       </div>
 
       <div className="toolbar no-print">
-        {session ? (
-          <button className="btn btn-primary" onClick={saveQuote} disabled={saving}>
+        {session === undefined ? (
+          <button className="btn btn-primary" disabled style={{ visibility: "hidden", minWidth: 190 }}>
+            Sign in to save quotes
+          </button>
+        ) : session ? (
+          <button className="btn btn-primary" onClick={saveQuote} disabled={saving} style={{ minWidth: 190 }}>
             {saving ? "Saving…" : saved ? "✓ Saved — save as new" : "Save quote"}
           </button>
         ) : (
-          <Link href="/signin" className="btn btn-primary">
+          <Link href="/signin" className="btn btn-primary" style={{ minWidth: 190, textAlign: "center" }}>
             Sign in to save quotes
           </Link>
         )}
@@ -307,8 +312,10 @@ ${q.notes ? `<p><strong>Notes:</strong> ${esc(q.notes)}</p>` : ""}</body></html>
       )}
 
       <QuoteDoc data={q} totals={totals} validUntil={validUntil} />
-      <p className="no-print" style={{ color: "var(--muted)", fontSize: 13.5, marginTop: 14 }}>
-        {session
+      <p className="no-print" style={{ color: "var(--muted)", fontSize: 13.5, marginTop: 14, minHeight: "2.6em" }}>
+        {session === undefined
+          ? ""
+          : session
           ? "Signed in — hit Save quote to keep it in your dashboard, or copy the shareable link to send it right now."
           : "Shareable links encode the quote in the URL — no account needed. Sign in to save quotes to your dashboard."}
       </p>

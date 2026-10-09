@@ -185,21 +185,21 @@ export default function DashboardClient() {
           <div className="field-row">
             <div className="field">
               <label>Name *</label>
-              <input value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} required placeholder="Jane Smith" />
+              <input aria-label="Customer name" value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} required placeholder="Jane Smith" />
             </div>
             <div className="field">
               <label>Email</label>
-              <input type="email" value={form.email} onChange={(e) => setForm({ ...form, email: e.target.value })} placeholder="jane@example.com" />
+              <input aria-label="Customer email" type="email" value={form.email} onChange={(e) => setForm({ ...form, email: e.target.value })} placeholder="jane@example.com" />
             </div>
           </div>
           <div className="field-row" style={{ marginTop: 12 }}>
             <div className="field">
               <label>Phone</label>
-              <input value={form.phone} onChange={(e) => setForm({ ...form, phone: e.target.value })} placeholder="(555) 123-4567" />
+              <input aria-label="Customer phone" value={form.phone} onChange={(e) => setForm({ ...form, phone: e.target.value })} placeholder="(555) 123-4567" />
             </div>
             <div className="field">
               <label>Address</label>
-              <input value={form.address} onChange={(e) => setForm({ ...form, address: e.target.value })} placeholder="123 Main St" />
+              <input aria-label="Customer address" value={form.address} onChange={(e) => setForm({ ...form, address: e.target.value })} placeholder="123 Main St" />
             </div>
           </div>
           <button className="btn btn-primary" disabled={busy} style={{ marginTop: 14 }}>

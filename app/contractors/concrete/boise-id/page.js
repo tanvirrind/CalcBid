@@ -27,13 +27,13 @@ export const metadata = {
     ],
     title: "Concrete Contractors in Boise, ID | CalcBid",
     description:
-      "Local Boise concrete pricing, a free cost calculator, and quotes from local pros.",
+      "Local Boise concrete pricing, a free cost calculator, and a quote from a local pro.",
     url: "https://calcbid.com/contractors/concrete/boise-id",
   },
   twitter: {
     card: "summary_large_image",
     title: "Concrete Contractors in Boise, ID | CalcBid",
-    description: "Local Boise concrete pricing, a free cost calculator, and quotes from local pros.",
+    description: "Local Boise concrete pricing, a free cost calculator, and a quote from a local pro.",
   },
 };
 
@@ -88,7 +88,10 @@ export default function BoiseConcretePage() {
         <h1 className="h2">Concrete contractors in Boise, ID</h1>
         <p className="sub">
           Driveways, patios, and slabs priced for the Treasure Valley — with a
-          free calculator preset to Boise rates and quotes from local pros.
+          free calculator preset to Boise rates and a quote from a local pro.
+        </p>
+        <p style={{ marginTop: 18 }}>
+          <a href="#quote-form" className="btn btn-primary">Get a free quote &rarr;</a>
         </p>
 
         <h2>What concrete work costs in Boise (2026)</h2>

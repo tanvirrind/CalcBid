@@ -27,13 +27,13 @@ export const metadata = {
     ],
     title: "Siding Contractors in Colorado Springs, CO | CalcBid",
     description:
-      "Local Colorado Springs siding pricing, a free cost calculator, and quotes from local pros.",
+      "Local Colorado Springs siding pricing, a free cost calculator, and a quote from a local pro.",
     url: "https://calcbid.com/contractors/siding/colorado-springs-co",
   },
   twitter: {
     card: "summary_large_image",
     title: "Siding Contractors in Colorado Springs, CO | CalcBid",
-    description: "Local Colorado Springs siding pricing, a free cost calculator, and quotes from local pros.",
+    description: "Local Colorado Springs siding pricing, a free cost calculator, and a quote from a local pro.",
   },
 };
 
@@ -88,7 +88,10 @@ export default function ColoradoSpringsSidingPage() {
         <h1 className="h2">Siding contractors in Colorado Springs, CO</h1>
         <p className="sub">
           Hail-country siding, priced for the Front Range — with a free
-          calculator preset to local rates and quotes from local pros.
+          calculator preset to local rates and a quote from a local pro.
+        </p>
+        <p style={{ marginTop: 18 }}>
+          <a href="#quote-form" className="btn btn-primary">Get a free quote &rarr;</a>
         </p>
 
         <h2>What siding costs in Colorado Springs (2026)</h2>

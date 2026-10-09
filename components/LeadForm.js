@@ -51,28 +51,28 @@ export default function LeadForm({ trade, city, cityLabel, tradeLabel }) {
 
   return (
     <form onSubmit={submit} className="card" id="quote-form">
-      <h3 style={{ marginTop: 0 }}>Get free quotes from {cityLabel} {tradeLabel} contractors</h3>
+      <h3 style={{ marginTop: 0 }}>Get a free quote from a {cityLabel} {tradeLabel} contractor</h3>
       <p style={{ color: "var(--muted)", marginTop: -8 }}>
         Tell us about your project. One local pro replies — no spam, no robocalls from ten companies.
       </p>
       <div className="field-row">
         <div className="field">
           <label>Your name *</label>
-          <input style={input} value={name} onChange={(e) => setName(e.target.value)} required placeholder="Jane Smith" />
+          <input style={input} aria-label="Your name" value={name} onChange={(e) => setName(e.target.value)} required placeholder="Jane Smith" />
         </div>
         <div className="field">
           <label>Phone *</label>
-          <input style={input} value={phone} onChange={(e) => setPhone(e.target.value)} required placeholder="(208) 555-0123" type="tel" />
+          <input style={input} aria-label="Phone" value={phone} onChange={(e) => setPhone(e.target.value)} required placeholder="(208) 555-0123" type="tel" />
         </div>
       </div>
       <div className="field-row">
         <div className="field">
           <label>Email (optional)</label>
-          <input style={input} value={email} onChange={(e) => setEmail(e.target.value)} placeholder="jane@email.com" type="email" />
+          <input style={input} aria-label="Email (optional)" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="jane@email.com" type="email" />
         </div>
         <div className="field">
           <label>Best time to call</label>
-          <select style={input} value={contactTime} onChange={(e) => setContactTime(e.target.value)}>
+          <select style={input} aria-label="Best time to call" value={contactTime} onChange={(e) => setContactTime(e.target.value)}>
             <option value="anytime">Anytime</option>
             <option value="morning">Morning</option>
             <option value="afternoon">Afternoon</option>
@@ -82,7 +82,7 @@ export default function LeadForm({ trade, city, cityLabel, tradeLabel }) {
       </div>
       <div className="field">
         <label>Project details</label>
-        <textarea style={{ ...input, minHeight: 90, resize: "vertical" }} value={details}
+        <textarea aria-label="Project details" style={{ ...input, minHeight: 90, resize: "vertical" }} value={details}
           onChange={(e) => setDetails(e.target.value)}
           placeholder="e.g. 20×20 driveway replacement, old concrete needs removal…" />
       </div>
@@ -100,7 +100,7 @@ export default function LeadForm({ trade, city, cityLabel, tradeLabel }) {
       {state === "error" && <p style={{ color: "#dc2626", marginTop: 10 }}>{error}</p>}
       <button type="submit" className="btn btn-primary" disabled={state === "sending"}
         style={{ marginTop: 16, width: "100%" }}>
-        {state === "sending" ? "Sending…" : `Get my free ${tradeLabel} quotes →`}
+        {state === "sending" ? "Sending…" : `Get my free ${tradeLabel} quote →`}
       </button>
     </form>
   );
