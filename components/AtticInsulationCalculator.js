@@ -45,7 +45,7 @@ export default function AtticInsulationCalculator() {
   const F = ({ label, value, set, hint }) => (
     <div className="field">
       <label>{label}</label>
-      <input type="number" value={value} min="0" step="any"
+      <input aria-label={label} type="number" value={value} min="0" step="any"
         onChange={(e) => set(e.target.value)} />
       {hint && <div style={{ fontSize: 12, color: "var(--muted)", marginTop: 4 }}>{hint}</div>}
     </div>

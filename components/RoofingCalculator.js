@@ -76,7 +76,7 @@ export default function RoofingCalculator() {
   const F = ({ label, value, set, step = "any", min = "0", hint }) => (
     <div className="field">
       <label>{label}</label>
-      <input type="number" value={value} min={min} step={step}
+      <input aria-label={label} type="number" value={value} min={min} step={step}
         onChange={(e) => set(e.target.value)} />
       {hint && <div style={{ fontSize: 12, color: "var(--muted)", marginTop: 4 }}>{hint}</div>}
     </div>
