@@ -124,6 +124,16 @@ model Lead {
   @@index([trade, city, status])
 }
 
+model WaitlistSignup {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  source    String? // homepage | calculators | guides | ...
+  trade     String? // optional trade the visitor asked for
+  createdAt DateTime @default(now())
+
+  @@index([source, createdAt])
+}
+
 model RateCard {
   id     String @id @default(cuid())
   userId String

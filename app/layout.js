@@ -3,6 +3,7 @@ import { Oswald, IBM_Plex_Mono } from "next/font/google";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import JsonLd from "../components/JsonLd";
+import Analytics from "../components/Analytics";
 
 const display = Oswald({
   subsets: ["latin"],
@@ -99,6 +100,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${display.variable} ${mono.variable}`}>
       <body>
+        <Analytics />
         <JsonLd data={orgJsonLd} />
         <JsonLd data={websiteJsonLd} />
         <Navbar />
