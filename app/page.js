@@ -97,7 +97,7 @@ const faqs = [
   },
   {
     q: "What trades does CalcBid cover?",
-    a: "Painting, roofing, tile & flooring, deck & fence, HVAC, and concrete & drywall \u2014 six calculators live today, and every one feeds the quote builder. Join the waitlist and tell us your trade, it genuinely decides what we build next.",
+    a: "Painting, roofing, tile & flooring, deck & fence, HVAC, and concrete & drywall \u2014 16 calculators live today, and every one feeds the quote builder. Join the waitlist and tell us your trade, it genuinely decides what we build next.",
   },
   {
     q: "Does my client need an account to see the quote?",
@@ -173,7 +173,7 @@ export default function Home() {
           <div className="kicker">Trades</div>
           <h2 className="h2">One pad, every trade you work</h2>
           <p className="sub">
-            Six trades live today, free to use. Tell us your trade on the
+            16 calculators across 6 trades, free to use. Tell us your trade on the
             waitlist &mdash; it genuinely decides what we build next.
           </p>
           <div className="grid3">
@@ -218,7 +218,7 @@ export default function Home() {
         <div className="wrap">
           <div className="kicker">Pricing</div>
           <h2 className="h2">Priced like a tool, not a tax</h2>
-          <p className="sub">Launch pricing. Get on the waitlist and it&apos;s yours for good.</p>
+          <p className="sub">Launch pricing. Start free, upgrade when you&apos;re ready.</p>
           <div className="grid3">
             <div className="card price-card">
               <div className="p-name">Free</div>
@@ -226,10 +226,10 @@ export default function Home() {
               <div className="p-per">forever</div>
               <ul>
                 <li>All material calculators</li>
-                <li>3 quotes per month</li>
-                <li>Shareable quote links</li>
+                <li>Quote builder with shareable links</li>
+                <li>Print / PDF quotes</li>
               </ul>
-              <Link href="/calculators/paint-calculator" className="btn btn-ghost">Start free</Link>
+              <Link href="/signup" className="btn btn-ghost">Start free</Link>
             </div>
             <div className="card price-card featured">
               <div className="p-name">Solo</div>
@@ -241,7 +241,7 @@ export default function Home() {
                 <li>Your logo &amp; branding</li>
                 <li>Quote templates</li>
               </ul>
-              <Link href="#waitlist" className="btn btn-primary">Join the waitlist</Link>
+              <Link href="/signup" className="btn btn-primary">Join free — get notified</Link>
             </div>
             <div className="card price-card">
               <div className="p-name">Crew</div>
@@ -253,7 +253,7 @@ export default function Home() {
                 <li>Client follow-up reminders</li>
                 <li>Priority support</li>
               </ul>
-              <Link href="#waitlist" className="btn btn-ghost">Join the waitlist</Link>
+              <Link href="/signup" className="btn btn-ghost">Join free — get notified</Link>
             </div>
           </div>
         </div>
@@ -277,10 +277,11 @@ export default function Home() {
       <section className="section alt" id="waitlist">
         <div className="wrap">
           <div className="kicker">Waitlist</div>
-          <h2 className="h2">Get in before your trade launches</h2>
+          <h2 className="h2">Get notified when paid plans launch</h2>
           <p className="sub">
-            Lock in launch pricing and vote on which trade we build next. One
-            email when it&apos;s ready &mdash; no drip campaign, we hate those too.
+            Solo and Crew are launching soon &mdash; join the list and we&apos;ll
+            email you once. Plus vote on which trade we build next: one email
+            when it&apos;s ready, no drip campaign, we hate those too.
           </p>
           <EmailCapture />
         </div>

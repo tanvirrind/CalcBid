@@ -84,7 +84,8 @@ export default function CalculatorsHub() {
         </div>
         <p style={{ color: "var(--muted)", marginTop: 26, maxWidth: 640 }}>
           On the waitlist? Tell us your trade and it genuinely decides what we
-          build next. <Link href="/#waitlist">Join here</Link>.
+          build next. <Link href="/#waitlist">Join here</Link>. Want to save
+          your quotes? <Link href="/signup" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Create a free account</Link>.
         </p>
       </div>
     </section>

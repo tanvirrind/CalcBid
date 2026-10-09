@@ -65,6 +65,10 @@ export default function GuidesHub() {
           <Link href="/#waitlist" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>
             Tell us what to write next
           </Link>
+          . Ready to quote?{" "}
+          <Link href="/signup" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>
+            Create a free account
+          </Link>
           .
         </p>
       </div>

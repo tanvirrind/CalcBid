@@ -35,7 +35,7 @@ export default function PrivacyPage() {
       <div className="wrap">
         <div className="kicker">Legal</div>
         <h1 className="h2">Privacy policy</h1>
-        <p className="sub">Last updated: October 6, 2026</p>
+        <p className="sub">Last updated: October 9, 2026</p>
         <div style={{ maxWidth: 720 }}>
           <S>
             CalcBid (&ldquo;we&rdquo;, &ldquo;us&rdquo;) respects your privacy.
@@ -57,6 +57,15 @@ export default function PrivacyPage() {
             <strong>Calculator inputs.</strong> The free calculators run in
             your browser. What you type there is not sent to our servers
             unless you choose to send it into the quote builder.
+          </S>
+          <S>
+            <strong>Contractor quote requests.</strong> If you ask for a quote
+            through one of our contractor pages, we store the name, phone
+            number, email, and project details you provide, and we share them
+            with one local contractor in that trade and city so they can
+            contact you about your project. That&apos;s the only case where we
+            share your information with a third party, and it only happens when
+            you explicitly ask us to.
           </S>
           <H>How we use it</H>
           <S>

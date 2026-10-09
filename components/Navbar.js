@@ -57,6 +57,11 @@ export default function Navbar() {
             </Link>
           ))}
           {authAction}
+          {!session && (
+            <Link href="/signup" className="btn btn-ghost btn-sm">
+              Sign up free
+            </Link>
+          )}
           <Link href="/quote" className="btn btn-primary btn-sm">
             Send a quote
           </Link>
@@ -78,6 +83,16 @@ export default function Navbar() {
             {l.label}
           </Link>
         ))}
+        {!session && (
+          <Link
+            href="/signup"
+            className="btn btn-ghost"
+            style={{ marginTop: 12, textAlign: "center" }}
+            onClick={() => setOpen(false)}
+          >
+            Sign up free
+          </Link>
+        )}
         <Link
           href="/quote"
           className="btn btn-primary"
