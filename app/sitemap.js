@@ -43,6 +43,8 @@ const routes = [
   { path: "/guides/lvp-flooring-cost", priority: 0.7, changeFrequency: "monthly" },
   { path: "/guides/cost-to-epoxy-garage", priority: 0.7, changeFrequency: "monthly" },
   { path: "/guides/siding-cost-per-square-foot", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/how-to-quote-fence-installation-job", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/how-to-bid-deck-building-job", priority: 0.7, changeFrequency: "monthly" },
   { path: "/contractors", priority: 0.8, changeFrequency: "weekly" },
   { path: "/contractors/concrete/boise-id", priority: 0.9, changeFrequency: "weekly" },
   { path: "/contractors/siding/colorado-springs-co", priority: 0.9, changeFrequency: "weekly" },
