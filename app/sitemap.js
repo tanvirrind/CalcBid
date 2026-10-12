@@ -1,6 +1,7 @@
 const SITE_URL = "https://calcbid.com";
 
 // Public, indexable routes. Auth pages are intentionally excluded.
+// sitemap routes — deck cluster batch 1 (2026-10-12)
 const routes = [
   { path: "/", priority: 1.0, changeFrequency: "weekly" },
   { path: "/calculators", priority: 0.9, changeFrequency: "weekly" },
