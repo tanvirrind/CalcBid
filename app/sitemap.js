@@ -1,7 +1,7 @@
 const SITE_URL = "https://calcbid.com";
 
 // Public, indexable routes. Auth pages are intentionally excluded.
-// sitemap routes — deck cluster batch 1 (2026-10-12)
+// sitemap routes — deck cluster batch 2 + tile pillar (2026-10-13)
 const routes = [
   { path: "/", priority: 1.0, changeFrequency: "weekly" },
   { path: "/calculators", priority: 0.9, changeFrequency: "weekly" },
@@ -63,6 +63,16 @@ const routes = [
   { path: "/guides/cost-to-replace-deck-boards", priority: 0.7, changeFrequency: "monthly" },
   { path: "/guides/cost-to-install-deck-boards", priority: 0.7, changeFrequency: "monthly" },
   { path: "/guides/deck-post-replacement-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/deck-stairs-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/deck-demolition-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/deck-renovation-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/tile-installation-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/bathroom-tile-installation-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/shower-tile-installation-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/floor-tile-installation-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/porcelain-tile-installation-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/ceramic-tile-installation-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/tile-removal-cost", priority: 0.7, changeFrequency: "monthly" },
   { path: "/contractors", priority: 0.8, changeFrequency: "weekly" },
   { path: "/contractors/concrete/boise-id", priority: 0.9, changeFrequency: "weekly" },
   { path: "/contractors/siding/colorado-springs-co", priority: 0.9, changeFrequency: "weekly" },
