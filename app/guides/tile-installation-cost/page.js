@@ -105,8 +105,12 @@ export default function Guide() {
       <h2>2026 tile installation prices per square foot</h2>
       <p>
         All-in installed prices — tile, thinset, grout, and labor — for a
-        standard floor layout on a prepared surface. Wall and shower work
-        prices higher; prep, removal, and waterproofing are extra.
+        standard floor layout on a prepared surface. Wall and{" "}
+        <a href="/guides/shower-tile-installation-cost">shower work</a>{" "}
+        prices higher; prep, <a href="/guides/tile-removal-cost">removal</a>,
+        and waterproofing are extra. See our{" "}
+        <a href="/guides/floor-tile-installation-cost">floor tile installation
+        cost guide</a> for room-by-room floor numbers.
       </p>
       <table style={tableStyle}>
         <thead>
@@ -237,7 +241,9 @@ export default function Guide() {
         kitchen and bathroom floors. It is softer and more porous than
         porcelain (3–7% water absorption vs. under 0.5%), so keep it out of
         entryways, mudrooms, and outdoor spaces where wear and moisture are
-        punishing.
+        punishing. See our <a href="/guides/ceramic-tile-installation-cost">
+        ceramic tile installation cost guide</a> for the full per-sq-ft
+        breakdown.
       </p>
       <h3>Porcelain — $8–$15 per sq ft installed</h3>
       <p>
@@ -248,7 +254,9 @@ export default function Guide() {
         which is why labor runs higher than ceramic. Wood-look porcelain
         planks ($4–$8/sq ft material) are the fastest-growing category —
         they give the hardwood look in kitchens and bathrooms where real
-        wood would not survive.
+        wood would not survive. See our{" "}
+        <a href="/guides/porcelain-tile-installation-cost">porcelain tile
+        installation cost guide</a> for material-vs-labor splits.
       </p>
       <h3>Natural stone — $15–$30+ per sq ft installed</h3>
       <p>
