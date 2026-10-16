@@ -89,6 +89,10 @@ export default function AtticInsulationCalculatorPage() {
           you&apos;re actually buying before quoting.
         </p>
         <Faq items={faqs} heading="Questions insulation contractors actually ask" />
+        <p style={{ marginTop: 28, maxWidth: 640, color: "var(--muted)" }}>
+          <strong style={{ color: "var(--ink)" }}>Related guides:</strong>{" "}
+          <Link href="/guides/blown-in-attic-insulation-cost" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Blown-In Attic Insulation Cost</Link>
+        </p>
         <p style={{ marginTop: 32, maxWidth: 640, color: "var(--muted)" }}>
           Got your numbers?{" "}
           <Link href="/quote" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>

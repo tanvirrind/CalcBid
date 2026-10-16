@@ -87,6 +87,10 @@ export default function EpoxyCalculatorPage() {
           vary by product and region — verify with your supplier before quoting.
         </p>
         <Faq items={faqs} heading="Questions garage floor pros actually ask" />
+        <p style={{ marginTop: 28, maxWidth: 640, color: "var(--muted)" }}>
+          <strong style={{ color: "var(--ink)" }}>Related guides:</strong>{" "}
+          <Link href="/guides/cost-to-epoxy-garage" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Garage Floor Epoxy Cost</Link>
+        </p>
         <p style={{ marginTop: 32, maxWidth: 640, color: "var(--muted)" }}>
           Got your numbers?{" "}
           <Link href="/quote" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>

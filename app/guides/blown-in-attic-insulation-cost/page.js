@@ -258,7 +258,11 @@ export default function Guide() {
         calculator</a>, then get 2–3 quotes at the same R-value. The energy
         savings — typically 15–25% off heating and cooling — usually pay back
         the job in 2–5 years.
+      </p>      <p>
+        Contractors: turn these numbers into a client-ready <a href="/quote">insulation quote</a> your customer can approve on the spot.
       </p>
+
+
 
       <Faq items={faqs} heading="Blown-in insulation questions, answered" />
     </GuideArticle>

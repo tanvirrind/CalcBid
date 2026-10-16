@@ -90,6 +90,12 @@ export default function SidingCalculatorPage() {
           ordering or quoting.
         </p>
         <Faq items={faqs} heading="Questions siding contractors actually ask" />
+        <p style={{ marginTop: 28, maxWidth: 640, color: "var(--muted)" }}>
+          <strong style={{ color: "var(--ink)" }}>Related guides:</strong>{" "}
+          <Link href="/guides/siding-cost-per-square-foot" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Siding Cost Per Sq Ft</Link>
+          {" · "}
+          <Link href="/guides/how-to-quote-siding-job" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>How to Quote a Siding Job</Link>
+        </p>
         <p style={{ marginTop: 32, maxWidth: 640, color: "var(--muted)" }}>
           Got your numbers?{" "}
           <Link href="/quote" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>

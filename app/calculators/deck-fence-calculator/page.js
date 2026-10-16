@@ -90,6 +90,16 @@ export default function DeckFenceCalculatorPage() {
           ordering or quoting.
         </p>
         <Faq items={faqs} heading="Questions deck & fence builders actually ask" />
+        <p style={{ marginTop: 28, maxWidth: 640, color: "var(--muted)" }}>
+          <strong style={{ color: "var(--ink)" }}>Related guides:</strong>{" "}
+          <Link href="/guides/deck-repair-cost" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Deck Repair Cost</Link>
+          {" · "}
+          <Link href="/guides/deck-replacement-cost" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Deck Replacement Cost</Link>
+          {" · "}
+          <Link href="/guides/fence-installation-cost-per-linear-foot" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Fence Installation Cost Per Foot</Link>
+          {" · "}
+          <Link href="/guides/chain-link-fence-installation-cost" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Chain Link Fence Installation Cost</Link>
+        </p>
         <p style={{ marginTop: 32, maxWidth: 640, color: "var(--muted)" }}>
           Got your material list?{" "}
           <Link href="/quote" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>

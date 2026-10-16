@@ -88,6 +88,10 @@ export default function PaverCalculatorPage() {
           with your supplier before ordering.
         </p>
         <Faq items={faqs} heading="Questions hardscape contractors actually ask" />
+        <p style={{ marginTop: 28, maxWidth: 640, color: "var(--muted)" }}>
+          <strong style={{ color: "var(--ink)" }}>Related guides:</strong>{" "}
+          <Link href="/guides/paver-installation-cost" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Paver Installation Cost</Link>
+        </p>
         <p style={{ marginTop: 32, maxWidth: 640, color: "var(--muted)" }}>
           Got your numbers?{" "}
           <Link href="/quote" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>

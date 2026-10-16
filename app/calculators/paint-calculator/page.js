@@ -88,6 +88,16 @@ export default function PaintCalculatorPage() {
           specs and your own tape before ordering or quoting.
         </p>
         <Faq items={faqs} heading="Questions painters actually ask" />
+        <p style={{ marginTop: 28, maxWidth: 640, color: "var(--muted)" }}>
+          <strong style={{ color: "var(--ink)" }}>Related guides:</strong>{" "}
+          <Link href="/guides/painting-estimate-template" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Painting Estimate Template</Link>
+          {" · "}
+          <Link href="/guides/how-much-paint-do-i-need" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>How Much Paint Do I Need</Link>
+          {" · "}
+          <Link href="/guides/cost-to-paint-a-house" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Cost to Paint a House</Link>
+          {" · "}
+          <Link href="/guides/cost-to-paint-house-exterior" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Exterior House Painting Cost</Link>
+        </p>
         <p style={{ marginTop: 32, maxWidth: 640, color: "var(--muted)" }}>
           Got your numbers?{" "}
           <Link href="/quote" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>

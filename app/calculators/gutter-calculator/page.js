@@ -88,6 +88,16 @@ export default function GutterCalculatorPage() {
           and local rates before quoting.
         </p>
         <Faq items={faqs} heading="Questions gutter installers actually ask" />
+        <p style={{ marginTop: 28, maxWidth: 640, color: "var(--muted)" }}>
+          <strong style={{ color: "var(--ink)" }}>Related guides:</strong>{" "}
+          <Link href="/guides/gutter-installation-cost" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Gutter Installation Cost</Link>
+          {" · "}
+          <Link href="/guides/gutter-guards-cost" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Gutter Guards Cost</Link>
+          {" · "}
+          <Link href="/guides/gutter-cleaning-cost-per-linear-foot" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Gutter Cleaning Cost</Link>
+          {" · "}
+          <Link href="/guides/how-to-measure-for-gutters" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>How to Measure for Gutters</Link>
+        </p>
         <p style={{ marginTop: 32, maxWidth: 640, color: "var(--muted)" }}>
           Got your numbers?{" "}
           <Link href="/quote" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>

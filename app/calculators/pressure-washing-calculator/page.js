@@ -88,6 +88,12 @@ export default function PressureWashingCalculatorPage() {
           and local competition before quoting.
         </p>
         <Faq items={faqs} heading="Questions pressure washing pros actually ask" />
+        <p style={{ marginTop: 28, maxWidth: 640, color: "var(--muted)" }}>
+          <strong style={{ color: "var(--ink)" }}>Related guides:</strong>{" "}
+          <Link href="/guides/pressure-washing-cost-per-square-foot" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Pressure Washing Cost Per Sq Ft</Link>
+          {" · "}
+          <Link href="/guides/how-to-quote-pressure-washing-job" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>How to Quote Pressure Washing</Link>
+        </p>
         <p style={{ marginTop: 32, maxWidth: 640, color: "var(--muted)" }}>
           Got your price?{" "}
           <Link href="/quote" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>

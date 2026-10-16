@@ -88,6 +88,10 @@ export default function HvacCalculatorPage() {
           local code before sizing equipment or quoting a system.
         </p>
         <Faq items={faqs} heading="Questions HVAC contractors actually ask" />
+        <p style={{ marginTop: 28, maxWidth: 640, color: "var(--muted)" }}>
+          <strong style={{ color: "var(--ink)" }}>Related guides:</strong>{" "}
+          <Link href="/guides/mini-split-installation-cost" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Mini-Split Installation Cost</Link>
+        </p>
         <p style={{ marginTop: 32, maxWidth: 640, color: "var(--muted)" }}>
           Got your tonnage?{" "}
           <Link href="/quote" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>

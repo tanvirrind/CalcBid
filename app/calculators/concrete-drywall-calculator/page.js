@@ -89,6 +89,10 @@ export default function ConcreteDrywallCalculatorPage() {
           ordering or quoting.
         </p>
         <Faq items={faqs} heading="Questions concrete & drywall contractors actually ask" />
+        <p style={{ marginTop: 28, maxWidth: 640, color: "var(--muted)" }}>
+          <strong style={{ color: "var(--ink)" }}>Related guides:</strong>{" "}
+          <Link href="/guides/how-to-bid-concrete-slab" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>How to Bid a Concrete Slab Job</Link>
+        </p>
         <p style={{ marginTop: 32, maxWidth: 640, color: "var(--muted)" }}>
           Got your quantities?{" "}
           <Link href="/quote" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>

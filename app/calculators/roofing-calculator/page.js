@@ -89,6 +89,14 @@ export default function RoofingCalculatorPage() {
           supplier&apos;s specs and your own measurements before ordering or quoting.
         </p>
         <Faq items={faqs} heading="Questions roofers actually ask" />
+        <p style={{ marginTop: 28, maxWidth: 640, color: "var(--muted)" }}>
+          <strong style={{ color: "var(--ink)" }}>Related guides:</strong>{" "}
+          <Link href="/guides/roof-replacement-cost-2026" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Roof Replacement Cost</Link>
+          {" · "}
+          <Link href="/guides/how-to-estimate-roofing-job" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>How to Estimate a Roofing Job</Link>
+          {" · "}
+          <Link href="/guides/bundles-per-square" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Roofing Bundles Per Square</Link>
+        </p>
         <p style={{ marginTop: 32, maxWidth: 640, color: "var(--muted)" }}>
           Got your squares?{" "}
           <Link href="/quote" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>

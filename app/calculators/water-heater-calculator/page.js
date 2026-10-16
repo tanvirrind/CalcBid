@@ -88,6 +88,12 @@ export default function WaterHeaterCalculatorPage() {
           before quoting tankless.
         </p>
         <Faq items={faqs} heading="Questions plumbing pros actually ask" />
+        <p style={{ marginTop: 28, maxWidth: 640, color: "var(--muted)" }}>
+          <strong style={{ color: "var(--ink)" }}>Related guides:</strong>{" "}
+          <Link href="/guides" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Browse all cost guides</Link>
+          {" · "}
+          <Link href="/quote" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Turn this into a client-ready quote</Link>
+        </p>
         <p style={{ marginTop: 32, maxWidth: 640, color: "var(--muted)" }}>
           Got your numbers?{" "}
           <Link href="/quote" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>

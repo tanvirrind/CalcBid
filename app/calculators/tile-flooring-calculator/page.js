@@ -89,6 +89,14 @@ export default function TileCalculatorPage() {
           supplier&apos;s specs and your own measurements before ordering or quoting.
         </p>
         <Faq items={faqs} heading="Questions tile contractors actually ask" />
+        <p style={{ marginTop: 28, maxWidth: 640, color: "var(--muted)" }}>
+          <strong style={{ color: "var(--ink)" }}>Related guides:</strong>{" "}
+          <Link href="/guides/tile-installation-cost" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Tile Installation Cost</Link>
+          {" · "}
+          <Link href="/guides/bathroom-tile-installation-cost" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Bathroom Tile Installation Cost</Link>
+          {" · "}
+          <Link href="/guides/tile-backsplash-installation-cost" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Tile Backsplash Installation Cost</Link>
+        </p>
         <p style={{ marginTop: 32, maxWidth: 640, color: "var(--muted)" }}>
           Got your tile count?{" "}
           <Link href="/quote" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>

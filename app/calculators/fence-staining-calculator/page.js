@@ -88,6 +88,12 @@ export default function FenceStainingCalculatorPage() {
           so check the can&apos;s coverage and the fence&apos;s condition.
         </p>
         <Faq items={faqs} heading="Questions fence pros actually ask" />
+        <p style={{ marginTop: 28, maxWidth: 640, color: "var(--muted)" }}>
+          <strong style={{ color: "var(--ink)" }}>Related guides:</strong>{" "}
+          <Link href="/guides/how-to-bid-fence-staining-job" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>How to Bid a Fence Staining Job</Link>
+          {" · "}
+          <Link href="/guides/how-to-quote-fence-installation-job" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>How to Quote Fence Installation</Link>
+        </p>
         <p style={{ marginTop: 32, maxWidth: 640, color: "var(--muted)" }}>
           Got your price?{" "}
           <Link href="/quote" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>
