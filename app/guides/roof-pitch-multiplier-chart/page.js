@@ -459,7 +459,11 @@ export default function Guide() {
         that says &ldquo;8/12&rdquo; across the whole house won&apos;t flag
         the 4/12 porch addition — your tape will.
       </p>
-      <JsonLd data={faqJsonLd(faqs)} />
+      <JsonLd data={faqJsonLd(faqs)} />      <p>
+        Got your measurements? <a href="/quote">Build a roofing quote</a> from your numbers in minutes.
+      </p>
+
+
       <Faq items={faqs} heading="Questions roofers actually ask about pitch" />
     </GuideArticle>
   );

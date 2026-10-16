@@ -95,7 +95,10 @@ export default function Guide() {
         you choose moves both the material bill and the labor — a subway
         tile that snaps and sets fast prices very differently from a glass
         mosaic that fights the saw on every cut. Labor runs $5–$20 per sq
-        ft, and the pattern you pick can double it.
+        ft, and the pattern you pick can double it. For whole-room numbers
+        beyond the backsplash wall, see our{" "}
+        <a href="/guides/tile-installation-cost">tile installation cost
+        guide</a>.
       </p>
 
       <h2>Backsplash cost by tile type (installed, per sq ft)</h2>

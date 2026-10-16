@@ -442,7 +442,11 @@ export default function Guide() {
         <li><strong>Valley method:</strong> closed-cut valleys use ~10% more shingle than woven; open metal valleys use less shingle but add the metal cost. Match the method to the estimate.</li>
         <li><strong>Ridge ventilation math:</strong> code typically requires 1 sq ft of net free ventilation per 150 sq ft of attic (1:300 with balanced soffit+ridge). A 25-square roof needs ~16–17 sq ft of total venting — the ridge vent sections in the table above plus matching soffit intake.</li>
       </ul>
-      <JsonLd data={faqJsonLd(faqs)} />
+      <JsonLd data={faqJsonLd(faqs)} />      <p>
+        Got your square count? Run materials in the <a href="/calculators/roofing-calculator">roofing calculator</a>, then <a href="/quote">send the quote</a>.
+      </p>
+
+
       <Faq items={faqs} heading="Questions roofers actually ask about squares" />
     </GuideArticle>
   );

@@ -136,7 +136,7 @@ export default function Guide() {
             <td>20–40 yrs</td>
           </tr>
           <tr>
-            <td>Stucco (for comparison)</td>
+            <td><a href="/guides/stucco-repair-cost">Stucco</a> (for comparison)</td>
             <td className="num">$9–$14</td>
             <td className="num">$13,500–$21,000</td>
             <td>50+ yrs</td>
