@@ -54,6 +54,8 @@ const calcs = [
   { name: "Paver calculator", note: "Pavers, base & labor", href: "/calculators/paver-calculator" },
   { name: "Water heater calculator", note: "Sizing & installed cost", href: "/calculators/water-heater-calculator" },
   { name: "Mulch calculator", note: "Cubic yards & bags", href: "/calculators/mulch-calculator" },
+  { name: "Stucco calculator", note: "Coats, finish & repair cost", href: "/calculators/stucco-calculator" },
+  { name: "LVP calculator", note: "Boxes, materials & job cost", href: "/calculators/lvp-flooring-calculator" },
 ];
 
 export default function CalculatorsHub() {
