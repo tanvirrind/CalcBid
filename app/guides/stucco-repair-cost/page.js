@@ -84,7 +84,7 @@ export default function Guide() {
       title="Stucco Repair Cost Guide"
       description="What stucco repair really costs — crack sealing, patching, and water-damage repair, plus the inspection step most homeowners skip."
       slug="stucco-repair-cost"
-      calculatorHref="/calculators/siding-calculator"
+      calculatorHref="/calculators/stucco-calculator"
       calculatorLabel="Estimate wall area"
     >
       <JsonLd data={faqJsonLd(faqs)} />
@@ -402,7 +402,7 @@ export default function Guide() {
       </ul>
       <p>
         Start with your numbers: measure the wall area in the{" "}
-        <a href="/calculators/siding-calculator">siding calculator</a>, then
+        <a href="/calculators/stucco-calculator">stucco calculator</a>, then
         compare stucco against replacement options in our{" "}
         <a href="/guides/siding-cost-per-square-foot">
           siding cost per square foot guide

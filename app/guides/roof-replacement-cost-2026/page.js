@@ -83,6 +83,15 @@ export default function Guide() {
         routinely swing a quote by 30–50% either way. Here&apos;s the complete
         breakdown.
       </p>
+      <p>
+        One distinction before the numbers: this guide covers{" "}
+        <strong>replacement</strong> — tearing off an existing roof and
+        starting over. Roofing a structure that never had one (new builds,
+        additions, garage or ADU roofs) is a different scope with different
+        pricing — no tear-off, no decking surprises. For that, see our{" "}
+        <a href="/guides/roof-installation-cost">roof installation cost
+        guide</a>.
+      </p>
       <h2>2026 cost by material</h2>
       <div style={{ overflowX: "auto", margin: "20px 0" }}>
         <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 15 }}>

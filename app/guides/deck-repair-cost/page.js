@@ -274,7 +274,7 @@ export default function Guide() {
           <tr>
             <td style={tdStyle}>Composite</td>
             <td style={tdStyle}>$800–$2,500</td>
-            <td style={tdStyle}>Boards cost more; hidden fasteners add labor</td>
+            <td style={tdStyle}>Boards cost more; hidden fasteners add labor — see <a href="/guides/composite-deck-cost">composite deck cost</a> for full new-build numbers</td>
           </tr>
           <tr>
             <td style={tdStyle}>PVC / capped polymer</td>
