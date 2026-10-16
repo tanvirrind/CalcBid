@@ -71,7 +71,7 @@ export default function Guide() {
       title="LVP Flooring Installation Cost Per Square Foot (2026)"
       description="What luxury vinyl plank really costs installed in 2026 — material grades, labor rates, and the subfloor prep that makes or breaks the bid."
       slug="lvp-flooring-cost"
-      calculatorHref="/calculators/tile-flooring-calculator"
+      calculatorHref="/calculators/lvp-flooring-calculator"
       calculatorLabel="Price the job"
     >
       <JsonLd data={faqJsonLd(faqs)} />
@@ -327,7 +327,7 @@ export default function Guide() {
       </p>
       <p>
         Run the material quantities in the{" "}
-        <a href="/calculators/tile-flooring-calculator">flooring calculator</a>{" "}
+        <a href="/calculators/lvp-flooring-calculator">LVP calculator</a>{" "}
         and send the itemized <a href="/quote">quote</a> the same day you
         measure. Flooring clients decide fast — be the complete bid on the
         table, not the callback they&apos;re waiting on.
