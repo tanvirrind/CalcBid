@@ -152,7 +152,7 @@ export default function Guide() {
         cost guide</a> for the waterproofing and detailing that sits on top
         of these numbers. And the backsplash, ceramic&apos;s other natural
         habitat, has its own pricing in our{" "}
-        <a href="/guides/tile-backplash-installation-cost">backsplash cost guide</a>.
+        <a href="/guides/tile-backsplash-installation-cost">backsplash cost guide</a>.
       </p>
 
       <h2>Why ceramic costs less: the double discount</h2>

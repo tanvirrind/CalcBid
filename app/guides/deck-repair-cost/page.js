@@ -175,7 +175,7 @@ export default function Guide() {
           <tr>
             <td style={tdStyle}>Repair / rebuild stairs</td>
             <td style={tdStyle}>$200–$1,000</td>
-            <td style={tdStyle}>Stringers and treads rot first</td>
+            <td style={tdStyle}>Stringers and treads rot first — see our <a href="/guides/deck-stairs-cost">deck stair repair cost guide</a></td>
           </tr>
           <tr>
             <td style={tdStyle}>Replace ledger board / flashing</td>
@@ -230,7 +230,11 @@ export default function Guide() {
         The honest middle ground is the <strong>re-deck</strong>: keep the
         sound structure, replace all the surface boards (and usually the
         railings). At $2,500–$5,000 for a 300 sq ft deck, it&apos;s the best
-        value in deck work — a new-looking deck on a proven frame.
+        value in deck work — a new-looking deck on a proven frame. When the
+        project grows beyond the surface — new railings, lighting, an expanded
+        footprint — it crosses into a <a href="/guides/deck-renovation-cost">full deck renovation</a>,
+        and if the old deck has to come down entirely first, budget the{" "}
+        <a href="/guides/deck-demolition-cost">deck demolition cost</a> too.
       </p>
 
       <h2>How a proper deck repair is done</h2>

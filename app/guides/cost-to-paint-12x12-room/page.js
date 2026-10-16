@@ -432,7 +432,11 @@ export default function Guide() {
         starts. A $15 lead test kit from the hardware store settles the
         question in 30 seconds — test before you quote the prep.
       </p>
-      <JsonLd data={faqJsonLd(faqs)} />
+      <JsonLd data={faqJsonLd(faqs)} />      <p>
+        Run your gallons in the <a href="/calculators/paint-calculator">paint calculator</a>, then turn the numbers into a client-ready <a href="/quote">painting quote</a> in minutes.
+      </p>
+
+
       <Faq items={faqs} heading="Questions people actually ask about painting a room" />
     </GuideArticle>
   );

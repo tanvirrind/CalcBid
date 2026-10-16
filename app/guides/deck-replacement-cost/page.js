@@ -338,7 +338,9 @@ export default function Guide() {
         <a href="/quote">quote</a>. Contractors: lead with the re-deck
         option when the frame qualifies — the honest recommendation wins the
         job, and the margin on a re-deck is some of the best in exterior
-        work.
+        work. Pricing the whole job from your side? See our{" "}
+        <a href="/guides/how-to-bid-deck-building-job">deck building bidding
+        guide</a>.
       </p>
 
       <Faq items={faqs} heading="Deck replacement questions, answered" />

@@ -224,7 +224,11 @@ export default function Guide() {
         weeks of full days for a first-timer, plus the risk profile —
         wrong-weather painting, skipped prep, and ladder work are how DIY
         exteriors fail early. Two stories strongly favor hiring out unless
-        you own the equipment and the nerve.
+        you own the equipment and the nerve. For realistic timelines, see{" "}
+        <a href="/guides/how-long-does-it-take-to-paint-a-house">how long it
+        takes to paint a house</a> — and for whole-home numbers including
+        interiors, our <a href="/guides/cost-to-paint-a-house">cost to paint
+        a house guide</a>.
       </p>
 
       <h2>Costly mistakes to avoid</h2>
@@ -244,7 +248,11 @@ export default function Guide() {
         <a href="/calculators/paint-calculator">paint calculator</a>, and
         contractors can price the labor side in our{" "}
         <a href="/guides/how-to-quote-a-painting-job">painting quoting guide</a>.
+      </p>      <p>
+        Contractors: run your numbers in the <a href="/calculators/paint-calculator">paint calculator</a>, then <a href="/quote">build the quote</a> — measurements in, professional number out.
       </p>
+
+
 
       <Faq items={faqs} heading="Exterior painting cost questions, answered" />
     </GuideArticle>
