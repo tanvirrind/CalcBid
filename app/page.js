@@ -97,7 +97,7 @@ const faqs = [
   },
   {
     q: "What trades does CalcBid cover?",
-    a: "Painting, roofing, tile & flooring, deck & fence, HVAC, and concrete & drywall \u2014 18 calculators live today, and every one feeds the quote builder. Join the waitlist and tell us your trade, it genuinely decides what we build next.",
+    a: "Painting, roofing, tile & flooring, deck & fence, HVAC, and concrete & drywall \u2014 24 calculators live today, and every one feeds the quote builder. Join the waitlist and tell us your trade, it genuinely decides what we build next.",
   },
   {
     q: "Does my client need an account to see the quote?",
@@ -173,7 +173,7 @@ export default function Home() {
           <div className="kicker">Trades</div>
           <h2 className="h2">One pad, every trade you work</h2>
           <p className="sub">
-            18 calculators across 6 trades, free to use. Tell us your trade on the
+            24 calculators across every trade, free to use. Tell us your trade on the
             waitlist &mdash; it genuinely decides what we build next.
           </p>
           <div className="grid3">

@@ -44,7 +44,7 @@ const tiers = [
     href: "/signup",
     note: "No card required",
     features: [
-      "All 18 trade calculators",
+      "All 24 trade calculators",
       "Quote builder with shareable links",
       "Print / PDF quotes",
       "Send via your own email app",

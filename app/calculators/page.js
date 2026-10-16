@@ -56,6 +56,12 @@ const calcs = [
   { name: "Mulch calculator", note: "Cubic yards & bags", href: "/calculators/mulch-calculator" },
   { name: "Stucco calculator", note: "Coats, finish & repair cost", href: "/calculators/stucco-calculator" },
   { name: "LVP calculator", note: "Boxes, materials & job cost", href: "/calculators/lvp-flooring-calculator" },
+  { name: "Stair calculator", note: "Rise, run, steps & stringers", href: "/calculators/stair-calculator" },
+  { name: "Roof pitch calculator", note: "Pitch, angle & multiplier", href: "/calculators/roof-pitch-calculator" },
+  { name: "Concrete slab calculator", note: "Yards, bags & cost", href: "/calculators/concrete-slab-calculator" },
+  { name: "Drywall calculator", note: "Sheets, mud & installed cost", href: "/calculators/drywall-calculator" },
+  { name: "Wallpaper calculator", note: "Rolls with pattern repeat", href: "/calculators/wallpaper-calculator" },
+  { name: "Deck board calculator", note: "Boards, fasteners & cost", href: "/calculators/deck-board-calculator" },
 ];
 
 export default function CalculatorsHub() {
