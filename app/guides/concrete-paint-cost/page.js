@@ -250,8 +250,8 @@ export default function Guide() {
       </ul>
       <p>
         Price the slab work in the{" "}
-        <a href="/calculators/concrete-drywall-calculator">concrete &amp;
-        drywall calculator</a> and compare against the{" "}
+        <a href="/calculators/concrete-slab-calculator">concrete slab
+        calculator</a> and compare against the{" "}
         <a href="/guides/cost-to-epoxy-garage">epoxy option</a> for garages
         before you quote — then send it as a clean{" "}
         <a href="/quote">quote</a>.

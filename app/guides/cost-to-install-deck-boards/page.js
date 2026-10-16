@@ -366,7 +366,7 @@ export default function Guide() {
       </ul>
       <p>
         Run the board count, fastener, and waste math in the{" "}
-        <a href="/calculators/deck-fence-calculator">deck &amp; fence
+        <a href="/calculators/deck-board-calculator">deck board
         calculator</a>, then turn it into a{" "}
         <a href="/quote">quote</a> from the truck. Contractors: board jobs
         are won on the takeoff — the crew that counts clips and waste

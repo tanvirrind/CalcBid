@@ -305,6 +305,10 @@ export default function Guide() {
         <a href="/calculators/deck-fence-calculator">deck &amp; fence
         calculator</a> — knowing the material quantities beforehand is the
         fastest way to spot a quote that&apos;s padding the materials line.
+        For the geometry itself — riser height, tread depth, stringer length,
+        and code flags — run the{" "}
+        <a href="/calculators/stair-calculator">stair calculator</a> before
+        anyone cuts a stringer.
         When you&apos;re ready, turn the winning bid into a clean{" "}
         <a href="/quote">quote</a> you can sign off on. Homeowners who check
         two numbers — the per-step price and the railing line item — catch the

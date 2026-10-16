@@ -96,6 +96,8 @@ export default function RoofingCalculatorPage() {
           <Link href="/guides/how-to-estimate-roofing-job" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>How to Estimate a Roofing Job</Link>
           {" · "}
           <Link href="/guides/bundles-per-square" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Roofing Bundles Per Square</Link>
+          {" · "}
+          <Link href="/calculators/roof-pitch-calculator" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Roof Pitch Calculator</Link>
         </p>
         <p style={{ marginTop: 32, maxWidth: 640, color: "var(--muted)" }}>
           Got your squares?{" "}
