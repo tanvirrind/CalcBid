@@ -362,7 +362,11 @@ export default function Guide() {
         The most profitable painters aren&apos;t the busiest — they&apos;re
         the most selective.
       </p>
-      <JsonLd data={faqJsonLd(faqs)} />
+      <JsonLd data={faqJsonLd(faqs)} />      <p>
+        You&apos;ve got the method — now <a href="/quote">build the quote</a>. Run your gallons in the <a href="/calculators/paint-calculator">paint calculator</a> first, then send a number your client can sign.
+      </p>
+
+
       <Faq items={faqs} heading="Questions painting contractors actually ask" />
     </GuideArticle>
   );

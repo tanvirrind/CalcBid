@@ -141,7 +141,10 @@ export default function Guide() {
       <p>
         Set your change-order policy in the original contract — one paragraph
         stating that extras are priced in writing and require signature
-        before work begins. Clients who agree upfront almost never fight it
+        before work begins. If the contract still mixes up{" "}
+        <a href="/guides/quote-vs-estimate-vs-bid">quotes, estimates, and
+        bids</a>, tighten the language first: the distinction decides who
+        pays for ambiguity. Clients who agree upfront almost never fight it
         later. Clients who first hear about it mid-job always do.
       </p>
 

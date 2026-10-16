@@ -217,7 +217,11 @@ export default function Guide() {
         compare quotes per linear foot at your story height. Contractors: our{" "}
         <a href="/guides/how-to-bid-gutter-installation-job">gutter bidding
         guide</a> covers pricing the installation side.
+      </p>      <p>
+        Contractors: <a href="/quote">send a professional gutter quote</a> from these numbers in minutes.
       </p>
+
+
 
       <Faq items={faqs} heading="Gutter cleaning questions, answered" />
     </GuideArticle>

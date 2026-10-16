@@ -245,7 +245,11 @@ export default function Guide() {
         quoting guide</a> covers pricing the job from your side, and the{" "}
         <a href="/guides/how-to-bid-fence-staining-job">fence staining guide</a>{" "}
         covers the highest-margin add-on in the trade.
+      </p>      <p>
+        Got your linear footage? <a href="/quote">Turn it into a professional fence quote</a> your client can approve in minutes.
       </p>
+
+
 
       <Faq items={faqs} heading="Fence installation cost questions, answered" />
     </GuideArticle>

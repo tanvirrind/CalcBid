@@ -186,7 +186,7 @@ export default function Guide() {
 
       <h2>Step 3: Take off the materials</h2>
       <ul>
-        <li><strong>Shingles:</strong> squares + waste. Three bundles per square for standard architectural shingles — see our <a href="/guides/bundles-per-square-roofing">bundles-per-square guide</a> for the exact counts.</li>
+        <li><strong>Shingles:</strong> squares + waste. Three bundles per square for standard architectural shingles — see our <a href="/guides/bundles-per-square">bundles-per-square guide</a> for the exact counts.</li>
         <li><strong>Underlayment:</strong> synthetic underlayment for the field (~$0.15–$0.30/sq ft), ice-and-water shield in valleys and eaves in cold climates.</li>
         <li><strong>Flashing:</strong> step flashing, chimney flashing, pipe boots, drip edge, valley metal. Price per penetration — each chimney is $200–$500 in flashing labor and material.</li>
         <li><strong>Ventilation:</strong> ridge vent by the linear foot, plus intake (soffit) vents. Count existing vents and match or improve.</li>
