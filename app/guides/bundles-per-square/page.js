@@ -66,6 +66,7 @@ export default function Guide() {
       title="How Many Bundles of Shingles Per Square?"
       description="The short answer: 3 bundles per square for standard architectural shingles. Here's when that changes — and how many to actually order."
       slug="bundles-per-square"
+      updated="October 2026"
       calculatorHref="/calculators/roofing-calculator"
       calculatorLabel="Calculate your roof"
     >

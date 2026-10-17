@@ -83,6 +83,7 @@ export default function Guide() {
       title="Ceramic Tile Installation Cost (2026)"
       description="Ceramic is the value champion of tile — cheapest to buy, easiest to cut, fastest to install. Here's the full 2026 pricing picture."
       slug="ceramic-tile-installation-cost"
+      updated="October 2026"
       calculatorHref="/calculators/tile-flooring-calculator"
       calculatorLabel="Price the job"
     >

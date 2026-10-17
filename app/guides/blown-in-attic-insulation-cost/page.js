@@ -82,6 +82,7 @@ export default function Guide() {
       title="Blown-In Attic Insulation Cost"
       description="What blown-in attic insulation really costs in 2026: per-square-foot pricing, bag counts by R-value, and the air-sealing step most quotes skip."
       slug="blown-in-attic-insulation-cost"
+      updated="October 2026"
       calculatorHref="/calculators/attic-insulation-calculator"
       calculatorLabel="Calculate insulation needed"
     >

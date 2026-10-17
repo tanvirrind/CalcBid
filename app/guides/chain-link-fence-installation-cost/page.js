@@ -84,6 +84,7 @@ export default function Guide() {
       title="Chain Link Fence Install Cost"
       description="The cheapest fence material, fully priced: per-foot costs by height, add-ons, and the honest comparison with wood and vinyl."
       slug="chain-link-fence-installation-cost"
+      updated="October 2026"
       calculatorHref="/calculators/deck-fence-calculator"
       calculatorLabel="Estimate fence length"
     >
@@ -375,6 +376,20 @@ export default function Guide() {
         <a href="/guides/how-to-bid-fence-staining-job">fence staining bidding guide</a>{" "}
         covers the maintenance math that makes wood so much more expensive
         over a decade.
+      </p>
+
+
+      <h2>Do you need a permit?</h2>
+      <p>
+        Fence permits are common and cheap ($25–$100 in most municipalities) —
+        but the rules around the fence matter more than the permit itself.
+        Typical requirements: height limits (often 4 ft in front yards, 6 ft
+        in back), setbacks from property lines and sidewalks, and sight-triangle
+        rules on corner lots. The non-negotiable step is calling 811 before
+        you dig: utility locates are legally required in most states and the
+        service is free. Skip it and hit a line, and the repair bill is yours.
+        HOAs frequently ban chain link or restrict it to side and rear yards.
+        Check your municipality and your HOA, then call 811.
       </p>
 
       <Faq items={faqs} heading="Chain link fence questions, answered" />

@@ -84,6 +84,7 @@ export default function Guide() {
       title="Bathroom Tile Installation Cost"
       description="What bathroom tile really costs in 2026: floor, shower, and tub-surround pricing by bathroom size — plus the waterproofing that decides whether it lasts."
       slug="bathroom-tile-installation-cost"
+      updated="October 2026"
       calculatorHref="/calculators/tile-flooring-calculator"
       calculatorLabel="Estimate tile cost"
     >
