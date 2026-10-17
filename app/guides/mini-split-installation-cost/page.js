@@ -83,6 +83,7 @@ export default function Guide() {
       title="Mini Split Installation Cost in 2026"
       description="What ductless mini splits really cost installed: per-zone pricing, the extras that move the bid, and how to quote them right."
       slug="mini-split-installation-cost"
+      updated="October 2026"
       calculatorHref="/calculators/hvac-btu-calculator"
       calculatorLabel="Size the system"
     >

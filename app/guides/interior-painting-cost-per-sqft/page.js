@@ -67,6 +67,7 @@ export default function Guide() {
       title="Interior Painting Cost Per Square Foot (2026)"
       description="Most US homeowners pay $2–$6 per square foot of paintable surface for professional interior painting. Here's the full 2026 breakdown."
       slug="interior-painting-cost-per-sqft"
+      updated="October 2026"
       calculatorHref="/calculators/paint-calculator"
       calculatorLabel="Price your room"
     >

@@ -84,6 +84,7 @@ export default function Guide() {
       title="How to Quote a Siding Job"
       description="Squares, material tiers, trim, and tear-off — the complete walkthrough for quoting siding jobs that protect your margin."
       slug="how-to-quote-siding-job"
+      updated="October 2026"
       calculatorHref="/calculators/siding-calculator"
       calculatorLabel="Price the job"
     >

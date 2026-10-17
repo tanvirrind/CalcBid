@@ -71,6 +71,7 @@ export default function Guide() {
       title="LVP Flooring Installation Cost Per Square Foot (2026)"
       description="What luxury vinyl plank really costs installed in 2026 — material grades, labor rates, and the subfloor prep that makes or breaks the bid."
       slug="lvp-flooring-cost"
+      updated="October 2026"
       calculatorHref="/calculators/lvp-flooring-calculator"
       calculatorLabel="Price the job"
     >
@@ -332,6 +333,27 @@ export default function Guide() {
         measure. Flooring clients decide fast — be the complete bid on the
         table, not the callback they&apos;re waiting on.
       </p>
+
+      <h2>DIY vs. hiring a pro</h2>
+      <p>
+        Luxury vinyl plank is the friendliest DIY flooring ever made — the
+        click-lock system was designed for it:
+      </p>
+      <ul>
+        <li><strong>DIY-friendly:</strong> floating click-lock installs over a level subfloor. Basic tools (tape, tapping block, pull bar, utility knife), one weekend per room, and you&apos;ll save 50–65% of the project cost. Most manufacturers&apos; warranties explicitly allow DIY installation.</li>
+        <li><strong>Hire a pro:</strong> stairs and stair nosing, complex transitions between rooms, subfloors out of level beyond about 3/16&quot; per 10 ft, and concrete slabs with moisture issues (the vapor barrier and underlayment choice matters more than the planks).</li>
+        <li><strong>The gray zone:</strong> glue-down LVP in commercial-style installs. The adhesive is unforgiving of crooked first rows.</li>
+      </ul>
+      <h2>Do you need a permit?</h2>
+      <p>
+        Flooring replacement almost never requires a permit — you&apos;re not
+        touching structure, plumbing, or electrical. The one real gatekeeper is
+        your condo or HOA: many require sound-rated underlayment (look for STC
+        and IIC ratings on the product spec) and written approval before any
+        hard-surface flooring replaces carpet. Check your HOA rules; the
+        municipality won&apos;t care.
+      </p>
+
       <Faq items={faqs} heading="LVP questions, answered" />
     </GuideArticle>
   );

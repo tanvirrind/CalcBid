@@ -83,6 +83,7 @@ export default function Guide() {
       title="How to Quote a Tile Installation Job"
       description="The tile contractor's quoting walkthrough: measure right, price the setting materials most bids forget, and protect your margin on the fiddly bits."
       slug="how-to-quote-tile-job"
+      updated="October 2026"
       calculatorHref="/calculators/tile-flooring-calculator"
       calculatorLabel="Price the job"
     >
