@@ -272,7 +272,12 @@ export default function Guide() {
         boxes and replaces doors, drawer fronts, and visible veneer. It&apos;s
         30–40% of replacement cost for 70–80% of the visual change — but it
         cannot fix a bad layout, damaged boxes, or the wrong cabinet depths.
-        Diagnose the boxes before recommending it.
+        Diagnose the boxes before recommending it, and price the alternative
+        honestly — see{" "}
+        <a href="/guides/kitchen-cabinet-refacing-cost">
+          kitchen cabinet refacing cost
+        </a>{" "}
+        for the refacing-vs-replacing math.
       </p>
 
       <h2>The installation process, step by step</h2>

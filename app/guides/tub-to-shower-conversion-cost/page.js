@@ -93,7 +93,12 @@ export default function Guide() {
         <a href="/guides/shower-tile-installation-cost">
           shower tile installation cost
         </a>{" "}
-        guide has the per-square-foot detail.
+        guide has the per-square-foot detail. If keeping a tub is on the
+        table, the{" "}
+        <a href="/guides/bathtub-replacement-cost">
+          bathtub replacement cost
+        </a>{" "}
+        guide prices the other side of that decision.
       </p>
 
       <h2>Cost by conversion method</h2>

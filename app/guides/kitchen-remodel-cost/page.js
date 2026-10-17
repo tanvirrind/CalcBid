@@ -94,7 +94,17 @@ export default function Guide() {
         ; for the backsplash and floors, the{" "}
         <a href="/guides/tile-backsplash-installation-cost">backsplash</a> and{" "}
         <a href="/guides/lvp-flooring-cost">LVP flooring</a> guides have the
-        element-level math.
+        element-level math. And for the two cabinet-and-stone decisions that
+        drive the kitchen budget, see{" "}
+        <a href="/guides/kitchen-cabinet-refacing-cost">
+          kitchen cabinet refacing cost
+        </a>{" "}
+        (refacing vs replacing vs repainting) and{" "}
+        <a href="/guides/countertop-installation-cost">
+          countertop installation cost
+        </a>{" "}
+        (quartz, granite, butcher block, and laminate installed per square
+        foot).
       </p>
 
       <h2>Cost by remodel tier</h2>

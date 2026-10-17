@@ -98,6 +98,20 @@ export default function Guide() {
         </a>{" "}
         guide has the space-by-space math.
       </p>
+      <p>
+        For the individual fixture lines, see our{" "}
+        <a href="/guides/bathtub-replacement-cost">
+          bathtub replacement cost
+        </a>
+        ,{" "}
+        <a href="/guides/bathroom-vanity-installation-cost">
+          bathroom vanity installation cost
+        </a>
+        , and{" "}
+        <a href="/guides/walk-in-shower-cost">walk in shower cost</a> guides —
+        each one prices its project from the tub or vanity unit through the
+        plumbing and finish work.
+      </p>
 
       <h2>Cost by bathroom type</h2>
       <table className="q-table">

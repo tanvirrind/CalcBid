@@ -363,7 +363,7 @@ export default function Guide() {
       </p>
 
       <p>
-        Doing the whole shower, not just the tile? The <a href="/guides/tub-to-shower-conversion-cost">tub-to-shower conversion cost</a> guide prices prefab kits, one-day installs, and custom tile side by side — and the <a href="/guides/bathroom-remodel-cost">bathroom remodel cost</a> pillar has the full-room budget.
+        Doing the whole shower, not just the tile? The <a href="/guides/tub-to-shower-conversion-cost">tub-to-shower conversion cost</a> guide prices prefab kits, one-day installs, and custom tile side by side — and the <a href="/guides/bathroom-remodel-cost">bathroom remodel cost</a> pillar has the full-room budget. For the doorless version specifically, see <a href="/guides/walk-in-shower-cost">walk in shower cost</a>.
       </p>
 
       <Faq items={faqs} heading="Shower tile questions, answered" />
