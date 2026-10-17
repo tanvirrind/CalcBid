@@ -107,6 +107,11 @@ const routes = [
   { path: "/guides/tub-to-shower-conversion-cost", priority: 0.7, changeFrequency: "monthly" },
   { path: "/guides/small-bathroom-remodel-cost", priority: 0.7, changeFrequency: "monthly" },
   { path: "/guides/kitchen-cabinet-installation-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/kitchen-cabinet-refacing-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/countertop-installation-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/bathtub-replacement-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/bathroom-vanity-installation-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/walk-in-shower-cost", priority: 0.7, changeFrequency: "monthly" },
   { path: "/pricing", priority: 0.8, changeFrequency: "monthly" },
 ];
 
