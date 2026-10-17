@@ -71,6 +71,7 @@ export default function Guide() {
       title="How Much Does It Cost to Epoxy a 2-Car Garage?"
       description="2026 epoxy garage floor costs: the DIY kit breakdown, what pros charge, and why the prep work is where bids are won or lost."
       slug="cost-to-epoxy-garage"
+      updated="October 2026"
       calculatorHref="/calculators/epoxy-garage-floor-calculator"
       calculatorLabel="Price the job"
     >

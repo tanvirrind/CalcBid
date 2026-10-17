@@ -83,6 +83,7 @@ export default function Guide() {
       title="Commercial Painting Cost"
       description="What commercial painting really costs — per-sq-ft rates by building type, occupied-space premiums, and the bid structure that protects your margin."
       slug="commercial-painting-cost"
+      updated="October 2026"
       calculatorHref="/calculators/paint-calculator"
       calculatorLabel="Price a paint job"
     >

@@ -67,6 +67,7 @@ export default function Guide() {
       title="How Much Does It Cost to Paint a 12×12 Room?"
       description="The short answer: $200–$400 DIY, $500–$1,000+ professionally. Here's exactly where those numbers come from."
       slug="cost-to-paint-12x12-room"
+      updated="October 2026"
       calculatorHref="/calculators/paint-calculator"
       calculatorLabel="Calculate your room"
     >

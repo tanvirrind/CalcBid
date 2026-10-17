@@ -82,6 +82,7 @@ export default function Guide() {
       title="Cost to Install Deck Boards"
       description="What installing deck boards costs in 2026: per-linear-foot pricing by material, the board-count math, fastener systems, and labor rates."
       slug="cost-to-install-deck-boards"
+      updated="October 2026"
       calculatorHref="/calculators/deck-fence-calculator"
       calculatorLabel="Estimate deck materials"
     >

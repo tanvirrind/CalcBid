@@ -83,6 +83,7 @@ export default function Guide() {
       title="Composite Deck Cost"
       description="What composite decks really cost in 2026 — tier-by-tier per-sq-ft pricing, brand comparisons, and the line items most quotes hide."
       slug="composite-deck-cost"
+      updated="October 2026"
       calculatorHref="/calculators/deck-fence-calculator"
       calculatorLabel="Estimate your deck"
     >

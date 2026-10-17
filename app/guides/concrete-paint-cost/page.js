@@ -83,6 +83,7 @@ export default function Guide() {
       title="Concrete Paint Cost"
       description="What painting concrete really costs — per-sq-ft prices for patios, floors, driveways and garages, and when paint is the wrong call entirely."
       slug="concrete-paint-cost"
+      updated="October 2026"
       calculatorHref="/calculators/concrete-drywall-calculator"
       calculatorLabel="Estimate concrete work"
     >
