@@ -83,6 +83,7 @@ export default function Guide() {
       title="Floor Tile Installation Cost (2026)"
       description="Floor tile is the highest-value tile job in the house — and the one where the subfloor decides the price. Here's the full breakdown."
       slug="floor-tile-installation-cost"
+      updated="October 2026"
       calculatorHref="/calculators/tile-flooring-calculator"
       calculatorLabel="Price the job"
     >

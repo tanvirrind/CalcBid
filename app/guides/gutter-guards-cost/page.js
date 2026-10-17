@@ -83,6 +83,7 @@ export default function Guide() {
       title="Gutter Guards Cost"
       description="What gutter guards really cost — from $3/ft DIY screens to $40+/ft branded micro-mesh — and which types actually hold up."
       slug="gutter-guards-cost"
+      updated="October 2026"
       calculatorHref="/calculators/gutter-calculator"
       calculatorLabel="Measure your gutters"
     >
@@ -371,6 +372,19 @@ export default function Guide() {
         but corners and dormers add up — then turn the numbers into a clean,
         line-itemed <a href="/quote">quote</a> you can send before you&apos;ve
         left the driveway.
+      </p>
+
+
+      <h2>Do you need a permit?</h2>
+      <p>
+        Gutter guards: essentially never. Adding guards to existing gutters is
+        considered maintenance, not construction, and no US municipality we
+        know of requires a permit for it. Full gutter replacement is also
+        permit-free in nearly all areas — with one edge case: if the job
+        involves repairing rotted fascia or roof decking underneath, that can
+        cross into roofing work, which does need a permit in most places. The
+        more likely gatekeeper is your HOA, which sometimes regulates gutter
+        color and style. For guards alone, the municipality won&apos;t care.
       </p>
 
       <Faq items={faqs} heading="Gutter guard questions, answered" />

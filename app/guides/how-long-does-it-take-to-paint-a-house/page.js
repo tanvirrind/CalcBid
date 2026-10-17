@@ -83,6 +83,7 @@ export default function Guide() {
       title="How Long Does It Take to Paint a House?"
       description="Realistic painting timelines by house size — interior and exterior — plus the schedule-killers contractors plan around."
       slug="how-long-does-it-take-to-paint-a-house"
+      updated="October 2026"
       calculatorHref="/calculators/paint-calculator"
       calculatorLabel="Estimate the paint"
     >

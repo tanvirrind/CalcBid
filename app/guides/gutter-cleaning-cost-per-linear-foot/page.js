@@ -82,6 +82,7 @@ export default function Guide() {
       title="Gutter Cleaning Cost Per Linear Foot"
       description="What gutter cleaning really costs in 2026: per-foot rates by height, what's included in the service, and how to spot a thin quote."
       slug="gutter-cleaning-cost-per-linear-foot"
+      updated="October 2026"
       calculatorHref="/calculators/gutter-calculator"
       calculatorLabel="Estimate gutter footage"
     >

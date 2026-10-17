@@ -71,6 +71,7 @@ export default function Guide() {
       title="Gutter Installation Cost Per Linear Foot (2026)"
       description="What gutters really cost installed in 2026 — per-foot pricing by material, the downspout and guard math, and how contractors should bid it."
       slug="gutter-installation-cost"
+      updated="October 2026"
       calculatorHref="/calculators/gutter-calculator"
       calculatorLabel="Price the job"
     >

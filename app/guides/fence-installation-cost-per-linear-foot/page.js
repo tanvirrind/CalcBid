@@ -82,6 +82,7 @@ export default function Guide() {
       title="Fence Installation Cost Per Linear Foot"
       description="What a fence really costs per foot in 2026: material-by-material installed pricing, the add-ons that surprise homeowners, and how to compare quotes."
       slug="fence-installation-cost-per-linear-foot"
+      updated="October 2026"
       calculatorHref="/calculators/deck-fence-calculator"
       calculatorLabel="Estimate your fence"
     >
