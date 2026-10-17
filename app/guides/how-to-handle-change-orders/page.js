@@ -83,6 +83,7 @@ export default function Guide() {
       title="How to Handle Change Orders (Without Losing Money)"
       description="Change orders are where contractor profits go to die — or where they're made. The process, the pricing, and the client conversation."
       slug="how-to-handle-change-orders"
+      updated="October 2026"
       calculatorHref="/quote"
       calculatorLabel="Build the change order"
     >

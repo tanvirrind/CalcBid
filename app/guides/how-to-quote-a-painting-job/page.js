@@ -67,6 +67,7 @@ export default function Guide() {
       title="How to Quote a Painting Job (Without Underbidding)"
       description="Most painting quotes go wrong in the same three places: the measurements, the labor hours, and the missing markup. Here's the full process, step by step."
       slug="how-to-quote-a-painting-job"
+      updated="October 2026"
       calculatorHref="/calculators/paint-calculator"
       calculatorLabel="Try the paint calculator"
     >

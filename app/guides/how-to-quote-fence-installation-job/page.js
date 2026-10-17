@@ -83,6 +83,7 @@ export default function Guide() {
       title="How to Quote a Fence Installation Job"
       description="Price per linear foot, nail the post and gate math, and read the site before you name a number — fence jobs are won or lost on the details."
       slug="how-to-quote-fence-installation-job"
+      updated="October 2026"
       calculatorHref="/calculators/deck-fence-calculator"
       calculatorLabel="Price the materials"
     >

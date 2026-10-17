@@ -83,6 +83,7 @@ export default function Guide() {
       title="How to Estimate a Roofing Job"
       description="The contractor's walkthrough: measure in squares, price every layer of the job, and stop donating tear-off labor."
       slug="how-to-estimate-roofing-job"
+      updated="October 2026"
       calculatorHref="/calculators/roofing-calculator"
       calculatorLabel="Estimate the roof"
     >

@@ -82,6 +82,7 @@ export default function Guide() {
       title="How to Measure for Gutters"
       description="The contractor's measuring method: run-by-run eave measurements, downspout math, sizing from drainage area, and a takeoff that orders everything in one trip."
       slug="how-to-measure-for-gutters"
+      updated="October 2026"
       calculatorHref="/calculators/gutter-calculator"
       calculatorLabel="Calculate gutter materials"
     >

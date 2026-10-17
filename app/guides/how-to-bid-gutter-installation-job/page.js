@@ -82,6 +82,7 @@ export default function Guide() {
       title="How to Bid a Gutter Installation Job"
       description="Price gutters per linear foot like a pro: material rates, the full takeoff, and the line items — fascia, downspouts, guards — that separate profitable bids from donations."
       slug="how-to-bid-gutter-installation-job"
+      updated="October 2026"
       calculatorHref="/calculators/gutter-calculator"
       calculatorLabel="Estimate gutter materials"
     >

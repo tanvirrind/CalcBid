@@ -83,6 +83,7 @@ export default function Guide() {
       title="How to Quote a Pressure Washing Job"
       description="The walkthrough working pros use: measure, pick your rate by surface, protect yourself with a minimum charge, and send the quote before you leave."
       slug="how-to-quote-pressure-washing-job"
+      updated="October 2026"
       calculatorHref="/calculators/pressure-washing-calculator"
       calculatorLabel="Price the job"
     >
