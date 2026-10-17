@@ -398,6 +398,10 @@ export default function Guide() {
         and your HOA before demolition day.
       </p>
 
+      <p>
+        Tile is usually one line item in a bigger project. For the whole-room numbers, see <a href="/guides/bathroom-remodel-cost">bathroom remodel cost</a> and <a href="/guides/kitchen-remodel-cost">kitchen remodel cost</a> — both break down every element, not just the tile.
+      </p>
+
       <Faq items={faqs} heading="Tile installation cost questions, answered" />
     </GuideArticle>
   );

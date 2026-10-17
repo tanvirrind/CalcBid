@@ -362,6 +362,10 @@ export default function Guide() {
         <a href="/guides/tile-installation-cost">tile installation cost guide</a>.
       </p>
 
+      <p>
+        Doing the whole shower, not just the tile? The <a href="/guides/tub-to-shower-conversion-cost">tub-to-shower conversion cost</a> guide prices prefab kits, one-day installs, and custom tile side by side — and the <a href="/guides/bathroom-remodel-cost">bathroom remodel cost</a> pillar has the full-room budget.
+      </p>
+
       <Faq items={faqs} heading="Shower tile questions, answered" />
     </GuideArticle>
   );

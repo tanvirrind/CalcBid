@@ -399,6 +399,10 @@ export default function Guide() {
         back far above that, the extras should be itemized, not bundled.
       </p>
 
+      <p>
+        Planning the whole bathroom around the tile? The <a href="/guides/bathroom-remodel-cost">bathroom remodel cost</a> guide breaks down every line item by type and tier — and if the room is tight, <a href="/guides/small-bathroom-remodel-cost">small bathroom remodel cost</a> has the 5×7 space math.
+      </p>
+
       <Faq items={faqs} heading="Bathroom tile questions, answered" />
     </GuideArticle>
   );

@@ -354,6 +354,10 @@ export default function Guide() {
         municipality won&apos;t care.
       </p>
 
+      <p>
+        Flooring is one line in a kitchen or bath project. For the whole-room budget, see <a href="/guides/kitchen-remodel-cost">kitchen remodel cost</a> and <a href="/guides/bathroom-remodel-cost">bathroom remodel cost</a> — both break the spend down by element.
+      </p>
+
       <Faq items={faqs} heading="LVP questions, answered" />
     </GuideArticle>
   );

@@ -225,6 +225,10 @@ export default function Guide() {
         professional-looking quote wins against a round number every time.
       </p>
 
+      <p>
+        The backsplash is the finishing touch on a bigger kitchen project. For the full numbers — cabinets, counters, appliances — see the <a href="/guides/kitchen-remodel-cost">kitchen remodel cost</a> pillar and <a href="/guides/kitchen-cabinet-installation-cost">kitchen cabinet installation cost</a>.
+      </p>
+
       <Faq items={faqs} heading="Backsplash cost questions, answered" />
     </GuideArticle>
   );
