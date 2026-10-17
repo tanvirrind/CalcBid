@@ -82,6 +82,7 @@ export default function Guide() {
       title="Deck Post Replacement Cost"
       description="What replacing deck posts costs in 2026: per-post installed pricing, footing work, the safe jacking process, and the rot signs that mean act now."
       slug="deck-post-replacement-cost"
+      updated="October 2026"
       calculatorHref="/calculators/deck-fence-calculator"
       calculatorLabel="Estimate deck materials"
     >

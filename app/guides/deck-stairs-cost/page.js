@@ -84,6 +84,7 @@ export default function Guide() {
       title="How Much Do Deck Stairs Cost?"
       description="What homeowners actually pay for deck stairs in 2026: per-step prices, tread materials compared, and how a fair quote is built."
       slug="deck-stairs-cost"
+      updated="October 2026"
       calculatorHref="/calculators/deck-fence-calculator"
       calculatorLabel="Price the job"
     >

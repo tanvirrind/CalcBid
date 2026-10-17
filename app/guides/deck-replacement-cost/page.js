@@ -83,6 +83,7 @@ export default function Guide() {
       title="Deck Replacement Cost"
       description="What a full deck replacement costs in 2026: per-square-foot pricing by material, demolition and disposal, and the re-deck shortcut that cuts the bill in half."
       slug="deck-replacement-cost"
+      updated="October 2026"
       calculatorHref="/calculators/deck-fence-calculator"
       calculatorLabel="Estimate deck materials"
     >

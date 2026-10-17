@@ -83,6 +83,7 @@ export default function Guide() {
       title="Deck Repair Cost"
       description="What deck repairs really cost in 2026: the average price, per-square-foot rates, a repair-by-repair price list, and when replacement is the smarter money."
       slug="deck-repair-cost"
+      updated="October 2026"
       calculatorHref="/calculators/deck-fence-calculator"
       calculatorLabel="Estimate deck materials"
     >
@@ -369,6 +370,21 @@ export default function Guide() {
         <a href="/guides/deck-replacement-cost">replacement numbers</a>{" "}
         honestly. The contractor who talks a client <em>out</em> of a bad
         repair wins the replacement job — and the neighbor&apos;s.
+      </p>
+
+
+      <h2>Do you need a permit?</h2>
+      <p>
+        It depends on what the repair touches. Structural work — posts, joists,
+        beams, and the ledger connection to the house — usually requires a
+        building permit with inspection ($100–$300 in most areas), and the
+        inspection is genuinely worth it: it verifies the work that keeps
+        people safe. Surface repairs (swapping boards, fixing railings,
+        staining) generally don&apos;t. Note that some jurisdictions treat a
+        full re-deck as new construction and require a permit even when the
+        frame stays. Unpermitted structural work becomes a resale disclosure
+        and insurance problem later. Check your municipality before the first
+        board comes off.
       </p>
 
       <Faq items={faqs} heading="Deck repair questions, answered" />

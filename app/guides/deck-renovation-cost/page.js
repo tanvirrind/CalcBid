@@ -83,6 +83,7 @@ export default function Guide() {
       title="Deck Renovation Cost"
       description="Renovate smart: keep the frame, renew the surface, and pay roughly half the cost of a full rebuild."
       slug="deck-renovation-cost"
+      updated="October 2026"
       calculatorHref="/calculators/deck-fence-calculator"
       calculatorLabel="Price the job"
     >
