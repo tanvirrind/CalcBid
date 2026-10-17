@@ -80,6 +80,7 @@ export default function Guide() {
       title="Roof Pitch Multiplier Chart"
       description="A roof's true area is always bigger than its footprint. Find your pitch, multiply, and you've got the real number to order and price from."
       slug="roof-pitch-multiplier-chart"
+      updated="October 2026"
       calculatorHref="/calculators/roofing-calculator"
       calculatorLabel="Calculate your roof"
     >

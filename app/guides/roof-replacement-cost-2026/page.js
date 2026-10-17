@@ -71,6 +71,7 @@ export default function Guide() {
       title="How Much Does a Roof Replacement Cost in 2026?"
       description="Most US homeowners pay $9,000–$20,000 for an architectural shingle replacement. Here's the full breakdown by material — and what pushes quotes higher."
       slug="roof-replacement-cost-2026"
+      updated="October 2026"
       calculatorHref="/calculators/roofing-calculator"
       calculatorLabel="Estimate your roof"
     >
@@ -345,6 +346,29 @@ export default function Guide() {
         <li><strong>Everything in writing.</strong> Verbal promises about warranties, timelines, and cleanup standards evaporate. If it&apos;s not in the contract, it doesn&apos;t exist.</li>
       </ul>
       <JsonLd data={faqJsonLd(faqs)} />
+
+      <h2>DIY vs. hiring a pro</h2>
+      <p>
+        This is the shortest DIY section on the site, because the honest
+        answer is: don&apos;t.
+      </p>
+      <ul>
+        <li><strong>DIY-friendly:</strong> replacing a few lifted shingle tabs, resealing flashing and vent boots, cleaning gutters. If it doesn&apos;t require walking the roof for hours, it&apos;s fair game.</li>
+        <li><strong>Hire a pro — non-negotiable:</strong> full roof replacement. Falls are the #1 cause of construction fatalities; most manufacturer warranties (25–50 year shingles) require installation by a certified contractor and are voided by DIY; and homeowner&apos;s insurance can deny a claim on a self-installed roof. The labor savings (roughly 50–60% of the job) are real and still not worth it.</li>
+        <li><strong>The gray zone:</strong> there isn&apos;t one. Get three written bids instead of a ladder.</li>
+      </ul>
+      <h2>Do you need a permit?</h2>
+      <p>
+        Almost always, yes — a full roof replacement requires a building permit
+        in most US municipalities ($150–$500, varying widely by area). Expect
+        two inspections: a mid-install check of the decking and nailing
+        pattern, and a final. The permit is also what keeps your warranty and
+        insurance clean — unpermitted roof work is a common reason claims get
+        denied. Disposal rules for tear-off vary too; many areas require dump
+        permits or recycling. Historic districts may restrict shingle type and
+        color. Check your municipality before the crew shows up.
+      </p>
+
       <Faq items={faqs} heading="Questions roofers and homeowners actually ask" />
     </GuideArticle>
   );

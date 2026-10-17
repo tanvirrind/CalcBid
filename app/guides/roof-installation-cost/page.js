@@ -83,6 +83,7 @@ export default function Guide() {
       title="Roof Installation Cost"
       description="What a first-time roof installation really costs — new builds, additions, garages and ADUs — and why it beats replacement pricing."
       slug="roof-installation-cost"
+      updated="October 2026"
       calculatorHref="/calculators/roofing-calculator"
       calculatorLabel="Estimate your roof"
     >

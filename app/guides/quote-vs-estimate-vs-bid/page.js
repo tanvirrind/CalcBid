@@ -67,6 +67,7 @@ export default function Guide() {
       title="Quote vs Estimate vs Bid: What to Send When"
       description="Contractors use these words interchangeably. Clients and courts don't. Here's the real difference — and which document to send."
       slug="quote-vs-estimate-vs-bid"
+      updated="October 2026"
       calculatorHref="/calculators/paint-calculator"
       calculatorLabel="Price the job"
     >
