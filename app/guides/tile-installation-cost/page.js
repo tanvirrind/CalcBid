@@ -83,6 +83,7 @@ export default function Guide() {
       title="Tile Installation Cost"
       description="The complete 2026 guide to tile installation pricing: per-square-foot costs, material vs labor splits, pricing by tile type, and what to watch in a quote."
       slug="tile-installation-cost"
+      updated="October 2026"
       calculatorHref="/calculators/tile-flooring-calculator"
       calculatorLabel="Estimate tile cost"
     >
@@ -372,6 +373,29 @@ export default function Guide() {
         <a href="/calculators/tile-flooring-calculator">tile flooring
         calculator</a> and turn the estimate into a{" "}
         <a href="/quote">quote</a>.
+      </p>
+
+
+      <h2>DIY vs. hiring a pro</h2>
+      <p>
+        Tile is the most DIY-attempted trade in home improvement — and the one
+        where the failure shows. The line is water, not skill:
+      </p>
+      <ul>
+        <li><strong>DIY-friendly:</strong> backsplashes, small straight-lay floors, and any area that stays dry. An uncoupling membrane, a rented wet saw, and patience cover most of it. DIY saves 50–60% of the project cost because labor is the majority of a tile job.</li>
+        <li><strong>Hire a pro:</strong> showers and tub surrounds (waterproofing systems like Schluter or RedGard must be installed to spec or the wall rots from behind), large-format tile, floors over radiant heat, and anything involving a drain slope. One failed shower pan costs more than the pro ever would.</li>
+        <li><strong>The gray zone:</strong> large floors with tricky cuts around toilets and doorways. Skilled DIYers manage, but pros lay 100+ sq ft a day; expect your first bathroom floor to take a full weekend.</li>
+      </ul>
+      <h2>Do you need a permit?</h2>
+      <p>
+        Tile work alone almost never needs a permit. The trigger is what comes
+        with it: if the bathroom remodel moves plumbing or electrical, that
+        work needs a permit and inspection ($100–$500 depending on the
+        municipality). Waterproofing must meet code either way (IRC
+        requirements apply to shower assemblies). Condos and HOAs are the
+        real wildcard — many require sound-rated underlayment and written
+        approval before any hard flooring goes in. Check your municipality
+        and your HOA before demolition day.
       </p>
 
       <Faq items={faqs} heading="Tile installation cost questions, answered" />

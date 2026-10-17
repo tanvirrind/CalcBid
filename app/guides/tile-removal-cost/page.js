@@ -83,6 +83,7 @@ export default function Guide() {
       title="Tile Removal Cost (2026)"
       description="Before the new tile goes down, the old tile has to come up — loudly, dustily, and not for free. Here's what demo really costs."
       slug="tile-removal-cost"
+      updated="October 2026"
       calculatorHref="/calculators/tile-flooring-calculator"
       calculatorLabel="Price the job"
     >
