@@ -102,6 +102,11 @@ const routes = [
   { path: "/methodology", priority: 0.5, changeFrequency: "monthly" },
   { path: "/disclaimer", priority: 0.3, changeFrequency: "yearly" },
   { path: "/quote", priority: 0.8, changeFrequency: "weekly" },
+  { path: "/guides/bathroom-remodel-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/kitchen-remodel-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/tub-to-shower-conversion-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/small-bathroom-remodel-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/kitchen-cabinet-installation-cost", priority: 0.7, changeFrequency: "monthly" },
   { path: "/pricing", priority: 0.8, changeFrequency: "monthly" },
 ];
 
