@@ -84,6 +84,7 @@ export default function Guide() {
       title="Cost to Paint a House"
       description="The full 2026 price picture: interior and exterior costs side by side, what makes quotes swing by thousands, and how to read a bid."
       slug="cost-to-paint-a-house"
+      updated="October 2026"
       calculatorHref="/calculators/paint-calculator"
       calculatorLabel="Estimate your paint job"
     >
@@ -370,6 +371,20 @@ export default function Guide() {
         painting cost per square foot guide</a> or learn{" "}
         <a href="/guides/how-much-paint-do-i-need">how much paint you
         need</a> before you buy a single gallon.
+      </p>
+
+
+      <h2>Do you need a permit?</h2>
+      <p>
+        Painting almost never requires a building permit — but there are two
+        real exceptions. If your home was built before 1978, federal EPA RRP
+        (lead-safe) rules apply: any contractor disturbing paint on a pre-1978
+        home must be lead-safe certified, and fines for non-compliance are
+        steep. DIYers are exempt from the certification requirement but not
+        from the hazard — test for lead before sanding old paint. The second
+        gatekeeper is your HOA, which often requires color approval before
+        exterior painting (and historic districts can restrict palettes
+        outright). Check both before buying the first gallon.
       </p>
 
       <Faq items={faqs} heading="House painting cost questions, answered" />

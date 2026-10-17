@@ -83,6 +83,7 @@ export default function Guide() {
       title="Cost to Paint a House Exterior in 2026"
       description="What an exterior paint job really costs: per-square-foot pricing by siding, size-by-size totals, and the prep levels that decide the number."
       slug="cost-to-paint-house-exterior"
+      updated="October 2026"
       calculatorHref="/calculators/paint-calculator"
       calculatorLabel="Estimate the paint"
     >

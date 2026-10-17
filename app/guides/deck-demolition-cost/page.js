@@ -84,6 +84,7 @@ export default function Guide() {
       title="Deck Demolition Cost"
       description="Pro teardown runs $500–$2,000 in 2026; DIY lands at $200–$600 — here are the real line items so you don't blow the budget on disposal."
       slug="deck-demolition-cost"
+      updated="October 2026"
       calculatorHref="/calculators/deck-fence-calculator"
       calculatorLabel="Price the job"
     >

@@ -82,6 +82,7 @@ export default function Guide() {
       title="Cost to Replace Deck Boards"
       description="What replacing deck boards costs in 2026: per-square-foot installed pricing, board-by-board material costs, and the frame check that decides everything."
       slug="cost-to-replace-deck-boards"
+      updated="October 2026"
       calculatorHref="/calculators/deck-fence-calculator"
       calculatorLabel="Estimate deck materials"
     >

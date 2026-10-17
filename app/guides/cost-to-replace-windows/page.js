@@ -83,6 +83,7 @@ export default function Guide() {
       title="How Much Does It Cost to Replace All the Windows in a House?"
       description="2026 whole-house window replacement costs: what 10 windows really costs in vinyl vs. fiberglass vs. wood — and the line items that surprise homeowners."
       slug="cost-to-replace-windows"
+      updated="October 2026"
       calculatorHref="/calculators/window-replacement-calculator"
       calculatorLabel="Price the job"
     >
