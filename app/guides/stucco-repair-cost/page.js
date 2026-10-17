@@ -84,6 +84,7 @@ export default function Guide() {
       title="Stucco Repair Cost Guide"
       description="What stucco repair really costs — crack sealing, patching, and water-damage repair, plus the inspection step most homeowners skip."
       slug="stucco-repair-cost"
+      updated="October 2026"
       calculatorHref="/calculators/stucco-calculator"
       calculatorLabel="Estimate wall area"
     >
@@ -411,6 +412,20 @@ export default function Guide() {
         <a href="/quote">professional quote</a> — a bid that lists inspection,
         cut-out, paper and lath, three coats, and texture matching separately
         is one you can actually compare.
+      </p>
+
+
+      <h2>Do you need a permit?</h2>
+      <p>
+        Patch repairs generally don&apos;t need a permit. A full re-stucco of
+        a home often does ($200–$600), and the inspection is the part that
+        actually protects you: inspectors check the weather-resistive barrier
+        and lath — the hidden layer that keeps water out of your walls.
+        Failed or missing WRB is the #1 cause of catastrophic stucco water
+        damage, and it&apos;s invisible once the finish coat is on. In
+        stucco-heavy regions (the Southwest especially), some jurisdictions
+        also have material and drainage-plane requirements specific to stucco
+        assemblies. Check your municipality before a full re-stucco.
       </p>
 
       <Faq items={faqs} heading="Stucco repair questions, answered" />

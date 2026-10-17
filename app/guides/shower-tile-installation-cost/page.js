@@ -83,6 +83,7 @@ export default function Guide() {
       title="Shower Tile Installation Cost (2026)"
       description="The shower is the one place in your home where tile has to be waterproof, not just pretty. Here's what that actually costs."
       slug="shower-tile-installation-cost"
+      updated="October 2026"
       calculatorHref="/calculators/tile-flooring-calculator"
       calculatorLabel="Price the job"
     >

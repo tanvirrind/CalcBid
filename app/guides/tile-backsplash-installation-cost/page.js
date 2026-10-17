@@ -83,6 +83,7 @@ export default function Guide() {
       title="Tile Backsplash Installation Cost Per Sq Ft"
       description="What a kitchen backsplash really costs: material-by-material installed pricing, labor rates, and the pattern premium."
       slug="tile-backsplash-installation-cost"
+      updated="October 2026"
       calculatorHref="/calculators/tile-flooring-calculator"
       calculatorLabel="Estimate the tile"
     >

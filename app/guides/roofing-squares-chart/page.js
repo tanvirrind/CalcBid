@@ -77,6 +77,7 @@ export default function Guide() {
       title="How Many Squares of Shingles Do I Need?"
       description="One roofing square = 100 sq ft of roof. Find your home size below, adjust for pitch, and you've got your squares — and your bundle count."
       slug="roofing-squares-chart"
+      updated="October 2026"
       calculatorHref="/calculators/roofing-calculator"
       calculatorLabel="Measure your exact roof"
     >

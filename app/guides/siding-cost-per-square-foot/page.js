@@ -72,6 +72,7 @@ export default function Guide() {
       title="Siding Installation Cost Per Square Foot (2026)"
       description="What house siding really costs in 2026 — per-square-foot pricing for all four major materials, plus the tear-off and trim math."
       slug="siding-cost-per-square-foot"
+      updated="October 2026"
       calculatorHref="/calculators/siding-calculator"
       calculatorLabel="Price the job"
     >
