@@ -38,15 +38,24 @@ export default function AboutPage() {
           </p>
           <p>
             So we built the pad we wished existed: free calculators for the
-            trades that price by the job — paint, roofing, tile &amp; flooring,
-            deck &amp; fence, HVAC, and concrete &amp; drywall — each one
-            feeding straight into a quote builder with line items, tax,
-            discounts, and expiry dates.
+            trades that price by the job — paint, roofing, tile &amp;
+            flooring, deck &amp; fence, HVAC, concrete, drywall, and more —
+            each one feeding straight into a quote builder with line items,
+            tax, discounts, and expiry dates. No marketplace in the middle
+            taking a cut: the quote goes from your calculator to your client.
           </p>
           <p>
             The calculators are free, forever. No account, no catch. When you
             want unlimited branded quotes with your logo, plans start at $19 a
-            month.
+            month. Every cost figure on the site comes from the same public
+            costing method — read{" "}
+            <a
+              href="/methodology"
+              style={{ color: "var(--accent-deep)", fontWeight: 700 }}
+            >
+              how we calculate costs
+            </a>
+            .
           </p>
           <p>
             Questions, feedback, or a trade we should cover next?{" "}

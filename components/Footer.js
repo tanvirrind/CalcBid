@@ -34,6 +34,8 @@ export default function Footer() {
           </div>
         </div>
         <div style={{ display: "flex", gap: 18, flexWrap: "wrap" }}>
+          <Link href="/methodology" style={link}>Methodology</Link>
+          <Link href="/disclaimer" style={link}>Disclaimer</Link>
           <Link href="/privacy" style={link}>Privacy</Link>
           <Link href="/terms" style={link}>Terms</Link>
         </div>

@@ -99,6 +99,8 @@ const routes = [
   { path: "/contact", priority: 0.5, changeFrequency: "monthly" },
   { path: "/privacy", priority: 0.3, changeFrequency: "yearly" },
   { path: "/terms", priority: 0.3, changeFrequency: "yearly" },
+  { path: "/methodology", priority: 0.5, changeFrequency: "monthly" },
+  { path: "/disclaimer", priority: 0.3, changeFrequency: "yearly" },
   { path: "/quote", priority: 0.8, changeFrequency: "weekly" },
   { path: "/pricing", priority: 0.8, changeFrequency: "monthly" },
 ];
