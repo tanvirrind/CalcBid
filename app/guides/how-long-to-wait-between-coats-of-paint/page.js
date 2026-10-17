@@ -83,6 +83,7 @@ export default function Guide() {
       title="How Long to Wait Between Coats of Paint"
       description="The recoat windows that actually matter — by paint chemistry, sheen, brand, and weather — and what goes wrong when you rush them."
       slug="how-long-to-wait-between-coats-of-paint"
+      updated="October 2026"
       calculatorHref="/calculators/paint-calculator"
       calculatorLabel="Price a paint job"
     >

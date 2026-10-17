@@ -83,6 +83,7 @@ export default function Guide() {
       title="How Much Paint for a 2,000 Sq Ft House Exterior?"
       description="Gallon counts by siding type, the floor-area trap that sinks DIY budgets, and what a 2,000 sq ft exterior actually costs."
       slug="how-much-paint-for-exterior-2000-sqft-house"
+      updated="October 2026"
       calculatorHref="/calculators/paint-calculator"
       calculatorLabel="Calculate the gallons"
     >

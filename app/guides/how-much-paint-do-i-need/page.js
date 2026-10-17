@@ -83,6 +83,7 @@ export default function Guide() {
       title="How Much Paint Do I Need?"
       description="Stop guessing at the paint counter: the exact formula for walls, ceilings, and trim — plus the cases where the math lies."
       slug="how-much-paint-do-i-need"
+      updated="October 2026"
       calculatorHref="/calculators/paint-calculator"
       calculatorLabel="Calculate your paint"
     >

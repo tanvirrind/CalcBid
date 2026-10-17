@@ -83,6 +83,7 @@ export default function Guide() {
       title="How to Bid a Deck Building Job"
       description="Price per square foot, take off the framing like a pro, and stop forgetting the stairs — deck bids live and die in the details."
       slug="how-to-bid-deck-building-job"
+      updated="October 2026"
       calculatorHref="/calculators/deck-fence-calculator"
       calculatorLabel="Price the materials"
     >

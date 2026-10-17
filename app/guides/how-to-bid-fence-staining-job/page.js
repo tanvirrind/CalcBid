@@ -83,6 +83,7 @@ export default function Guide() {
       title="How to Bid a Fence Staining Job"
       description="Price per linear foot, nail the stain math, and stack the upsells — fence staining is one of the highest-margin jobs in exterior work."
       slug="how-to-bid-fence-staining-job"
+      updated="October 2026"
       calculatorHref="/calculators/fence-staining-calculator"
       calculatorLabel="Price the job"
     >

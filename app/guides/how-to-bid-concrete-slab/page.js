@@ -71,6 +71,7 @@ export default function Guide() {
       title="How to Bid a Concrete Slab Job"
       description="The concrete contractor's bidding walkthrough: get the yardage right, price the forming and finishing honestly, and never eat the site conditions."
       slug="how-to-bid-concrete-slab"
+      updated="October 2026"
       calculatorHref="/calculators/concrete-drywall-calculator"
       calculatorLabel="Price the job"
     >
