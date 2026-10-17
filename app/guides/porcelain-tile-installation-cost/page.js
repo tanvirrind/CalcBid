@@ -83,6 +83,7 @@ export default function Guide() {
       title="Porcelain Tile Installation Cost (2026)"
       description="Porcelain is the workhorse of modern tile — harder, denser, and pricier than ceramic. Here's what that costs, installed."
       slug="porcelain-tile-installation-cost"
+      updated="October 2026"
       calculatorHref="/calculators/tile-flooring-calculator"
       calculatorLabel="Price the job"
     >

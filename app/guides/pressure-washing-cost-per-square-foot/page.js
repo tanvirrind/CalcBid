@@ -83,6 +83,7 @@ export default function Guide() {
       title="Pressure Washing Cost Per Square Foot"
       description="What pressure washing really costs by surface — plus the minimums, the soft-wash premium, and the upsells that double the ticket."
       slug="pressure-washing-cost-per-square-foot"
+      updated="October 2026"
       calculatorHref="/calculators/pressure-washing-calculator"
       calculatorLabel="Estimate the wash"
     >

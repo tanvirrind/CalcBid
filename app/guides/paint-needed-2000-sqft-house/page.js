@@ -66,6 +66,7 @@ export default function Guide() {
       title="How Many Gallons of Paint for a 2,000 Sq Ft House?"
       description="Interior: 30–45 gallons all-in. Exterior: 8–15 gallons. Here's exactly where those numbers come from — and how to adjust for your house."
       slug="paint-needed-2000-sqft-house"
+      updated="October 2026"
       calculatorHref="/calculators/paint-calculator"
       calculatorLabel="Calculate your rooms"
     >

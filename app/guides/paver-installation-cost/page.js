@@ -71,6 +71,7 @@ export default function Guide() {
       title="Paver Installation Cost Per Square Foot (2026)"
       description="What paver patios, walkways, and driveways really cost in 2026 — the full materials/labor/base breakdown contractors should bid from."
       slug="paver-installation-cost"
+      updated="October 2026"
       calculatorHref="/calculators/paver-calculator"
       calculatorLabel="Price the job"
     >

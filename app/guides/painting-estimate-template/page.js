@@ -67,6 +67,7 @@ export default function Guide() {
       title="Painting Estimate Template: What to Include"
       description="A painting estimate that wins jobs has 8 parts. Miss any of them and you look amateur, invite disputes, or leave money behind."
       slug="painting-estimate-template"
+      updated="October 2026"
       calculatorHref="/calculators/paint-calculator"
       calculatorLabel="Price the job first"
     >
