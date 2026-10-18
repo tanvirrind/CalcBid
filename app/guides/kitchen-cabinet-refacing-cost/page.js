@@ -176,6 +176,7 @@ export default function Guide() {
         doors are in good shape and only the color is dated. Refacing earns
         its premium when the door <em>style</em> needs to change — flat
         80s laminate doors to shaker, for example — which paint can&apos;t do.
+        Price the repaint route first with our <a href="/calculators/paint-calculator">paint calculator</a> before you quote either option.
       </p>
 
       <h2>Door options: what drives the price</h2>

@@ -84,7 +84,8 @@ export default function Guide() {
         materials), <strong>base and bedding</strong> ($2–$4/sq ft installed),
         and <strong>labor</strong> ($6–$14/sq ft). Walkways price higher per
         foot (more cuts, more edging per square foot); driveways price higher
-        overall (deeper base, thicker pavers, heavier everything).
+        overall (deeper base, thicker pavers, heavier everything). Clients
+        cross-shopping driveway materials should see the <a href="/guides/asphalt-vs-concrete-driveway-cost">asphalt vs concrete driveway cost</a> breakdown — pavers are the premium third option.
       </p>
       <p>
         The single most important thing to understand about paver bidding: the

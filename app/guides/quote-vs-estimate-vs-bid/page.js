@@ -196,6 +196,10 @@ export default function Guide() {
         <li><strong>Competing for the job:</strong> bid — full proposal package that sells your company, not just the price.</li>
         <li><strong>Scope changed mid-job:</strong> change order — a mini-quote for the new work, signed before it starts.</li>
       </ul>
+      <p>
+        One more thing about that first conversation: most homeowners have
+        already run the <a href="/guides/diy-vs-pro-home-renovation-cost">DIY vs hiring a pro</a> math before they call you. Knowing where DIY actually wins — and where it fails — helps you sell the pro option without trash-talking the homeowner&apos;s instincts.
+      </p>
 
       <h2>The mistakes that cost real money</h2>
       <ul>

@@ -202,7 +202,7 @@ export default function Guide() {
       <ul>
         <li><strong>Acrylic surround panels ($800–$2,000 installed):</strong> fast, sealed, low maintenance. The value play — and the honest match for a budget alcove tub.</li>
         <li><strong>Cultured marble ($1,500–$3,000):</strong> seamless look, no grout lines, mid-range price. Heavy — verify the wall framing.</li>
-        <li><strong>Tile ($2,000–$4,500+):</strong> the premium choice and the longest timeline. Waterproofing membrane behind it is non-negotiable — price it in the bid ($450–$750) rather than letting it surprise.</li>
+        <li><strong>Tile ($2,000–$4,500+):</strong> the premium choice and the longest timeline. Waterproofing membrane behind it is non-negotiable — price it in the bid ($450–$750) rather than letting it surprise. For the material side of that tile work, the <a href="/calculators/tile-flooring-calculator">tile calculator</a> gives you the square-foot numbers you can adapt for vertical surfaces.</li>
       </ul>
       <p>
         And the uncomfortable truth: <strong>you can&apos;t set a new tub

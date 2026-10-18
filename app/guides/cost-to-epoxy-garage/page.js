@@ -192,7 +192,7 @@ export default function Guide() {
       <ul>
         <li><strong>Show both numbers.</strong> DIY $800 vs. your $3,800 — then explain the 4× lifespan, the warranty, and the weekend they get back. The gap sells itself when it&apos;s itemized.</li>
         <li><strong>Sample boards close jobs.</strong> A 12-inch board with the flake blend beats any brochure. Leave it for 24 hours — floors get bought between visits.</li>
-        <li><strong>Schedule around cure time.</strong> Book the job so cure days fall over a weekend or a client trip. &ldquo;You&apos;ll park in the driveway until Tuesday&rdquo; goes down better with a plan.</li>
+        <li><strong>Schedule around cure time.</strong> Book the job so cure days fall over a weekend or a client trip. &ldquo;You&apos;ll park in the driveway until Tuesday&rdquo; goes down better with a plan. If the driveway itself needs work, compare <a href="/guides/asphalt-vs-concrete-driveway-cost">asphalt vs concrete driveways</a> before you price the garage — clients who resurface both at once are easier to close.</li>
         <li><strong>Photograph the grind.</strong> Before/after of the concrete profile proves the prep clients are paying for and can&apos;t see under the coating.</li>
         <li><strong>Warranty the adhesion, exclude the abuse.</strong> 5-year adhesion warranty is standard for pro systems; exclude drag damage (snowmobile skis, engine stands) in writing.</li>
       </ul>

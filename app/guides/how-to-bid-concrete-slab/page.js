@@ -315,7 +315,8 @@ export default function Guide() {
         are buying looks — show them cured samples in daylight, not
         brochure photos, and get the pattern and colors signed off before
         the truck arrives. There is no &ldquo;we&apos;ll decide on
-        pour day&rdquo; in stamping.
+        pour day&rdquo; in stamping. And when the bid is a vehicle driveway,
+        some clients will cross-shop asphalt — our <a href="/guides/asphalt-vs-concrete-driveway-cost">asphalt vs concrete driveway pricing</a> guide covers installed ranges for both so you can hold the concrete quote with confidence.
       </p>
       <h2>Curing: the step that builds strength</h2>
       <p>
