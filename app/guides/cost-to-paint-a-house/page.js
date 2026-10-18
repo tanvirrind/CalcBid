@@ -353,6 +353,11 @@ export default function Guide() {
         and the pro quotes easier to judge.
       </p>
 
+      <p>
+        A scope note: everything above is <em>residential</em> pricing.{" "}
+        <a href="/guides/commercial-painting-cost">Commercial painting costs</a> are bid differently — production rates, off-hours premiums, and occupied-space logistics change the math.
+      </p>
+
       <h2>Costly mistakes to avoid</h2>
       <ul>
         <li><strong>Taking the cheapest bid without reading it.</strong> The lowest quote is usually the thinnest scope — one coat, budget paint, skimped prep. As the Portland example shows, it&apos;s often the most expensive bid in disguise.</li>

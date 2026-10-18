@@ -279,7 +279,10 @@ export default function Guide() {
         <a href="/guides/painting-estimate-template">painting estimate
         template</a>, and compare your per-foot pricing against the{" "}
         <a href="/guides/interior-painting-cost-per-sqft">interior painting
-        cost per square foot</a> benchmarks.
+        cost per square foot</a> benchmarks. And if the job crosses into
+        retail, office, or industrial space, run it through the{" "}
+        <a href="/guides/commercial-painting-cost">commercial painting cost
+        guide</a> — different rates, different bid rules.
       </p>
       <h2>Three ways painters price: per-foot, hourly, or day rate</h2>
       <p>

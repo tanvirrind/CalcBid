@@ -147,7 +147,7 @@ export default function Guide() {
         Dark-to-light (or light-to-dark dramatic changes) means a full
         primer coat plus two finish coats — roughly 50% more material and
         30% more time. Accent walls are cheap; whole-house color flips are
-        not.
+        not. And mind the <a href="/guides/how-long-to-wait-between-coats-of-paint">recoat windows</a> between those coats — rushing the second coat is a classic way to pay for a third.
       </p>
       <h3>Paint quality and sheen</h3>
       <table className="q-table">
@@ -299,6 +299,10 @@ export default function Guide() {
         <li><strong>Color consulting:</strong> one round of help is often free; dedicated designer time isn&apos;t.</li>
         <li><strong>Cabinet or built-in painting:</strong> priced per linear foot or per unit, not per wall-foot.</li>
       </ul>
+      <p>
+        And if the plan is wallpaper <em>instead</em> of paint — accent walls
+        are the usual case — price the rolls with our <a href="/calculators/wallpaper-calculator">wallpaper calculator</a> before you compare it against a painting quote.
+      </p>
 
       <h2>How long interior paint lasts</h2>
       <p>

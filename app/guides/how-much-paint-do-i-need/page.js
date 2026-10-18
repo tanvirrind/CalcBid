@@ -164,7 +164,10 @@ export default function Guide() {
         8-foot ceilings, using 350 square feet per gallon and rounding to
         whole gallons. Two coats is the standard for a durable finish; the
         one-coat numbers are for reference when you are refreshing the same
-        color in the same sheen.
+        color in the same sheen. Between coats, don&apos;t guess — check{" "}
+        <a href="/guides/how-long-to-wait-between-coats-of-paint">how long
+        to wait between coats of paint</a> so the second coat doesn&apos;t
+        wreck the first.
       </p>
       <table style={tableStyle}>
         <thead>
