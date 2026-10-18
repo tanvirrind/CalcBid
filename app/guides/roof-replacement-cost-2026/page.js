@@ -333,6 +333,7 @@ export default function Guide() {
         <li><strong>Trim overhanging branches:</strong> abrasion wears granules off; falling limbs puncture. Ten feet of clearance is the rule.</li>
         <li><strong>Moss and algae:</strong> zinc strips at the ridge prevent regrowth; pressure-washing shingles destroys granules — never do it.</li>
         <li><strong>Attic ventilation:</strong> the silent killer. Blocked soffit vents cook shingles from below and void warranties — check them when you&apos;re up there.</li>
+        <li><strong>Pre-winter once-over:</strong> fall is also when gutters, pipes, and attic insulation need attention — <a href="/guides/home-winterization-cost">winterizing your home</a> protects the roof from the inside out.</li>
       </ul>
       <h2>Negotiating and timing your project</h2>
       <p>

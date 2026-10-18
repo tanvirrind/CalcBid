@@ -87,10 +87,16 @@ export default function WaterHeaterCalculatorPage() {
           and local code — verify gas line capacity and venting requirements
           before quoting tankless.
         </p>
+        <p style={{ marginTop: 16, maxWidth: 640, color: "var(--muted)" }}>
+          Winter coming? Draining exterior hoses and insulating exposed pipes
+          protects everything downstream of the heater — our <Link href="/guides/home-winterization-cost" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>winterization cost guide</Link> prices out the whole checklist.
+        </p>
         <Faq items={faqs} heading="Questions plumbing pros actually ask" />
         <p style={{ marginTop: 28, maxWidth: 640, color: "var(--muted)" }}>
           <strong style={{ color: "var(--ink)" }}>Related guides:</strong>{" "}
-          <Link href="/guides" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Browse all cost guides</Link>
+          <Link href="/guides/bathtub-replacement-cost" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Bathtub Replacement Cost</Link>
+          {" · "}
+          <Link href="/guides/mini-split-installation-cost" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Mini-Split Installation Cost</Link>
           {" · "}
           <Link href="/quote" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Turn this into a client-ready quote</Link>
         </p>

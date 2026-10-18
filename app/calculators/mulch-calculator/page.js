@@ -89,7 +89,7 @@ export default function MulchCalculatorPage() {
         <Faq items={faqs} heading="Questions landscapers actually ask" />
         <p style={{ marginTop: 28, maxWidth: 640, color: "var(--muted)" }}>
           <strong style={{ color: "var(--ink)" }}>Related guides:</strong>{" "}
-          <Link href="/guides" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Browse all cost guides</Link>
+          <Link href="/guides/diy-vs-pro-home-renovation-cost" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>DIY vs Pro Home Renovation Cost</Link>
           {" · "}
           <Link href="/quote" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Turn this into a client-ready quote</Link>
         </p>

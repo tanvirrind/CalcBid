@@ -192,7 +192,7 @@ export default function Guide() {
       <ul>
         <li><strong>Ceiling height:</strong> 9–10 ft ceilings add 15–25% more wall area — and the quote follows it.</li>
         <li><strong>Wall condition:</strong> heavy patching, nail pops, or textured repairs add hours fast. A wall that needs skim-coating is a different job.</li>
-        <li><strong>Wallpaper removal:</strong> the classic budget-killer — stripping and skim-coating after wallpaper can double the labor.</li>
+        <li><strong>Wallpaper removal:</strong> the classic budget-killer — stripping and skim-coating after wallpaper can double the labor. (Keeping the wallpaper or papering instead? Run the <a href="/calculators/wallpaper-calculator">wallpaper calculator</a> to price that route.)</li>
         <li><strong>Color change:</strong> dark-to-light usually means primer plus two coats. Going darker is more forgiving.</li>
         <li><strong>Trim and ceiling:</strong> typically quoted separately — roughly +10% each on top of walls-only.</li>
         <li><strong>Paint quality:</strong> $25/gallon paint often needs three coats where $55 paint needs two. The cheap can is rarely the cheap job.</li>

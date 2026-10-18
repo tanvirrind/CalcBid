@@ -95,7 +95,7 @@ export default function DrywallCalculatorPage() {
           {" · "}
           <Link href="/guides/cost-to-paint-12x12-room" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Cost to Paint a 12×12 Room</Link>
           {" · "}
-          <Link href="/calculators/paint-calculator" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Paint Calculator</Link>
+          <Link href="/calculators/paint-calculator" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Paint Coverage Calculator</Link>
         </p>
         <p style={{ marginTop: 32, maxWidth: 640, color: "var(--muted)" }}>
           Got your sheet count?{" "}
