@@ -87,6 +87,7 @@ const routes = [
   { path: "/guides/cost-to-paint-a-house", priority: 0.7, changeFrequency: "monthly" },
   { path: "/guides/gutter-guards-cost", priority: 0.7, changeFrequency: "monthly" },
   { path: "/guides/composite-deck-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/cost-to-build-a-deck", priority: 0.7, changeFrequency: "monthly" },
   { path: "/guides/commercial-painting-cost", priority: 0.7, changeFrequency: "monthly" },
   { path: "/guides/concrete-paint-cost", priority: 0.7, changeFrequency: "monthly" },
   { path: "/guides/how-long-to-wait-between-coats-of-paint", priority: 0.7, changeFrequency: "monthly" },
