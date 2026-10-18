@@ -96,6 +96,8 @@ export default function DeckFenceCalculatorPage() {
           {" · "}
           <Link href="/guides/deck-replacement-cost" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Deck Replacement Cost</Link>
           {" · "}
+          <Link href="/guides/cost-to-build-a-deck" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Cost to Build a Deck</Link>
+          {" · "}
           <Link href="/guides/fence-installation-cost-per-linear-foot" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Fence Installation Cost Per Foot</Link>
           {" · "}
           <Link href="/guides/chain-link-fence-installation-cost" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Chain Link Fence Installation Cost</Link>

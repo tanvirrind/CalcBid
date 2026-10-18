@@ -97,9 +97,11 @@ export default function Guide() {
         capped polymer with a 50-year warranty share almost nothing but a
         name. If you already have a wood deck, start with our{" "}
         <a href="/guides/deck-repair-cost">deck repair cost guide</a> to
-        sanity-check whether repair beats a full build — otherwise, here&apos;s
-        exactly where composite money goes, tier by tier, and where quotes
-        quietly pad.
+        sanity-check whether repair beats a full build — and for the
+        all-materials picture, see our{" "}
+        <a href="/guides/cost-to-build-a-deck">cost to build a deck</a>{" "}
+        guide — otherwise, here&apos;s exactly where composite money goes,
+        tier by tier, and where quotes quietly pad.
       </p>
 
       <h2>2026 composite deck prices by tier</h2>
