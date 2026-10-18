@@ -112,6 +112,9 @@ const routes = [
   { path: "/guides/bathtub-replacement-cost", priority: 0.7, changeFrequency: "monthly" },
   { path: "/guides/bathroom-vanity-installation-cost", priority: 0.7, changeFrequency: "monthly" },
   { path: "/guides/walk-in-shower-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/home-winterization-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/diy-vs-pro-home-renovation-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/asphalt-vs-concrete-driveway-cost", priority: 0.7, changeFrequency: "monthly" },
   { path: "/pricing", priority: 0.8, changeFrequency: "monthly" },
 ];
 
