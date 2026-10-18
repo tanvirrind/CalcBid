@@ -341,6 +341,9 @@ export default function Guide() {
         <li><strong>Hire a pro:</strong> shower waterproofing and tile (the failure cost is catastrophic — a leaking shower pan rots the floor below), plumbing rough-in moves, anything involving the drain or supply lines behind walls, electrical work in wet zones (GFCI and fan circuits fall under strict code).</li>
         <li><strong>The gray zone:</strong> floor tile. A handy homeowner can tile a small bathroom floor, but shower walls and niches are where amateur work shows — and where it fails. Many contractors will let you demo and paint to cut the bid while keeping the wet work themselves.</li>
       </ul>
+      <p>
+        For the full room-by-room math, see our <a href="/guides/diy-vs-pro-home-renovation-cost">DIY vs pro renovation costs</a> guide — it prices the DIY savings against the rework risk for every project type.
+      </p>
 
       <h2>Do you need a permit?</h2>
       <p>

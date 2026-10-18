@@ -213,7 +213,8 @@ export default function Guide() {
         crews offer 10–15% off to fill schedules. After major wind/hail
         events, prices spike and lead times stretch to 6–8 weeks; that&apos;s
         when storm-chasers appear, which is its own reason to book the local
-        company with the physical shop.
+        company with the physical shop. Gutters are just one line item on the
+        pre-freeze list — see the full <a href="/guides/home-winterization-cost">home winterization costs</a> checklist before the first hard freeze.
       </p>
       <p>
         <strong>Commercial is a different bid.</strong> 6–8 inch commercial

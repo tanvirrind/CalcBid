@@ -312,6 +312,9 @@ export default function Guide() {
         <li><strong>Hire a pro:</strong> cabinet installation (level, plumb, and scribed — the most visible craftsmanship in the room), countertop templating and setting (one miscut slab is a $2,000 loss), plumbing and gas moves, electrical panel or circuit work, any structural wall removal.</li>
         <li><strong>The gray zone:</strong> cabinet painting. It&apos;s the highest-impact DIY in the kitchen, but it demands real prep — degrease, sand, prime, spray (not brush). Rushed cabinet paint jobs are why pros get called to redo them.</li>
       </ul>
+      <p>
+        The room-by-room economics are in our <a href="/guides/diy-vs-pro-home-renovation-cost">DIY vs pro renovation costs</a> guide — including the hybrid play where DIYing the demo and prep cuts the bid without touching the skilled work.
+      </p>
 
       <h2>Do you need a permit?</h2>
       <p>
