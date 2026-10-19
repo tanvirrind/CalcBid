@@ -4,7 +4,7 @@ export default function robots() {
       {
         userAgent: "*",
         allow: "/",
-        disallow: ["/signin", "/signup", "/api/"],
+        disallow: ["/signin", "/signup", "/api/", "/app"],
       },
     ],
     sitemap: "https://calcbid.com/sitemap.xml",

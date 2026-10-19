@@ -14,17 +14,23 @@ export default function SignInPage() {
     e.preventDefault();
     setError("");
     setBusy(true);
+    // Honor ?callbackUrl= (e.g. /signin?callbackUrl=/app) — path-only to stay safe.
+    let safeCb = "/";
+    try {
+      const q = new URLSearchParams(window.location.search).get("callbackUrl");
+      if (q && q.startsWith("/") && !q.startsWith("//") && !q.includes("://")) safeCb = q;
+    } catch { /* default stays "/" */ }
     const res = await signIn("credentials", {
       email,
       password,
       redirect: false,
-      callbackUrl: "/",
+      callbackUrl: safeCb,
     });
     setBusy(false);
     if (res?.error) {
       setError("Those credentials didn't match. Check your email and password and try again.");
     } else {
-      window.location.href = "/";
+      window.location.href = safeCb;
     }
   }
 

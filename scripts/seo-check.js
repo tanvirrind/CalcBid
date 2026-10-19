@@ -49,9 +49,12 @@ const tag = (html, re) => {
     .map((r) => r.replace(/^app/, "").replace(/\/page\.js$/, "") || "/")
     .filter((r) => !r.startsWith("/api/"))
     .map((r) => (r === "/" ? `${PROD}/` : `${PROD}${r}`));
-  // Exclude non-indexed / non-public routes
-  const excluded = ["/signin", "/signup", "/dashboard", "/og-image"];
-  routes = routes.filter((u) => !excluded.some((e) => u.endsWith(e)));
+  // Exclude non-indexed / non-public routes ("/app" covers all /app/* subroutes)
+  const excluded = ["/signin", "/signup", "/dashboard", "/og-image", "/app"];
+  routes = routes.filter((u) => {
+    const path = u.replace(PROD, "") || "/";
+    return !excluded.some((e) => path === e || path.startsWith(e + "/"));
+  });
   const missing = routes.filter((r) => !urls.includes(r));
   check(
     "all public routes in sitemap",
