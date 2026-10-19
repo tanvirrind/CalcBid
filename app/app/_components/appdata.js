@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
-import { F, Txt, Num, Stepper, Chips, Pill, DocView, PageHead, api, useApi, money, fmtDate, cx } from "./ui";
+import { F, Txt, Num, Seg, Stepper, Chips, Pill, DocView, PageHead, api, useApi, money, fmtDate, cx } from "./ui";
 import { CALCS } from "./calcs";
 
 // ── /app home: picker + recent + outstanding/paid ──────────────────────────

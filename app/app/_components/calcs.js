@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { F, Txt, Num, Stepper, Chips, Pill, Progress, DocView, PageHead, api, useApi, money, fmtDate, cx } from "./ui";
+import { F, Txt, Num, Seg, Stepper, Chips, Pill, Progress, DocView, PageHead, api, useApi, money, fmtDate, cx } from "./ui";
 import { calcSlab, calcStair, calcRoof, calcDrywall, calcPaint, calcTile, calcDeck } from "../../../lib/app-calcs";
 
 // Calculator screens for the /app section. Shared pattern: plain-language
