@@ -2,7 +2,7 @@
 //
 // Tables:
 //   User / Account / Session / VerificationToken — Auth.js (next-auth)
-//   Customer, Quote, RateCard                       — CalcBid product
+//   Customer, Quote, RateCard, BusinessProfile, Invoice — CalcBid product
 
 generator client {
   provider = "prisma-client-js"
@@ -22,11 +22,14 @@ model User {
   emailVerified DateTime?
   image         String?
   passwordHash  String?   @db.VarChar(255)
+  plan          String    @default("Free") @db.VarChar(20) // Free | Solo | Crew
   accounts      Account[]
   sessions      Session[]
   customers     Customer[]
   quotes        Quote[]
   rateCards     RateCard[]
+  invoices      Invoice[]
+  profile       BusinessProfile?
   createdAt     DateTime  @default(now())
   updatedAt     DateTime  @updatedAt
 }
@@ -77,7 +80,9 @@ model Customer {
   email     String?
   phone     String?
   address   String?
+  notes     String?   @db.Text
   quotes    Quote[]
+  invoices  Invoice[]
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
@@ -95,12 +100,65 @@ model Quote {
   items      Json // [{ desc, qty, price }]
   taxRate    Float     @default(0)
   discount   Float     @default(0)
+  markupPct  Float     @default(0)
+  source     Json? // { calc: "slab", inputs: {...} } — which calculator produced this quote
   notes      String?   @db.Text
   biz        Json? // { name, email, phone } — snapshot of business info at save time
   validDays  Int       @default(30)
   quoteDate  DateTime  @default(now())
+  invoice    Invoice?
   createdAt  DateTime  @default(now())
   updatedAt  DateTime  @updatedAt
+
+  @@unique([userId, number])
+  @@index([userId, status])
+}
+
+// Per-user business profile for the /app section (branding + defaults).
+model BusinessProfile {
+  id              String  @id @default(cuid())
+  userId          String  @unique
+  user            User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  businessName    String?
+  ownerName       String?
+  phone           String?
+  email           String?
+  address         String?
+  markupPct       Float   @default(0)
+  taxPct          Float   @default(0)
+  expiryDays      Int     @default(14)
+  paymentTerms    Int     @default(14) // Net 7/14/30
+  laborRate       Float   @default(0) // default $/sq ft
+  trades          Json? // ["Concrete", "Painting", ...]
+  nextQuoteNumber Int     @default(1001)
+  nextInvoiceNumber Int   @default(1001)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}
+
+// Invoices converted from approved quotes (v1.5). One invoice per quote.
+model Invoice {
+  id        String    @id @default(cuid())
+  userId    String
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  quoteId   String    @unique
+  quote     Quote     @relation(fields: [quoteId], references: [id], onDelete: Cascade)
+  clientId  String?
+  client    Customer? @relation(fields: [clientId], references: [id], onDelete: SetNull)
+  number    String
+  items     Json // copied verbatim from the quote
+  subtotal  Float     @default(0)
+  discount  Float     @default(0)
+  markupPct Float     @default(0)
+  taxRate   Float     @default(0)
+  total     Float     @default(0)
+  issueDate DateTime  @default(now())
+  dueDate   DateTime
+  status    String    @default("unpaid") // unpaid | paid
+  paidAt    DateTime?
+  notes     String?   @db.Text
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
 
   @@unique([userId, number])
   @@index([userId, status])
