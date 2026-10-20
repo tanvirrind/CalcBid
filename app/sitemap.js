@@ -116,6 +116,11 @@ const routes = [
   { path: "/guides/home-winterization-cost", priority: 0.7, changeFrequency: "monthly" },
   { path: "/guides/diy-vs-pro-home-renovation-cost", priority: 0.7, changeFrequency: "monthly" },
   { path: "/guides/asphalt-vs-concrete-driveway-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/concrete-slab-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/mulch-cost-per-yard", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/carpet-tile-installation-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/contractor-estimate-template", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/how-to-quote-drywall-job", priority: 0.7, changeFrequency: "monthly" },
   { path: "/pricing", priority: 0.8, changeFrequency: "monthly" },
 ];
 
