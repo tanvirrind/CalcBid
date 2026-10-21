@@ -312,6 +312,53 @@ export default function Guide() {
         <a href="/quote">quote</a> before you&apos;re off the site.
       </p>
 
+      <h2>Regional pricing notes</h2>
+      <p>
+        The tier bands on this page — <strong>$30–$45 per sq ft</strong> for entry composite
+        up to <strong>$60–$80</strong> for cellular PVC — are national, and labor is the part
+        that moves. With labor at <strong>$13–$25 per sq ft</strong> for standard builds,
+        high-wage coastal and Northeast markets quote mid-range decks toward the{" "}
+        <strong>top of the $40–$60 band</strong>, while Southeast and Midwest crews commonly
+        land the same design in the lower half. Climate adds its own line items. In the{" "}
+        <strong>snow belt</strong>, footings must reach below the frost line, which means
+        deeper holes, more concrete, and sometimes engineered footing inspections — permit
+        and footing costs together tend to sit toward the <strong>$300–$500</strong> end of
+        this page&apos;s $100–$500 permit range, and frozen-ground scheduling can delay a
+        spring start. In the <strong>Sun Belt</strong>, shallow footings and year-round
+        building keep those costs at the low end, but heat dictates midday breaks that stretch
+        the schedule. Same boards, same footprint — the ground and the labor market write the
+        difference.
+      </p>
+
+      <h2>Worked example: a 16×20 deck at the mid tier</h2>
+      <p>
+        Price the 16×20 from the size table — <strong>320 sq ft</strong> — at the mid-range
+        capped composite tier of <strong>$40–$60 per sq ft</strong>, and the base build lands
+        at <strong>$12,800–$19,200</strong> before the itemized extras most quotes separate.
+        Walking the stack at a mid-point rate of about $50 per sq ft gives a base of roughly{" "}
+        <strong>$16,000</strong>, which already covers substructure, boards, hidden fasteners,
+        standard railing, and labor per the tier definition. Now the lines homeowners
+        actually ask about. Railing: a 16×20 attached deck exposes roughly{" "}
+        <strong>52 linear feet</strong> of edge (two 16-ft sides and one 20-ft side, with the
+        house closing the fourth) — basic composite rail is inside the base price, while
+        upgrading to aluminum at $50–$100 per linear foot would add roughly{" "}
+        <strong>$2,600–$5,200</strong> before crediting back the standard rail. Stairs: a
+        typical 4-step run to grade at <strong>$200–$500 per step</strong> adds{" "}
+        <strong>$800–$2,000</strong> if not already in the base scope. Fascia and skirting to
+        close the deck&apos;s edge and underside are commonly quoted as a modest add-on —
+        budget a few hundred dollars for fascia boards on 52 linear feet and more for full
+        skirting. Permits for an attached deck run <strong>$100–$500</strong>.
+      </p>
+      <p>
+        Stacked honestly: base build <strong>$12,800–$19,200</strong>, plus stairs{" "}
+        <strong>$800–$2,000</strong> where they are quoted separately, plus permit{" "}
+        <strong>$100–$500</strong>, puts a realistic all-in range at roughly{" "}
+        <strong>$13,700–$21,700</strong> — consistent with the FAQ&apos;s $12,800–$25,600
+        range for this size once premium finishes are allowed for. Run your own footprint
+        through the <a href="/calculators/deck-fence-calculator">deck &amp; fence
+        calculator</a> and compare any bid line by line against this stack.
+      </p>
+
       <Faq items={faqs} heading="Composite deck questions, answered" />
     </GuideArticle>
   );

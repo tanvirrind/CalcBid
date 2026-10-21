@@ -374,6 +374,54 @@ export default function Guide() {
         before quoting is the crew that keeps its margin.
       </p>
 
+      <h2>Labor rates by region</h2>
+      <p>
+        The labor baseline on this page — <strong>$4–$8 per square foot</strong>, with
+        minimum charges of <strong>$300–$500</strong> — is a national band, and decking
+        crews price noticeably differently inside it. In <strong>major metro and coastal
+        markets</strong>, where licensed crews carry higher wages and insurance, board labor
+        sits at the <strong>top of the band, $6–$8 per sq ft</strong>, and hidden-fastener
+        composite pushes effective labor higher still because of the 30–50% slower pace noted
+        above. In much of the <strong>Southeast and Midwest</strong>, the same work commonly
+        quotes at <strong>$4–$6 per sq ft</strong>. <strong>Rural jobs</strong> flip the
+        logic: the hourly rate may be lower, but travel time and minimums dominate — a small
+        re-deck an hour from the shop is priced on the <strong>$300–$500 minimum plus travel</strong>,
+        not on its square footage, and some crews add an explicit trip charge. Urban jobs
+        carry the opposite premium: parking, elevator or alley access, and material carries
+        through tight lots all slow the 200–300 sq ft per day pace, and bids reflect it. Ask
+        whether a quote is priced per square foot, per linear foot, or as a day rate with a
+        minimum — the three structures hide very different totals.
+      </p>
+
+      <h2>Worked example: reboarding a 12×16 deck</h2>
+      <p>
+        Take the 12×16 from this page&apos;s tables: <strong>192 sq ft</strong>, frame sound
+        and reused, old boards coming off. Using the board math above, 5.5-inch boards at
+        about 0.46 sq ft of coverage per linear foot need roughly{" "}
+        <strong>417 linear feet, or about 29 sixteen-foot boards with 10% waste</strong> —
+        the FAQ&apos;s 380–420 linear foot estimate before waste agrees. In pressure-treated
+        pine at <strong>$1.50–$3 per linear foot</strong> for materials, boards run about{" "}
+        <strong>$625–$1,250</strong>; in composite at $3–$8, about{" "}
+        <strong>$1,250–$3,335</strong>. Fasteners: face screws for the pine are a minor line,
+        while hidden clips for composite at <strong>$0.50–$1 per linear foot</strong> add{" "}
+        <strong>$210–$420</strong> — the clip budget this page warns about, in real numbers.
+      </p>
+      <p>
+        Labor: a two-person crew lays this deck in roughly a day at the paces above, and at{" "}
+        <strong>$4–$8 per sq ft</strong> the installation labor is{" "}
+        <strong>$770–$1,535</strong>. Add the part re-decking has that new builds don&apos;t:
+        pulling the old boards and disposing of them. Tear-off is typically priced as a modest
+        per-square-foot add-on or a half-day of crew time plus a dump fee — budget roughly{" "}
+        <strong>$200–$500</strong> for removal and disposal on a deck this size, and confirm
+        whether the quote includes it, because many board-only bids silently exclude it. The
+        stacked invoice: pine lands around <strong>$1,600–$3,300</strong> all-in, composite
+        around <strong>$2,400–$5,300</strong> — both consistent with the size table&apos;s{" "}
+        <strong>$1,500–$2,700 pine and $2,800–$5,000 composite</strong> for board installation,
+        once disposal — which that table does not include — is added on top. Verify the count
+        in the <a href="/calculators/deck-board-calculator">deck board calculator</a>, then
+        get the disposal line in the <a href="/quote">quote</a> in writing.
+      </p>
+
       <Faq items={faqs} heading="Deck board installation questions, answered" />
     </GuideArticle>
   );
