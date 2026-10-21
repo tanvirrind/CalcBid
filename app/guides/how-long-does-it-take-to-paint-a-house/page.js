@@ -230,6 +230,92 @@ export default function Guide() {
         early.
       </p>
 
+      <h2>A worked schedule: 1,800 sq ft interior, day by day</h2>
+      <p>
+        An 1,800 sq ft interior sits just under the 2,000 sq ft row in the table above, so a
+        2–3 painter crew should land at the fast end of that <strong>3–5 day</strong> band
+        with standard prep and no major color change. A realistic day plan:
+      </p>
+      <table style={tableStyle}>
+        <thead>
+          <tr>
+            <th style={thStyle}>Day</th>
+            <th style={thStyle}>Work</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style={tdStyle}>Day 1</td>
+            <td style={tdStyle}>Prep and masking: furniture moved and covered, floors protected, patching and sanding, caulk, tape. Ceilings get their first coat late in the day once prep is done in the first rooms.</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>Day 2</td>
+            <td style={tdStyle}>Ceilings finished (second coat), then walls start in the largest rooms — living areas first, bedrooms after — one painter cutting in, another rolling, keeping to the 2–4 hour latex recoat window by rotating rooms.</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>Day 3</td>
+            <td style={tdStyle}>Walls completed, including second coats and any accent wall. Kitchen and bathrooms last, because humidity slows drying there.</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>Day 4</td>
+            <td style={tdStyle}>Trim, doors, and detail work — the slow brushwork — followed by touch-ups once trim has dried.</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>Day 5 (buffer / half day)</td>
+            <td style={tdStyle}>Final walkthrough with the homeowner, punch-list touch-ups, masking removed, furniture reset. Light-prep jobs fold this into day 4; heavy patching or a dark-to-light change uses the full day.</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        The order is deliberate: ceilings before walls so roller spatter lands on unpainted
+        surfaces, walls before trim so trim paint covers the wall edge cleanly, and the
+        walkthrough last with daylight in the rooms. Swap that sequence and the schedule —
+        not just the finish — suffers.
+      </p>
+
+      <h2>How weather stretches an exterior schedule</h2>
+      <p>
+        The exterior table above promises <strong>4–7 days</strong> for a typical 2,000 sq ft
+        home, but those are <em>working</em> days, not calendar days, and weather decides how
+        far apart they fall. Most exterior latex paints need temperatures of{" "}
+        <strong>50°F or above</strong> — and staying above that floor for several hours after
+        application — plus falling or steady humidity, not rising evening moisture. Above
+        roughly 70% humidity, drying slows, recoat windows stretch past the usual 4–6 hours
+        for exterior latex, and a crew that planned two coats in a day gets one. Rain is
+        harder still: fresh latex needs <strong>4–8 hours of dry weather minimum, 24 hours
+        to be safe</strong>, so a forecast shower the night after painting can erase a
+        finished elevation entirely.
+      </p>
+      <p>
+        Watch how a four-working-day job becomes eight calendar days. Monday: wash day goes
+        fine. Tuesday: scraping and priming finish, but overnight rain leaves siding damp.
+        Wednesday: surfaces are still too wet to coat in the morning; the crew loses half a
+        day and gets the first coat on one elevation only. Thursday: rain, no work. Friday:
+        first coats completed. The weekend is lost to a family event the crew can&apos;t work
+        through — or simply to more weather. Monday and Tuesday of week two: second coats,
+        trim, and touch-ups. Four days of labor, eight days on the calendar, and nobody did
+        anything wrong. Reliability varies by region and season: <strong>late spring and
+        fall</strong> in most of the country, the long dry summers of the West, and winter in
+        the deep South are the dependable windows; Gulf Coast summer afternoons and northern
+        spring are the gamble. Build the 1–2 day buffer this page recommends, and tell the
+        client calendar days, not working days.
+      </p>
+
+      <h2>One painter, no crew: realistic timelines</h2>
+      <p>
+        Every timeline above assumes a 2–3 painter crew, and a solo operator does not simply
+        take two to three times as long — the math is worse than linear in places and better
+        in others. One experienced painter working alone paints the 2,000 sq ft interior in
+        about <strong>6–9 working days</strong>: masking and prep have no parallel track, and
+        rotating rooms to respect recoat windows means more idle transitions. On exteriors,
+        ladder moves and sprayer handling alone stretch a crew&apos;s 4–7 days to roughly{" "}
+        <strong>10–14 working days</strong>, before weather. A general handyman — competent
+        but not a production painter — typically runs <strong>30–50% slower again</strong>,
+        especially on cutting in and trim. Solo painters win on consistency and overhead, not
+        speed; price the calendar honestly in the <a href="/quote">quote</a> and clients
+        respect the number that holds.
+      </p>
+
       <Faq items={faqs} heading="Painting timeline questions, answered" />
     </GuideArticle>
   );

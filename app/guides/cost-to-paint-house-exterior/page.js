@@ -255,6 +255,97 @@ export default function Guide() {
 
 
 
+      <h2>Do you need a permit?</h2>
+      <p>
+        In most cities, <strong>painting itself does not require a permit</strong> — you are
+        maintaining an existing surface, not altering the structure. Three exceptions catch
+        homeowners out. First, <strong>lead paint</strong>: for homes built before 1978, the
+        EPA&apos;s Renovation, Repair, and Painting (RRP) rule requires a certified firm to
+        use lead-safe work practices — containment, specialized cleanup, and documentation.
+        That compliance is real labor, and it commonly adds <strong>several hundred dollars
+        or more</strong> to prep on a peeling older home; a bid that ignores lead on a
+        pre-1978 house is a red flag, not a bargain. Second, <strong>historic districts and
+        HOAs</strong> often require color approval before work starts — approval is usually
+        free but can take weeks, and repainting an unapproved color is an expensive redo.
+        Third, a few dense cities require a <strong>sidewalk or scaffolding permit</strong>{" "}
+        when staging equipment over a public walkway. Ask the painter who pulls any needed
+        approvals, and get the answer in the quote.
+      </p>
+
+      <h2>What the same house costs in different regions</h2>
+      <p>
+        Labor is the dominant share of an exterior paint job — <strong>70–90% of every
+        quote</strong>, as noted at the top of this page — so regional wage rates
+        move the total more than paint prices ever will. Use the size table above as the
+        national baseline, then adjust. A 2,000 sq ft home with about 1,700 sq ft of paintable
+        wall is listed at <strong>$2,600–$8,500</strong> nationally. In the{" "}
+        <strong>Southeast and much of the Midwest</strong>, longer painting seasons and lower
+        labor rates pull a standard-prep version of that house toward{" "}
+        <strong>$3,500–$5,500</strong>. In the <strong>Northeast and on the West Coast</strong>,
+        higher wages, shorter weather windows, and stricter lead and disposal rules push the
+        same scope toward <strong>$6,000–$9,500</strong>, with older two-story homes in major
+        metros reaching the heavy-prep band of <strong>$7,500–$12,000</strong> shown earlier.
+      </p>
+      <p>
+        Per square foot, that translates to roughly <strong>$1.50–$3.50</strong> in
+        lower-cost regions versus <strong>$3.00–$5.00</strong> in high-cost metros for wood
+        or stucco — the same siding table, read through a local lens. Two cautions before you
+        hold a local bid to a regional average: condition beats geography (a peeling southern
+        home costs more than a sound northern one), and rural jobs can price like urban ones
+        when the nearest crew drives an hour each way. Get three local bids with identical
+        scopes — coats, prep level, and paint line — using the{" "}
+        <a href="/calculators/paint-calculator">paint calculator</a> as your baseline.
+      </p>
+
+      <h2>Worked example: a 2,400 sq ft two-story, line by line</h2>
+      <p>
+        Take a 2,400 sq ft two-story wood-sided home, standard prep, same color family, about
+        2,000 sq ft of paintable wall. On the size table that footprint sits between the
+        2,000 and 2,500 sq ft rows, so a national range of roughly{" "}
+        <strong>$5,500–$8,500</strong> is the expectation before line items. The build-up:
+        pressure washing and surface prep, <strong>$400–$700</strong>. Scraping and sanding
+        failed areas — about a quarter of the surface — <strong>$700–$1,100</strong>. Caulking
+        joints, seams, and trim gaps, <strong>$250–$450</strong>. Spot-priming bare wood and
+        one full prime pass on the worst elevation, <strong>$350–$600</strong> including
+        primer. Two coats of quality acrylic on the body: roughly 14–18 gallons at the{" "}
+        <strong>$50–$100 per gallon</strong> material band used on this page, or{" "}
+        <strong>$800–$1,400</strong> in paint, with application labor of{" "}
+        <strong>$2,200–$3,200</strong> for a two-story spray-and-back-roll or brush job.
+        Trim, shutters, and doors — the slow detail work — add{" "}
+        <strong>$700–$1,200</strong> in labor and materials. Sundries, masking, ladders and
+        lift time, and cleanup run <strong>$300–$500</strong>.
+      </p>
+      <p>
+        Totaled, the low case lands near <strong>$5,700</strong> and the high case near{" "}
+        <strong>$9,150</strong> — squarely inside the page&apos;s bands once two-story access
+        (the 20–40% story premium) is counted. The split matters for judging bids: materials
+        are only about <strong>$1,400–$2,400</strong> of that total, while labor carries the
+        rest. If one bid comes in $2,000 under the others on this house, it is not cheaper
+        paint — it is missing prep, a missing coat, or missing trim scope. Ask which line
+        shrank, run your own numbers, then <a href="/quote">build the quote</a> comparison
+        on scope, not on the bottom line alone.
+      </p>
+
+      <h2>How long the paint job lasts — and the repaint budget</h2>
+      <p>
+        Price per year matters more than price per job. A quality two-coat
+        acrylic job lasts <strong>7–10 years</strong> on wood and
+        fiber-cement siding, <strong>5–7 years</strong> on stucco (longer
+        with elastomeric coatings), and <strong>10–15 years</strong> on
+        painted brick. Run the math on a mid-range $7,000 job that lasts
+        nine years: about <strong>$780 a year</strong>. The $4,000 budget
+        job that starts peeling in year four costs roughly{" "}
+        <strong>$1,000 a year</strong> — the cheap bid is the expensive one
+        on any horizon past five years. South- and west-facing walls age
+        fastest (UV plus afternoon heat), so plan on a{" "}
+        <strong>$300–$600 touch-up visit</strong> around year four or five
+        for those elevations: catching early peeling there, before moisture
+        gets behind the film, is what stretches a nine-year job to eleven.
+        If you&apos;re painting ahead of a sale, that math inverts — you
+        only need the job to look new for one season, and a single-coat
+        refresh at the low end of the range is the rational spend.
+      </p>
+
       <Faq items={faqs} heading="Exterior painting cost questions, answered" />
     </GuideArticle>
   );

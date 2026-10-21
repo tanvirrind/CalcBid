@@ -229,6 +229,103 @@ export default function Guide() {
         The backsplash is the finishing touch on a bigger kitchen project. For the full numbers — cabinets, counters, appliances — see the <a href="/guides/kitchen-remodel-cost">kitchen remodel cost</a> pillar and <a href="/guides/kitchen-cabinet-installation-cost">kitchen cabinet installation cost</a>.
       </p>
 
+      <h2>Do you need a permit?</h2>
+      <p>
+        Setting tile on an existing wall, by itself, <strong>does not require a permit</strong>{" "}
+        in most jurisdictions — it is a finish, not structural or mechanical work. The permit
+        questions start at the edges of the job. <strong>Moving or adding outlets</strong> to
+        fit the tile layout is electrical work: receptacles serving countertops must be
+        GFCI-protected under current code in most areas, and many cities require a licensed
+        electrician — and sometimes a permit — for new boxes or relocated circuits. Simply
+        tiling around existing outlets, with longer screws and box extenders, is not that
+        work. Likewise, <strong>disconnecting a sink or moving a gas range line</strong> to
+        tile behind it belongs to licensed plumbers and gas fitters in most places, and gas
+        work is never a DIY shortcut. Rules vary by city, so treat this as general guidance:
+        tile-only, proceed; wires, water, or gas moved, check your local code first.
+      </p>
+
+      <h2>Cost by kitchen layout</h2>
+      <p>
+        Layout decides square footage, and square footage decides the bill. The totals below
+        use a mid-range ceramic or porcelain at roughly <strong>$15–$25 per sq ft
+        installed</strong> — inside this page&apos;s $10–$35 bands for those materials — and
+        the standard 18-inch height between counter and upper cabinets unless noted.
+      </p>
+      <table style={tableStyle}>
+        <thead>
+          <tr>
+            <th style={thStyle}>Layout</th>
+            <th style={thStyle}>Typical area</th>
+            <th style={thStyle}>Installed total (mid-range tile)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style={tdStyle}>Galley kitchen</td>
+            <td style={tdStyle}>~25 sq ft</td>
+            <td style={tdStyle}>$375–$625</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>L-shape kitchen</td>
+            <td style={tdStyle}>~30–35 sq ft</td>
+            <td style={tdStyle}>$450–$875</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>U-shape kitchen</td>
+            <td style={tdStyle}>~40+ sq ft</td>
+            <td style={tdStyle}>$600–$1,000+</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>Full-height (to the ceiling, range wall)</td>
+            <td style={tdStyle}>Adds 10–20 sq ft over standard height</td>
+            <td style={tdStyle}>Add $150–$500 to the layout total</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        Two layout details move the number more than raw area. First,{" "}
+        <strong>backsplash only to the underside of the cabinets</strong> is the baseline
+        above; taking tile <strong>full-height to the ceiling</strong> behind the range or
+        around a window adds both footage and slow edge cuts, so budget the add-on row, not
+        just extra tile. Second, corner-heavy U-shapes and galleys with many outlets carry
+        more cuts per square foot — each outlet is custom work, as noted in the labor section
+        above. Measure your own wall runs and check the math in the{" "}
+        <a href="/calculators/tile-flooring-calculator">tile calculator</a> before comparing
+        bids.
+      </p>
+
+      <h2>How to cut the cost without cutting quality</h2>
+      <p>
+        The honest savings are in tile choice and pattern, not in the layers underneath. A{" "}
+        <strong>ceramic subway in running bond at $10–$28 per sq ft installed</strong> looks
+        classic and sets fast; the same wall in glass mosaic at $20–$50 costs roughly double
+        for a look many kitchens don&apos;t need everywhere — a common compromise is subway on
+        the long runs and a feature strip of the expensive tile behind the range only.
+        Large-format ceramic cuts labor because there are fewer pieces and grout lines per
+        square foot. On prep, a homeowner can safely <strong>remove the old backsplash, patch
+        and sand drywall, and clear and mask the counters</strong> before the setter arrives,
+        trimming the $60–$150 removal line and part of the prep time. What never to cheap out
+        on: a <strong>sound, flat substrate</strong> and <strong>proper waterproofing and
+        sealing around the sink area</strong>, where water sits daily. Saving $40 on backer
+        prep and losing tiles to a soft wall in two years is the worst trade in this project.
+      </p>
+
+      <h2>How long it takes, day by day</h2>
+      <p>
+        For a pro on a standard 30 sq ft kitchen, <strong>day one</strong> is demo and prep in
+        the morning — old tile off, wall patched and checked for flatness — then layout lines
+        and setting tile through the afternoon. The thinset then needs its cure, typically{" "}
+        <strong>24 hours</strong> before grouting, as the mistakes section above notes.{" "}
+        <strong>Day two</strong> is grouting, washing the haze, caulking the counter joint,
+        and sealing if the tile is natural stone; grout then cures <strong>24–72 hours</strong>{" "}
+        before heavy use and final sealing. Mosaic, stone, or herringbone adds a day to the
+        setting phase. DIY math is different: the same kitchen is realistically{" "}
+        <strong>two full weekends</strong> — one for demo, prep, and setting at a learning
+        pace, one for grout and seal after the cure — plus a rented wet saw at $50–$75 a day.
+        Plan the kitchen to be out of service for cooking splatter, not for use, during the
+        cure windows.
+      </p>
+
       <Faq items={faqs} heading="Backsplash cost questions, answered" />
     </GuideArticle>
   );
