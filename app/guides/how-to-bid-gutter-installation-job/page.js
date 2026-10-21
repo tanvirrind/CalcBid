@@ -235,6 +235,141 @@ export default function Guide() {
         are won on the details — and the details are all in the takeoff.
       </p>
 
+      <h2>Worked bid: 150 ft of 6-inch K-style, two-story</h2>
+      <p>
+        Here is a complete bid build for a common job: 150 feet of 6-inch
+        K-style seamless aluminum on a two-story home, four downspouts,
+        sound fascia. The takeoff follows the{" "}
+        <a href="/guides/how-to-measure-for-gutters">measuring guide</a> —
+        footage plus 10% waste, hangers every 24 inches, two elbows and
+        straps per drop. This is what the job costs <em>you</em> before
+        the customer ever sees a number:
+      </p>
+      <table style={tableStyle}>
+        <thead>
+          <tr>
+            <th style={thStyle}>Cost line</th>
+            <th style={thStyle}>Math</th>
+            <th style={thStyle}>Your cost</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style={tdStyle}>Gutter coil</td>
+            <td style={tdStyle}>165 ft (150 + 10% waste) × $2.20/ft</td>
+            <td style={tdStyle}>$363</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>Hidden hangers</td>
+            <td style={tdStyle}>75 × $2.00</td>
+            <td style={tdStyle}>$150</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>Downspout stock</td>
+            <td style={tdStyle}>4 drops × 18 ft = 72 ft × $1.50/ft</td>
+            <td style={tdStyle}>$108</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>Elbows</td>
+            <td style={tdStyle}>8 × $4.00</td>
+            <td style={tdStyle}>$32</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>End caps, outlets, screws, sealant</td>
+            <td style={tdStyle}>4 drops&apos; worth of small parts</td>
+            <td style={tdStyle}>$75</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>Labor</td>
+            <td style={tdStyle}>2-person crew, 7 hrs each = 14 crew-hours × $38/hr loaded</td>
+            <td style={tdStyle}>$532</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>Equipment, fuel, machine wear</td>
+            <td style={tdStyle}>Truck, gutter machine, ladders, two-story safety gear</td>
+            <td style={tdStyle}>$95</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        Materials total $728; with labor and equipment your direct job
+        cost is <strong>$1,355</strong>. Now the two lines that decide
+        whether the job pays: overhead recovery at 15% adds $203, bringing
+        the true cost to $1,558 — then apply your profit markup. At a 40%
+        markup the bid is <strong>$2,181</strong>. On the customer-facing
+        quote, present it the way this guide recommends: gutters as the
+        per-foot line, downspouts itemized separately. If the job includes
+        tearing off old gutters, add the removal line at $1–$3/ft
+        ($150–$450 here) — it is not buried in the $2,181. The fascia
+        allowance rides along as an as-needed line at $5–$12/ft, charged
+        only if your crew finds rot.
+      </p>
+      <p>
+        Sanity-check the per-foot number before you send it: $2,181 ÷ 150
+        ft = <strong>$14.54/ft</strong>. The base 5-inch aluminum range is
+        $6–$12/ft; the 6-inch upgrade adds $1–$2, putting one-story work
+        at $7–$14; two-story pricing adds 20–40%, which puts this job&apos;s
+        fair band at roughly $9–$18/ft. Your $14.54 sits in the upper
+        middle — exactly where a two-story, 6-inch, four-downspout job
+        should land. If your build ever produces a number under $10/ft
+        for this job type, you have mispriced the ladder time, because
+        your direct cost alone is already $9.03/ft.
+      </p>
+
+      <p>
+        Know where this bid can flex before the homeowner asks. If
+        $2,181 meets resistance, value-engineer the spec, never the
+        labor: stepping down to 5-inch gutter removes the $1–$2/ft
+        upgrade and takes roughly $150–$300 off the ticket while your
+        crew hours stay whole. What you do not cut is hanger spacing —
+        stretching hangers from 24 to 36 inches saves 25 hangers, about
+        $50 of material on this job, and buys you the sagging-gutter
+        callback that eats the entire profit. Guards and underground
+        drains move the other direction: they are options to offer, not
+        discounts to absorb. A bid that protects its structure and trades
+        only on scope is one you can defend line by line at the kitchen
+        table.
+      </p>
+
+      <h2>Regional pricing and market tiers</h2>
+      <p>
+        The $6–$12 aluminum range is a national band; regional labor moves
+        it 15–30%, and your market tier decides where inside it you can
+        win. In high-cost coastal and Northeast metros, itemized bids at
+        the top of the range — and above it on two-story work — win every
+        week, because every competitor carries the same labor, insurance,
+        and drive-time costs. Price to the market, not to your anxiety.
+        In rural and low-cost Southern and Midwest markets, winning work
+        clusters near the bottom of the range, and your edge has to come
+        from production speed and low overhead rather than price alone.
+        Hold your price when your bid is itemized, warrantied, and
+        reviewed — homeowners comparing line items rarely pick the
+        cheapest vague number. Match a competitor only when their scope
+        truly matches yours; matching a quote that buried downspouts and
+        skipped the fascia allowance means volunteering to absorb their
+        shortcuts.
+      </p>
+
+      <h2>Deposits, payment schedules, and protecting the margin</h2>
+      <p>
+        Gutter work turns cash fast — protect it with structure. Collect a
+        material deposit before the coil is run: seamless gutter is
+        fabricated to this house&apos;s exact lengths and cannot go back
+        on the shelf, so 30–50% upfront, or at minimum your full material
+        cost ($728 on the worked bid), is standard and defensible. On
+        multi-day installs — guards, underground drains, fascia rebuilds
+        — use progress draws tied to visible milestones: deposit on
+        signing, a draw when the gutters are hung, and the balance on
+        completion and walkthrough. Never let the amount collected lag
+        the work performed by more than a day&apos;s production. Put the
+        terms in the contract before work starts: balance due on
+        completion, what late fee applies after a stated grace period,
+        and how change orders are approved and priced. A homeowner who
+        agreed to the schedule in writing pays on it; one who hears the
+        terms for the first time at the final invoice is where margins go
+        to die.
+      </p>
+
       <Faq items={faqs} heading="Gutter bidding questions, answered" />
     </GuideArticle>
   );

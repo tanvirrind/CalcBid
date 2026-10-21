@@ -252,6 +252,125 @@ export default function Guide() {
 
 
 
+      <h2>Worked examples: 100 ft, three materials</h2>
+      <p>
+        Same yard, same 100 feet of level fence line, one walk-through
+        gate each — only the material changes. The splits below use the
+        midpoint of each per-foot range and a typical materials/labor
+        breakdown (labor is 50–70% of an installed price, which is why
+        DIY saves so much). Gate prices use the $150–$400 walk-gate range
+        from the add-on table; totals exclude old-fence removal and
+        permits.
+      </p>
+      <table style={tableStyle}>
+        <thead>
+          <tr>
+            <th style={thStyle}>Material (6-ft, 100 ft)</th>
+            <th style={thStyle}>Fence at midpoint</th>
+            <th style={thStyle}>Materials / labor split</th>
+            <th style={thStyle}>One walk gate</th>
+            <th style={thStyle}>Example total (full range)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style={tdStyle}>Wood privacy</td>
+            <td style={tdStyle}>100 ft × $42.50 = $4,250</td>
+            <td style={tdStyle}>$1,700 / $2,550</td>
+            <td style={tdStyle}>$275</td>
+            <td style={tdStyle}>$4,525 ($2,650–$6,400)</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>Vinyl privacy</td>
+            <td style={tdStyle}>100 ft × $47.50 = $4,750</td>
+            <td style={tdStyle}>$2,375 / $2,375</td>
+            <td style={tdStyle}>$325</td>
+            <td style={tdStyle}>$5,075 ($3,150–$6,900)</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>Chain link</td>
+            <td style={tdStyle}>100 ft × $27.50 = $2,750</td>
+            <td style={tdStyle}>$1,100 / $1,650</td>
+            <td style={tdStyle}>$200</td>
+            <td style={tdStyle}>$2,950 ($1,650–$4,400)</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        Read the table the way contractors build it: the fence line
+        itself is a per-foot product, the gate is a discrete unit with
+        heavier posts and hardware, and the range around each total is
+        your region, your soil, and your slope. Vinyl&apos;s materials
+        share runs highest — the panels cost more, but they install fast
+        — while wood and chain link put more of the dollar into labor.
+        If a quote for one of these three lands far outside its range
+        with no gate, slope, or removal line to explain it, ask what is
+        missing before you ask for a discount.
+      </p>
+
+      <p>
+        Two adjustments move all three examples off their flat-yard
+        numbers. A sloped yard adds the 10–25% labor premium from the
+        add-on table — applied to the labor share only, that is roughly
+        $255–$640 more on the wood fence (25% of its $2,550 labor at the
+        top end), $240–$595 on vinyl, and $165–$415 on chain link,
+        because panels must be racked or stepped and posts set at
+        stepped heights. And if an old fence occupies the line, removal
+        at $3–$8 per foot adds a flat $300–$800 to any of the three
+        totals before the first new post is dug. When a quote lands well
+        above these example totals, it is usually these two lines —
+        visible, legitimate, and itemized — doing the lifting.
+      </p>
+
+      <h2>Regional pricing: why the same fence costs more in Denver than Dallas</h2>
+      <p>
+        Start below ground. Posts must be set in concrete below the frost
+        line, and frost depth is geography: in northern states the line
+        commonly sits 36 inches or deeper, while in warm southern markets
+        the standard 2-foot setting often satisfies it. A 36-inch hole at
+        the same diameter takes roughly half again as much concrete as a
+        24-inch hole, and every extra foot of depth is auger time. On a
+        100-foot fence with posts every 6–8 feet — 14 to 17 posts — that
+        difference alone is hundreds of dollars, before freeze-thaw
+        heaving punishes anyone who cheated the depth.
+      </p>
+      <p>
+        Soil adds the second spread. Rocky ground — common in foothill
+        suburbs — triggers the $25–$75 per-post excavation extra from the
+        add-on table, which can add $350–$1,200 to a single fence line.
+        Dallas clay digs easier, but expansive clay that swells and
+        shrinks with moisture is its own problem: good installers bell
+        the holes or add gravel so posts do not ride the soil. Above
+        ground, labor markets finish the job — metro crews in high-demand
+        markets command premiums, deep contractor competition in Texas
+        metros holds bids down, and regional pricing overall moves the
+        national ranges 20–30% in either direction. Permits layer on top
+        anywhere in the $50–$200 band, and suburban HOAs in both metros
+        can dictate material and height. Same fence, same footage — the
+        Denver invoice is buying deeper holes, more concrete, and pricier
+        hours.
+      </p>
+
+      <h2>The 10-year cost of ownership</h2>
+      <p>
+        The install price is the first payment, not the whole cost. Wood
+        privacy needs staining or sealing every 2–3 years; at roughly
+        $5 per linear foot per cycle, a 100-foot wood fence takes about
+        $500 at years 3, 6, and 9 — <strong>$1,500 over the decade</strong>,
+        plus the odd warped picket or post repair. Vinyl asks only for a
+        wash: soap, water, and an hour once a year or two, with no
+        coating ever — a decade of maintenance you can cover with pocket
+        change if you do it yourself. Chain link needs no finish either;
+        budget $100–$300 across ten years for tensioning, ties, and a
+        bent post or gate hinge, barring storm damage. Run the worked
+        examples forward and the ranking flips: wood&apos;s $4,525 install
+        plus $1,500 of upkeep totals about $6,025, against vinyl&apos;s
+        $5,075 install and almost nothing after. Wood wins on day one;
+        vinyl wins by year ten. Our{" "}
+        <a href="/guides/how-to-bid-fence-staining-job">fence staining
+        guide</a> prices the upkeep cycle from the contractor&apos;s side.
+      </p>
+
       <Faq items={faqs} heading="Fence installation cost questions, answered" />
     </GuideArticle>
   );

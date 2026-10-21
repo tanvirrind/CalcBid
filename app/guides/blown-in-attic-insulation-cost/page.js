@@ -265,6 +265,129 @@ export default function Guide() {
 
 
 
+      <h2>Tax credits and rebates in 2026</h2>
+      <p>
+        The federal <strong>Energy Efficient Home Improvement Credit</strong>{" "}
+        has covered insulation and air-sealing materials at{" "}
+        <strong>30% of cost, up to a $1,200 annual cap</strong> for that
+        category. Treat that as a starting point for your research, not a
+        promise: credit rules, eligible-cost definitions, and program
+        deadlines have changed more than once in recent years, and whether
+        the credit is available for a 2026 installation — and on what
+        terms — must be verified against current guidance at{" "}
+        <strong>IRS.gov</strong> before you count it in a budget. The{" "}
+        <strong>DSIRE</strong> database (Database of State Incentives for
+        Renewables &amp; Efficiency) is the other check: state and utility
+        rebates for attic insulation commonly run{" "}
+        <strong>$200–$1,000</strong>, but they vary sharply by territory,
+        and many require pre-approval, a participating contractor, or a
+        home energy assessment before work begins. Applying after the
+        insulation is blown is the most common way homeowners lose a
+        rebate they qualified for.
+      </p>
+      <p>
+        Documentation is where a pro earns part of their fee. A
+        credit-ready invoice itemizes the product installed, the R-value
+        added, the square footage covered, and material cost separated
+        from labor — ask for that split before the job starts, not after.
+        Keep the manufacturer&apos;s certification statement for the
+        insulation product, your paid invoice, and photos or a job record
+        showing the installed depth. Your contractor can document the
+        work; only a tax professional can tell you how the credit applies
+        to your return.
+      </p>
+
+      <h2>Do you need a permit?</h2>
+      <p>
+        For insulation-only work in an existing attic — blowing a top-up
+        over what is already there — most jurisdictions require{" "}
+        <strong>no permit</strong>. Nothing structural changes, and no
+        trade system is altered. The picture changes when the insulation
+        is part of a larger project. New construction and additions are
+        built to an energy code: the attic must hit the R-value prescribed
+        for your climate zone and pass inspection before the work is
+        closed in. And when insulation is paired with other work in the
+        same project — an HVAC replacement, new recessed lighting or
+        other electrical work, a re-roof — those trades pull their own
+        permits, and the insulation scope can be folded into the
+        inspection sequence. Rules are set locally, so a five-minute call
+        to your building department before scheduling is the whole
+        compliance strategy for a retrofit.
+      </p>
+
+      <h2>The payback math: what an R-19 to R-49 top-up saves</h2>
+      <p>
+        Run a real example: a <strong>1,200 sq ft attic</strong> sitting at
+        roughly R-19 — about 6 inches of existing insulation — topped up
+        to R-49. The top-up adds about R-30 worth of material: at 14–15
+        bags per 1,000 sq ft for R-30, that is 17–18 bags. Because the
+        existing insulation stays in place, top-ups price at the low end
+        of the installed range — at $0.90–$1.50 per sq ft, the job runs{" "}
+        <strong>$1,080–$1,800</strong>, call it $1,440 at the midpoint.
+        Adding air sealing at $200–$600 improves the result below, but
+        price it as its own line.
+      </p>
+      <table style={tableStyle}>
+        <thead>
+          <tr>
+            <th style={thStyle}>Climate</th>
+            <th style={thStyle}>Example heating + cooling spend</th>
+            <th style={thStyle}>Realistic top-up savings</th>
+            <th style={thStyle}>Simple payback on $1,440</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style={tdStyle}>Cold (northern zones)</td>
+            <td style={tdStyle}>$2,600/yr</td>
+            <td style={tdStyle}>10–15% — $260–$390/yr</td>
+            <td style={tdStyle}>~4–6 years</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>Mixed (most of the US)</td>
+            <td style={tdStyle}>$2,000/yr</td>
+            <td style={tdStyle}>8–12% — $160–$240/yr</td>
+            <td style={tdStyle}>~6–9 years</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>Hot (deep South, Southwest)</td>
+            <td style={tdStyle}>$1,900/yr, mostly cooling</td>
+            <td style={tdStyle}>7–11% — $133–$209/yr</td>
+            <td style={tdStyle}>~7–11 years</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        Two honest caveats shape those numbers. First, starting point
+        matters: a home rising from R-11 or bare joists can see the
+        15–25% heating and cooling savings that pay a job back in 2–5
+        years, because it is fixing a hole. From R-19, the same dollars
+        buy an incremental improvement, and the payback stretches
+        accordingly — still worthwhile on a measure that lasts decades,
+        but not the two-year story. Second, conduction math has
+        diminishing returns built in: heat flow through the ceiling is
+        proportional to 1/R, so moving from R-19 to R-49 cuts that flow
+        by roughly 60%, while pushing on from R-49 to R-60 cuts only
+        about another fifth of what remains. Past R-49, the next dollar
+        usually works harder on air sealing than on depth — leaks bypass
+        R-value entirely, which is why the sealed attic at R-49 routinely
+        outperforms the unsealed one at R-60. If a verified credit or
+        rebate applies to your job, subtract it from the cost side and
+        every payback above shortens by a year or more.
+      </p>
+
+      <p>
+        Two benefits never show up in the payback table but routinely
+        decide the purchase. In cold climates, air sealing plus a top-up
+        keeps the roof deck colder in winter, which is the mechanism
+        that prevents ice dams — one avoided ice-dam leak repairs more
+        drywall than a year of energy savings. And in every climate, a
+        sealed, evenly insulated attic flattens the temperature swing
+        between floors: the upstairs bedroom that ran five degrees hot
+        in July is the complaint this job quietly deletes. Price the
+        energy math honestly, then let comfort close the case.
+      </p>
+
       <Faq items={faqs} heading="Blown-in insulation questions, answered" />
     </GuideArticle>
   );

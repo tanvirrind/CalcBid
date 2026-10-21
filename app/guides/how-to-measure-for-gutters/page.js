@@ -243,6 +243,153 @@ export default function Guide() {
         itemized footage, materials, and labor, sent from the driveway.
       </p>
 
+      <h2>Worked example: a full takeoff for a 1,600 sq ft ranch</h2>
+      <p>
+        Take a single-story ranch with a simple gable roof: two eaves of{" "}
+        <strong>48 feet</strong> each (front and back) and two gable ends of{" "}
+        <strong>32 feet</strong>. The gable ends get no gutter — a gable
+        roof sheds all its water to the two eaves — so the gutter footage
+        is 2 × 48 = <strong>96 feet</strong>. Add the standard 10% waste
+        factor and you order <strong>106 feet</strong> of gutter. Everything
+        else on the takeoff follows from the steps above:
+      </p>
+      <table style={tableStyle}>
+        <thead>
+          <tr>
+            <th style={thStyle}>Item</th>
+            <th style={thStyle}>Quantity</th>
+            <th style={thStyle}>How it was derived</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style={tdStyle}>Gutter (5-inch K-style)</td>
+            <td style={tdStyle}>106 ft</td>
+            <td style={tdStyle}>96 ft of runs + 10% waste</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>Downspouts</td>
+            <td style={tdStyle}>4</td>
+            <td style={tdStyle}>Each 48-ft run is over 40 ft: one at each end, pitched from the middle</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>Downspout pipe</td>
+            <td style={tdStyle}>40 ft</td>
+            <td style={tdStyle}>4 drops × ~10 ft gutter-to-ground, single-story</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>Elbows</td>
+            <td style={tdStyle}>8</td>
+            <td style={tdStyle}>Two per drop — one at the top, one at the bottom</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>Downspout straps</td>
+            <td style={tdStyle}>8</td>
+            <td style={tdStyle}>Two per 10-foot section</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>Hangers</td>
+            <td style={tdStyle}>48</td>
+            <td style={tdStyle}>96 ft × 12 ÷ 24 — one every 24 inches (64 if spaced at 18 inches for snow country)</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>End caps</td>
+            <td style={tdStyle}>4</td>
+            <td style={tdStyle}>Two per run — the runs end at the gable ends and do not connect</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>Miters</td>
+            <td style={tdStyle}>0</td>
+            <td style={tdStyle}>No corners on a gable roof — the runs never turn</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>Outlets</td>
+            <td style={tdStyle}>4</td>
+            <td style={tdStyle}>One per downspout</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>Sealant</td>
+            <td style={tdStyle}>2 tubes</td>
+            <td style={tdStyle}>One tube per 3–4 end caps and outlets; 8 joints to seal</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        Two checks complete the takeoff. <strong>Slope:</strong> each run
+        pitches from its midpoint, so each half-run falls for 24 feet —
+        at 1/4 inch per 10 feet, that is just over 1/2 inch of drop from
+        center to downspout. <strong>Sizing:</strong> each eave drains
+        roughly half the roof, about 800 sq ft, which sheds around 500
+        gallons in a 1-inch storm — split between two downspouts, a load
+        5-inch K-style handles in moderate rainfall. A steep pitch or a
+        heavy-rainfall region would push this same house to 6-inch per
+        Step 3. Run the list through the{" "}
+        <a href="/calculators/gutter-calculator">gutter calculator</a>{" "}
+        before ordering; on this house it should confirm 106 feet, 48
+        hangers, and 4 downspouts.
+      </p>
+
+      <p>
+        One adaptation if you are buying sectional gutter instead of
+        having coil fabricated on site: round each run up to whole
+        10-foot sections. The ranch&apos;s two 48-foot runs take five
+        sections each — 50 feet per run, with the last section trimmed on
+        the ladder — and every joint between sections needs a connector,
+        four per run here. Section joints are also the first places
+        sectional systems leak, which is why the sealant count above
+        assumed seamless runs: add a tube if you go sectional, and put
+        the connectors on the takeoff explicitly. However the material is
+        sold, the rule from Step 4 holds — order the whole list in one
+        trip, because a Saturday run back to the supplier for two end
+        caps costs more in time than every small part on this table
+        combined.
+      </p>
+
+      <h2>Measuring without a ladder: plans, photos, and satellite tools</h2>
+      <p>
+        For an estimate — not a material order — three ladder-free methods
+        work. <strong>Blueprints and plans:</strong> eave length equals the
+        wall length below it plus the rake overhang where the roof extends
+        past the gable walls, typically a foot or two per end. If the plan
+        shows a 46-foot wall with 1-foot overhangs, the run is 48 feet.
+        <strong>Satellite tools:</strong> roof-measurement apps and aerial
+        reports are usually accurate to within about a foot per run on
+        simple gable roofs, but tree cover, shadows, and cut-up rooflines
+        degrade them — treat satellite numbers as ±5% until verified.
+        <strong>Photo scaling:</strong> photograph each elevation
+        straight-on with a known reference in frame — a standard entry
+        door is 6 feet 8 inches — and scale the eave against it in pixels.
+        It is rough, but it catches the bump-out a footprint measurement
+        misses.
+      </p>
+      <p>
+        A physical check is still required before materials are cut.
+        Ground methods cannot show exact downspout drop heights on a
+        sloped lot, dormers and porch roofs tucked under the main eave,
+        or whether the fascia is sound enough to hold hangers. Use remote
+        numbers to budget and to compare quotes; verify from the ladder
+        before the coil is fabricated.
+      </p>
+
+      <h2>Hip and valley rooflines: measuring the hard houses</h2>
+      <p>
+        A hip roof gutters all four sides, so the footage really is the
+        full eave perimeter — and every corner becomes a miter. A basic
+        rectangular hip has four outside miters; L- and T-shaped
+        footprints add inside miters wherever wings join. Count them on
+        the sketch, because each one is a part, a sealed joint, and the
+        most leak-prone point in the system. Valleys change the downspout
+        math too: a valley concentrates an entire roof plane&apos;s water
+        onto a few feet of gutter, so the run below a valley gets a
+        dedicated downspout even when it is well under 30 feet — and often
+        a splash guard where the valley stream lands, because inside
+        corners overshoot in heavy rain. Short returns and porch runs are
+        the trap: they look like they can share the main run&apos;s
+        downspout, but if a valley feeds them, they need their own drop.
+        On hard houses, measure run by run and place downspouts by where
+        the water actually arrives, not by spacing alone.
+      </p>
+
       <Faq items={faqs} heading="Gutter measuring questions, answered" />
     </GuideArticle>
   );
