@@ -192,6 +192,65 @@ export default function Guide() {
         they work aren&apos;t tougher negotiators. They just have a process.
       </p>
 
+      <h2>Anatomy of an enforceable change order form</h2>
+      <p>
+        A change order only protects you if it would hold up in a dispute,
+        and that comes down to fields, not formatting. Every form — yours
+        should carry these whether it lives on paper or in a phone:
+      </p>
+      <ul>
+        <li><strong>Change order number and contract reference.</strong> CO-001, tied to the original signed agreement by date and job address, so the paper trail is one file, not two arguments.</li>
+        <li><strong>Scope delta in plain language.</strong> What is added, what is removed, and what stays exactly as contracted. &ldquo;Repair rot&rdquo; is not a scope; &ldquo;Remove and replace 24 sq ft of rotted subfloor and one sill plate section found at demo&rdquo; is.</li>
+        <li><strong>Itemized price.</strong> Labor, materials, and markup as separate lines, priced by the method in your contract — never a bare total the client has to take on faith.</li>
+        <li><strong>Schedule impact in days.</strong> &ldquo;Adds 1 day; new completion date June 14&rdquo; — written on the form, not mentioned in the hallway.</li>
+        <li><strong>Revised cumulative total.</strong> Original contract, plus each prior change order, plus this one. The client should always see the full running number they are committing to.</li>
+        <li><strong>The stop-work clause.</strong> One sentence above the signature line: work on this change does not proceed until this form is signed. It converts your policy from a preference into a term they agreed to.</li>
+        <li><strong>Signatures and dates for both parties.</strong> Unsigned is a draft. Dated signatures are what make it an amendment instead of a note.</li>
+      </ul>
+      <p>
+        Digital forms beat paper on one point that matters in disputes:
+        attachments. Photograph the hidden condition, attach the photos to
+        the change order itself, and send it from the{" "}
+        <a href="/quote">quote builder</a> while you are standing in front of
+        the damage. A signed form with timestamped photos ends the &ldquo;I
+        never saw any rot&rdquo; conversation before it starts. Paper works
+        too — if it is signed before the work and filed with the contract,
+        not reconstructed from memory at invoice time.
+      </p>
+
+      <h2>Worked example: the $850 change that protected a $14,000 job</h2>
+      <p>
+        A bathroom remodel is contracted at $14,000. At demo, the crew finds
+        rot in the subfloor around the tub — a hidden condition, outside the
+        original scope. Priced by the method in the table above, as
+        time-and-materials work at the change-order rate: replacement lumber
+        and subfloor material $260, labor $420 for the tear-out and rebuild,
+        a direct-cost subtotal of $680. With the 25% change-order markup the
+        contract already specifies, the change order totals{" "}
+        <strong>$850</strong>, with one day added to the schedule, stated on
+        the form.
+      </p>
+      <p>
+        The presentation uses the hidden-damage script from the conversation
+        section above: here is what we found (with photos), here is what it
+        takes to fix it right, here is the cost and the extra day, and I need
+        your approval before we proceed. The client signs CO-001 in ten
+        minutes because none of it is a surprise — the process was in the
+        original contract.
+      </p>
+      <p>
+        Now the outcome math. Say the $14,000 job was bid at a 20% gross
+        margin — $2,800 of expected gross profit. Absorbing the rot repair
+        &ldquo;to keep the client happy&rdquo; spends $680 of real cost,
+        cutting that margin to $2,120: one hidden condition just took 24% of
+        the profit on the job, and the undocumented extra day pushes the next
+        job with no paper to explain why. With the signed change order
+        instead, the contract becomes $14,850, the repair is paid work with
+        its markup intact, the schedule slip is documented as
+        client-approved, and the margin survives whole. The $850 was never
+        the point. The signature was.
+      </p>
+
       <Faq items={faqs} heading="Change order questions, answered" />
     </GuideArticle>
   );

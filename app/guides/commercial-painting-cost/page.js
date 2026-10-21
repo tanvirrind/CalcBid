@@ -242,6 +242,89 @@ export default function Guide() {
         <a href="/quote">quote</a>.
       </p>
 
+      <h2>Worked bid example: a 12,000 sq ft office repaint</h2>
+      <p>
+        A tenant keeps operating during a full-floor repaint: 12,000 sq ft
+        of floor area, 10-foot ceilings, work done after hours. The takeoff
+        counts paintable surface, not floor area: about 9,200 sq ft of wall
+        after deducting glass and doors, plus the full 12,000 sq ft of
+        ceiling — 21,200 sq ft of paintable surface in total. Production
+        math first: walls roll at roughly 700 sq ft per painter per day and
+        ceilings spray at about 1,000, both inside the 500–1,000+ range
+        above, which works out to about 30 painter-days including trim and
+        doors — a five-person crew for six working nights.
+      </p>
+      <table style={tableStyle}>
+        <thead>
+          <tr>
+            <th style={thStyle}>Bid line</th>
+            <th style={thStyle}>Math</th>
+            <th style={thStyle}>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style={tdStyle}>Prep: patch, sand, caulk</td>
+            <td style={tdStyle}>9,200 sq ft of wall × $0.75</td>
+            <td style={tdStyle}>$6,900</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>Materials: primer + 2 finish coats</td>
+            <td style={tdStyle}>21,200 sq ft × $0.65</td>
+            <td style={tdStyle}>$13,780</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>Labor, base rate</td>
+            <td style={tdStyle}>21,200 sq ft × $1.40</td>
+            <td style={tdStyle}>$29,680</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>After-hours premium</td>
+            <td style={tdStyle}>20% on labor, inside the 15–30% range</td>
+            <td style={tdStyle}>$5,936</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>Lift rental + protection/masking</td>
+            <td style={tdStyle}>Scissor lift for the high lobby area, delivery, plus nightly protection and teardown</td>
+            <td style={tdStyle}>$4,200</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        Total: <strong>about $60,500</strong>. Run both checks before sending:
+        that is $2.85 per paintable sq ft, and $5.04 per sq ft of floor area
+        for a walls, ceilings, and trim scope — inside the $3.50–$5.50+ full
+        scope band in the table above. Materials at $13,780 are about 23% of
+        the bid, inside the 20–35% band, and the after-hours premium is a
+        separate line the facility manager can remove by clearing the floor —
+        exactly how the occupied-space section says to present it.
+      </p>
+
+      <h2>Permits, codes, and building rules</h2>
+      <p>
+        Painting itself rarely needs a permit — it is a finish, not a
+        structural, electrical, or plumbing change. The permits gather around
+        the work instead. Exterior work in dense cities can require scaffold
+        or sidewalk-shed permits before anything goes over a public walkway,
+        and some jurisdictions permit swing staging separately. After-hours
+        work, which occupied buildings demand, runs into municipal noise
+        rules: spraying and sanding at 2 a.m. may be restricted even when the
+        building owner wants it, so confirm the local noise window before
+        promising a night schedule.
+      </p>
+      <p>
+        Older commercial buildings add two surveys to the front of the job.
+        Lead paint is common in pre-1978 buildings and suspect asbestos can
+        sit in old texture coats and mastics — disturbing either without a
+        survey turns a repaint into an abatement problem, so price the survey
+        as a pre-bid line on older stock. Finally, expect the property
+        manager&apos;s paperwork: most require a certificate of insurance
+        (COI) naming the building as additional insured, sometimes a safety
+        plan and proof of licensing, delivered before the crew gets badge
+        access. Build the admin time into the bid — on managed buildings it
+        is a real cost, not a courtesy.
+      </p>
+
       <Faq items={faqs} heading="Commercial painting questions, answered" />
     </GuideArticle>
   );

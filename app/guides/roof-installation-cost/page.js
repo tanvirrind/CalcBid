@@ -226,6 +226,82 @@ export default function Guide() {
         into a clean, warrantied <a href="/quote">quote</a>.
       </p>
 
+      <h2>Regional pricing for new-construction roofing</h2>
+      <p>
+        Where the house is built moves you within the $4.50–$7.50 per sq ft
+        range for architectural shingles — and sometimes outside it. In
+        production-builder markets across the Sun Belt, where subdivisions
+        put dozens of similar roofs on the same street, roofing crews work
+        from repeat plans, materials arrive in bulk, and there is almost no
+        travel between jobs. Those efficiencies price new-construction
+        shingles near the bottom of the range, and builders negotiate volume
+        rates a one-off custom home will never see.
+      </p>
+      <p>
+        Custom-build regions price differently. In high-cost metros in the
+        Northeast and on the West Coast, and in mountain or coastal markets
+        where experienced roofers are scarce, labor pushes bids toward — and
+        for complex custom roofs, past — the top of the range. Availability
+        matters as much as the rate: during a local building boom, a roofer
+        who can start this month charges more than one booking two seasons
+        out, and specialty materials widen the gap further. Standing seam
+        metal at $9–$16 and tile at $10–$20 per sq ft depend on a small pool
+        of specialist crews, so in regions without them, expect both higher
+        prices and longer lead times. Get the bid for your market, not the
+        national average, and ask whether the price assumes production or
+        custom conditions.
+      </p>
+
+      <h2>Worked example: roofing a 1,800 sq ft new build</h2>
+      <p>
+        Take a single-story new build with a 1,800 sq ft footprint and a
+        6/12 pitch. Applying the pitch multiplier gives roughly 2,012 sq ft
+        of actual roof area — about 20 squares. Priced at the architectural
+        shingle range above, the roof should land between $9,000 and
+        $15,000; here is a mid-range bid at about $12,050, or $5.99 per sq ft
+        of roof area:
+      </p>
+      <table style={tableStyle}>
+        <thead>
+          <tr>
+            <th style={thStyle}>Line item</th>
+            <th style={thStyle}>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style={tdStyle}>Dry-in phase: synthetic underlayment + ice-and-water shield at eaves and valleys</td>
+            <td style={tdStyle}>$1,900</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>Architectural shingles, material and install labor (~20 squares)</td>
+            <td style={tdStyle}>$8,100</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>Flashing and drip edge at every penetration and edge</td>
+            <td style={tdStyle}>$950</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>Ventilation: ridge vent plus intake, starter strip, and ridge cap</td>
+            <td style={tdStyle}>$1,100</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        Note what is not in that $12,050: the decking itself, which is the
+        builder or framer&apos;s scope on a new build, and gutters, which are
+        usually a separate trade afterward. If you are buying the home
+        through a general contractor rather than hiring the roofer directly,
+        expect the GC&apos;s markup to be applied on top of the roofing
+        subcontractor&apos;s price — commonly in the 10–15% range for
+        coordinating, scheduling, and warranting the work — which would put
+        this roof at roughly $13,250–$13,850 in the contract price. That
+        markup is not the roofer charging more; it is the cost of the GC
+        standing behind the sequencing and the warranty. Either way, confirm
+        before signing whose name the manufacturer warranty is registered
+        under, exactly as the sequencing section above advises.
+      </p>
+
       <Faq items={faqs} heading="Roof installation questions, answered" />
     </GuideArticle>
   );

@@ -246,6 +246,110 @@ export default function Guide() {
         ladder&apos;s back on the truck.
       </p>
 
+      <h2>Fully worked estimate: a 24-square ranch re-roof</h2>
+      <p>
+        Take a one-story ranch with a 2,000 sq ft footprint and a walkable
+        6/12 pitch. At the 1.118 multiplier from Step 1, true roof area is
+        about 2,400 sq ft — <strong>24 squares</strong> before waste. One
+        layer of shingles to tear off, one chimney, two pipe boots, and
+        average access with the dumpster in the driveway. Here is the takeoff
+        priced with the ranges in this guide, using mid-points so you can see
+        the arithmetic:
+      </p>
+      <table style={tableStyle}>
+        <thead>
+          <tr>
+            <th style={thStyle}>Line item</th>
+            <th style={thStyle}>Math</th>
+            <th style={thStyle}>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style={tdStyle}>Tear-off, 1 layer</td>
+            <td style={tdStyle}>24 squares × $75/square</td>
+            <td style={tdStyle}>$1,800</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>Disposal / dumpster</td>
+            <td style={tdStyle}>24 squares × $40/square</td>
+            <td style={tdStyle}>$960</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>Shingles, with waste</td>
+            <td style={tdStyle}>24 squares + 10% waste = 27 squares ordered; 3 bundles/square = 81 bundles, plus ridge cap and starter strip</td>
+            <td style={tdStyle}>$3,650</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>Underlayment + ice-and-water shield</td>
+            <td style={tdStyle}>2,400 sq ft synthetic field at $0.25/sq ft, plus ice-and-water at eaves and valleys</td>
+            <td style={tdStyle}>$900</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>Drip edge, vents, pipe boots, flashing</td>
+            <td style={tdStyle}>Drip edge on eaves and rakes, ridge vent, 2 pipe boots, 1 chimney flashing at $200–$500</td>
+            <td style={tdStyle}>$850</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>Decking allowance</td>
+            <td style={tdStyle}>8 sheets × $75/sheet, final count at tear-off</td>
+            <td style={tdStyle}>$600</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>Install labor</td>
+            <td style={tdStyle}>24 squares × $225/square</td>
+            <td style={tdStyle}>$5,400</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>Permit</td>
+            <td style={tdStyle}>Within the $150–$500 range in Step 5</td>
+            <td style={tdStyle}>$300</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        The crew math behind the labor line: at the production rate from
+        Step 4 — about 15 squares a day on a walkable 6/12 — installation
+        takes roughly 1.6 days, plus most of a day for tear-off and cleanup.
+        A four-person crew over about two and a half days is roughly 80
+        crew-hours on site, which is what the $225 per square has to cover
+        along with staging, the magnetic nail sweep, and warranty
+        registration. Subtotal for the lines above is $14,460. Add overhead
+        and profit at a combined 15% — $2,170 — and the bid lands at{" "}
+        <strong>about $16,600</strong>. Run the per-square check before you
+        send it: $16,600 ÷ 24 squares is about $692 per square all-in for a
+        tear-off and replacement. If your market will not support that
+        number, adjust the tier you present — a basic architectural option
+        in the Good tier — rather than quietly deleting the decking
+        allowance or the disposal line, because those costs do not disappear
+        when they leave the quote.
+      </p>
+
+      <h2>How regional labor markets move your bid</h2>
+      <p>
+        The $150–$300 per square labor range in the FAQ is wide because the
+        market sets it. In high-cost metros and on the coasts, experienced
+        crews price at or above the top of that range and book out weeks
+        ahead; in rural markets with lower overhead, the same work often
+        prices near the bottom. Neither number is wrong — quoting a rural
+        rate in a metro loses money on every square, and quoting a metro
+        rate two counties over loses the job.
+      </p>
+      <p>
+        Storm markets break the range entirely. After a major hail or
+        hurricane event, every roofer in the region is busy, tear-off crews
+        and dumpsters get scarce, and material prices climb — bids that were
+        competitive in spring can be below cost by fall. Re-price labor,
+        disposal, and shingles on any estimate older than a few weeks in a
+        storm market instead of honoring a stale takeoff. Finally, price
+        distance honestly: work beyond your normal radius adds drive time
+        that produces zero squares, and multi-day jobs can require lodging
+        and meals for the crew. Put travel and lodging in as their own line
+        items, the same way you itemize permits — a client can accept or
+        decline a visible cost, but absorbed travel quietly turns a won bid
+        into a break-even job.
+      </p>
+
       <Faq items={faqs} heading="Roofing estimate questions, answered" />
     </GuideArticle>
   );
