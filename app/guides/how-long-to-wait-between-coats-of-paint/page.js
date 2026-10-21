@@ -249,6 +249,57 @@ export default function Guide() {
         branded <a href="/quote">quote</a> with the schedule baked in.
       </p>
 
+      <h2>Cabinets, trim, and doors: the slow-cure surfaces</h2>
+      <p>
+        Walls forgive impatience; cabinets, trim, and doors do not. These are the surfaces
+        painted with enamels — the oil-based enamel in the table above at a{" "}
+        <strong>24-hour recoat</strong> and up to <strong>30 days to full cure</strong>, or a
+        waterborne alkyd at <strong>16–24 hours to recoat</strong> and 3–4 weeks to cure —
+        precisely because they must harden into a shell that takes daily contact. The recoat
+        window is only the first wait. The second, longer wait is <strong>cure before
+        use</strong>: a cabinet door can be dry to the touch in hours and recoatable the next
+        day, yet still need <strong>7 days at the short end and up to 30 days</strong> before
+        plates, cans, and cleaning bottles sit on the shelves behind it without leaving marks.
+      </p>
+      <p>
+        The failure has a name: <strong>blocking</strong> — painted surfaces sticking to
+        whatever touches them. A door closed against a freshly painted frame, or a cabinet
+        door resting on a shelf edge before cure, can bond, peel paint off both surfaces when
+        opened, and force a strip-and-redo of that piece. Practical rules that prevent it:
+        hang doors and cabinet doors only after the recoat-safe window, leave them{" "}
+        <strong>ajar or on spacers for the first week</strong>, keep shelf contents off
+        painted interiors for at least a week — longer for oil-based — and warn the household
+        that &ldquo;dry&rdquo; on day two is not &ldquo;cured&rdquo; until weeks two to four.
+        Pros schedule cabinet work so the cure happens in the client&apos;s garage, not on
+        their countertops, and they put the no-use window in the{" "}
+        <a href="/quote">quote</a> in writing.
+      </p>
+
+      <h2>How to test whether it&apos;s ready</h2>
+      <p>
+        The clock is a starting estimate; the surface gets the final vote. The standard check
+        is the <strong>thumbnail test</strong>: press a thumbnail firmly into an inconspicuous
+        spot — behind a door, low on a wall — and twist slightly. If the paint dents, feels
+        soft, or takes a nail mark that doesn&apos;t spring back, it is not ready to recoat,
+        however many hours have passed. Hard, no dent, no tack when you press and lift a clean
+        fingertip: proceed. Pair it with the touch cues from the weather section — a surface
+        that feels <strong>cool or tacky</strong> is still releasing moisture underneath.
+      </p>
+      <p>
+        One trap catches careful painters: <strong>surface temperature lags air
+        temperature</strong>. A room can read 70°F while an exterior wall, a basement wall, or
+        a metal door that sat cold overnight is still well below that, and paint on a cold
+        surface dries to the <em>surface</em> schedule, not the room&apos;s. Touch the actual
+        wall, not the thermostat — cold walls in winter are the usual reason a
+        &ldquo;4-hour&rdquo; latex recoat behaves like six. Primers need their own judgment
+        call: latex primers at <strong>1–3 hours</strong> and PVA at 30–60 minutes are ready
+        when uniformly matte with no shiny wet patches; rushing color over a still-damp primer
+        traps the same moisture you were trying to seal. And remember what{" "}
+        <strong>&ldquo;dry to touch&rdquo; doesn&apos;t mean</strong>: it means the surface
+        film has set. It does not mean recoatable, it does not mean cured, and it never means
+        ready for furniture, scrubbing, or tape.
+      </p>
+
       <Faq items={faqs} heading="Recoat timing questions, answered" />
     </GuideArticle>
   );

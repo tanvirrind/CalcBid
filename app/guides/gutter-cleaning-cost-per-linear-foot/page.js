@@ -224,6 +224,128 @@ export default function Guide() {
 
 
 
+      <h2>Regional and seasonal pricing</h2>
+      <p>
+        The per-foot rates above are national ranges — when you book matters
+        almost as much as where you live. In the Northeast, Midwest, and
+        upper South, the fall surge hits right after leaf drop: every
+        oak-, maple-, and pine-covered home in town wants the same two or
+        three weeks in October and November. Routes fill fast, discounts
+        disappear, and many companies apply peak premiums of roughly{" "}
+        <strong>10–25%</strong> in heavy-canopy regions. A two-story home
+        quoted $280 in July can legitimately quote $310–$350 in late fall —
+        same crew, same work, scarcer calendar.
+      </p>
+      <p>
+        Spring behaves differently by climate. In mild and warm regions,
+        spring is its own debris season — pollen tassels, seed pods, and
+        live-oak leaf drop in the Southeast clog gutters before summer
+        storms arrive, so spring can be the local peak instead of fall. In
+        the arid Southwest, debris loads stay light most of the year and
+        rates sit near the bottom of the ranges, with demand ticking up
+        before monsoon season. In snow country, a late-spring cleaning
+        clears winter grit and ice-dam residue, and it is the easiest
+        appointment of the year to book.
+      </p>
+      <p>
+        Service minimums follow market size. The $75–$100 minimum cited
+        above holds in smaller and rural markets, where a short ranch
+        cleaning may price on that floor rather than on footage. In large
+        metros — where the regional premium already runs 30–50% above the
+        midpoints — expect minimum call-outs of $125 or more, because drive
+        time, parking, and insurance cost the crew more before the ladder
+        comes off the truck. The practical takeaway: book the fall cleaning
+        in September, and ask whether an off-peak date moves the price.
+      </p>
+
+      <p>
+        Timing is a legitimate negotiating lever, because the debris
+        calendar is predictable. Maples and most ornamentals drop early;
+        oaks hold their leaves late into fall — sometimes into winter —
+        so a cleaning booked for mid-October under oak cover is partly
+        wasted, and the smart slot is after the oaks let go. Pines shed
+        needles in a fall pulse and then steadily all year, which is why
+        pine-heavy lots are the true three-cleaning homes. In fall-peak
+        markets, the same companies charging November premiums discount
+        to fill late-winter and early-spring routes, when a crew&apos;s
+        alternative is an idle truck. The strongest move costs nothing:
+        when a cleaner is on your roof in a slow month, ask them to book
+        the fall visit then and quote it in writing. You get the slot
+        everyone else is fighting for in October, at a rate set before
+        the surge, and the company gets a guaranteed route day — which
+        is exactly why many will agree to it.
+      </p>
+
+      <h2>Three houses, three invoices (worked examples)</h2>
+      <table style={tableStyle}>
+        <thead>
+          <tr>
+            <th style={thStyle}>Home</th>
+            <th style={thStyle}>Line math</th>
+            <th style={thStyle}>Invoice range</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style={tdStyle}>120 ft single-story ranch, easy access</td>
+            <td style={tdStyle}>120 ft × $0.95–$1.25/ft</td>
+            <td style={tdStyle}>$114–$150</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>180 ft two-story, with gutter guards</td>
+            <td style={tdStyle}>180 ft × $1.25–$1.85/ft, plus guards at 180 ft × $0.50–$1.25/ft</td>
+            <td style={tdStyle}>$315–$558</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>240 ft three-story, complex roofline</td>
+            <td style={tdStyle}>240 ft × $1.75–$2.50/ft, plus heavy-debris surcharge where packed</td>
+            <td style={tdStyle}>$470–$725</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        <strong>The ranch</strong> is the benchmark job. At the $1.10/ft
+        midpoint, 120 feet comes to $132 — comfortably above the service
+        minimum, so no floor pricing applies. Light leaf litter, all
+        ladder work from a step ladder or the roof edge, downspouts
+        flushed: roughly an hour on site, and the invoice stays inside the
+        range a homeowner can sanity-check in seconds.
+      </p>
+      <p>
+        <strong>The two-story with guards</strong> shows why footage alone
+        misleads. The base cleaning is 180 × $1.25–$1.85 = $225–$333. The
+        guards add a second line: lifting and reinstalling them to clear
+        the silt underneath runs $0.50–$1.25 per foot, another $90–$225.
+        A midpoint invoice — $279 base plus about $158 for the guards —
+        lands near $435. If a quote for this house comes in at ranch
+        prices, the guards almost certainly are not being lifted.
+      </p>
+      <p>
+        <strong>The three-story</strong> prices on setup, not scooping.
+        The footage math gives $420–$600; a complex roofline with steep
+        sections and a season or two of packed debris adds the $50–$125
+        heavy-debris surcharge, putting a realistic invoice at $470–$725.
+        At the $2.10/ft midpoint the cleaning itself is about $510 — the
+        rest is the debris and the extra ladder and safety work that
+        three stories demand.
+      </p>
+
+      <h2>Twice-a-year plans: when the subscription math wins</h2>
+      <p>
+        Paying per visit, two cleanings a year cost $300–$700 depending on
+        the house. Maintenance plans typically knock 10–20% off the
+        per-visit rate in exchange for a standing schedule, and they lock
+        your rate against fall peak premiums. On a ranch at $132 a visit,
+        a plan saves perhaps $40 a year — real money, but not decisive.
+        On the two-story canopy home paying $300+ per visit, the same
+        discount is worth $90–$130 a year, and staying on schedule avoids
+        the $50–$125 heavy-debris surcharge that neglected gutters
+        attract. That is the break-even logic: the heavier your tree
+        cover and the taller your house, the more a plan pays. Homes with
+        light cover that honestly need one cleaning a year gain little —
+        book single visits and skip the subscription.
+      </p>
+
       <Faq items={faqs} heading="Gutter cleaning questions, answered" />
     </GuideArticle>
   );

@@ -231,6 +231,127 @@ export default function Guide() {
         covers pricing the labor side.
       </p>
 
+      <h2>Three 2,000 sq ft homes, three gallon counts (worked examples)</h2>
+      <p>
+        Same floor area, three very different paint bills. Each example
+        measures the walls the way the floor-area section prescribes —
+        length × height, minus openings, plus gables — then divides by
+        the coverage for that surface and applies the 10% waste factor.
+      </p>
+      <table style={tableStyle}>
+        <thead>
+          <tr>
+            <th style={thStyle}>Home</th>
+            <th style={thStyle}>Paintable wall area</th>
+            <th style={thStyle}>Coverage per gallon</th>
+            <th style={thStyle}>Per coat</th>
+            <th style={thStyle}>Two coats + 10% waste</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style={tdStyle}>Single-story ranch, fiber-cement</td>
+            <td style={tdStyle}>1,610 sq ft</td>
+            <td style={tdStyle}>350 sq ft (smooth)</td>
+            <td style={tdStyle}>4.6 gal</td>
+            <td style={tdStyle}>10.1 gal body</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>Two-story, painted brick</td>
+            <td style={tdStyle}>2,000 sq ft</td>
+            <td style={tdStyle}>275 sq ft (textured)</td>
+            <td style={tdStyle}>7.3 gal</td>
+            <td style={tdStyle}>16.0 gal body</td>
+          </tr>
+          <tr>
+            <td style={tdStyle}>Stucco, mixed one/two-story</td>
+            <td style={tdStyle}>1,750 sq ft</td>
+            <td style={tdStyle}>260 sq ft (rough, porous)</td>
+            <td style={tdStyle}>6.7 gal</td>
+            <td style={tdStyle}>14.8 gal body</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        <strong>The ranch</strong> is the cheapest shape to paint: one
+        story, a 180-foot perimeter of 9-foot walls (1,620 sq ft), two
+        gable triangles adding 240 sq ft, and about 250 sq ft of windows
+        and doors subtracted — 1,610 sq ft of wall. Fiber-cement is
+        smooth and non-porous once painted, so it spreads at the full
+        350 sq ft per gallon on the can. Buy 10–11 gallons of body paint
+        and 1 gallon of trim: the low end of every range on this page.
+      </p>
+      <p>
+        <strong>The two-story brick home</strong> stacks the same 2,000
+        sq ft of floor on a 1,000 sq ft footprint, which doubles the wall
+        height: a 130-foot perimeter × 18 feet of wall is 2,340 sq ft,
+        or about 2,000 sq ft after openings. Brick that has been painted
+        before still has a rough, thirsty profile, so coverage drops to
+        roughly 275 sq ft per gallon and the body count climbs to 16
+        gallons — inside the 13–17 gallon brick band, plus 1–2 for trim.
+        Painting <em>bare</em> brick for the first time drinks even more;
+        see the primer section below.
+      </p>
+      <p>
+        <strong>The stucco home</strong> lands between them on area —
+        about 1,750 sq ft of wall — but stucco&apos;s texture holds more
+        real surface than its flat measurement, and the pores absorb the
+        first coat, so figure 260 sq ft per gallon. The count comes to
+        about 15 gallons of body paint plus trim, squarely in the 13–16
+        gallon stucco band. Swap in an elastomeric coating, which covers
+        less per gallon, and buy toward the top of that band.
+      </p>
+
+      <h2>Primer: the gallons everyone forgets</h2>
+      <p>
+        Primer is a separate purchase with its own gallon count, and the
+        worked examples above assume sound, previously painted surfaces.
+        When the surface is bare, primer becomes a full extra coat: bare
+        wood, new stucco (which needs an alkali-resistant masonry
+        primer), never-painted brick, and whole-house color changes. On
+        the ranch&apos;s 1,610 sq ft of wall, one full prime coat at
+        roughly 300–350 sq ft per gallon is about <strong>5 additional
+        gallons</strong> — at primer prices, well below the $50–$100 per
+        gallon of finish paint. Skipping it on bare surfaces is false
+        economy: unprimed wood and masonry swallow the first finish coat
+        at 200–250 sq ft per gallon, so you burn the savings in extra
+        finish paint and still get a weaker bond.
+      </p>
+      <p>
+        The middle path is strategy, not volume. On a sound repaint in a
+        similar color family, skip the full prime and spot-prime only
+        repairs and bare spots — the savings run 2–3 gallons. On a strong
+        color change, one coat of primer <em>tinted toward the finish
+        color</em> does the hiding work, and two finish coats then cover
+        cleanly where untinted paint might have needed a third. Ask the
+        paint store to tint the primer when you order the finish paint,
+        and buy both in the same trip so the pairing is on the record.
+      </p>
+
+      <h2>Leftover paint: storage, touch-ups, and the color-match trap</h2>
+      <p>
+        Keep one sealed gallon of body paint — you will need it. Stored
+        indoors where it can never freeze, with the lid sealed tight, a
+        gallon of latex exterior paint typically stays usable for{" "}
+        <strong>2–5 years</strong>; a frozen, rusted, or sour-smelling
+        can is done, so skim off any skin and stir well before judging
+        it. Label the can before it goes on the shelf: brand and product
+        line, color name and formula code, sheen, the date, and which
+        surfaces it covers — a phone photo of the store label is cheap
+        insurance against a faded lid.
+      </p>
+      <p>
+        The trap is assuming that label buys an invisible repair years
+        later. The wall has been fading under UV and chalking the whole
+        time, so fresh paint from the identical formula goes on visibly
+        darker and richer, and a dabbed touch-up flashes in raking light.
+        Use the stored gallon for small nicks and accept a slight
+        witness mark — or, for anything larger than a hand, feather the
+        repair out or repaint the whole wall section corner to corner.
+        A fresh gallon mixed years later from the same formula gets
+        close, but &ldquo;close&rdquo; is all it ever gets.
+      </p>
+
       <Faq items={faqs} heading="Exterior paint questions, answered" />
     </GuideArticle>
   );

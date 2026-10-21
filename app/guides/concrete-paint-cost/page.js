@@ -258,6 +258,77 @@ export default function Guide() {
         <a href="/quote">quote</a>.
       </p>
 
+      <h2>Real project totals: three worked examples</h2>
+      <p>
+        Per-square-foot ranges are hard to budget from, so here are three
+        complete jobs priced inside the table above. Each total includes the
+        prep sequence from this guide — skipping prep would lower the price
+        and shorten the life of every one of them.
+      </p>
+      <p>
+        <strong>400 sq ft two-car garage, epoxy system — $2,800 total
+        ($7.00/sq ft).</strong> Degreasing, grinding, and crack repair:
+        $550. Primer coat: $350. Epoxy base coat with decorative flake:
+        $1,350. Clear protective topcoat: $550. That sits in the middle of
+        the $3–$12 garage epoxy range — a basic water-based kit prices lower,
+        a 100%-solids commercial system prices higher.
+      </p>
+      <p>
+        <strong>200 sq ft basement floor, stain — $1,000 total
+        ($5.00/sq ft).</strong> Cleaning, etching, and moisture testing:
+        $250. Two coats of stain: $500. Sealer: $250. That is inside the
+        $3–$7 basement stain range, and stain is the right call below grade
+        because it penetrates instead of forming a film that moisture vapor
+        can push off the slab.
+      </p>
+      <p>
+        <strong>600 sq ft patio, acrylic concrete paint — $2,100 total
+        ($3.50/sq ft).</strong> Pressure washing and etching: $500. Crack
+        and spall repairs: $250. Concrete primer: $350. Two coats of paint:
+        $750. Exterior sealer: $250. That lands in the lower half of the
+        $2–$6 patio paint range because the slab was sound — a patio needing
+        extensive patching prices toward the top of the range on prep alone.
+      </p>
+
+      <h2>How long each coating lasts (and the true 10-year cost)</h2>
+      <p>
+        The comparison table above gives the lifespans: exterior paint lasts
+        3–5 years, interior paint 5–10 years, stain 8–15 years outdoors, and
+        epoxy 5–10 years. Spread over a decade, that means exterior paint is
+        applied roughly three times, stain is applied once and resealed every
+        few years at $0.85–$1.60 per sq ft, and a garage epoxy is typically
+        installed once with the topcoat — not the whole system — as the wear
+        layer to watch.
+      </p>
+      <p>
+        Per 100 sq ft over ten years, using the totals this guide already
+        publishes, paint runs <strong>$1,000–$1,200</strong> and stain runs{" "}
+        <strong>$700–$900</strong>. Epoxy starts higher — $300–$1,200 per
+        100 sq ft installed for a garage system — but because it is usually
+        one installation in that window, its decade cost often lands close
+        to stain on interior floors while outlasting paint by years. The
+        decision rule stays the same: paint wins on first cost for interiors,
+        stain wins on decade cost outdoors, and epoxy wins where tires,
+        tools, and chemicals hit the floor daily.
+      </p>
+
+      <h2>Do you need a permit?</h2>
+      <p>
+        For a residential garage, basement, or patio floor, almost never —
+        painting or coating your own concrete is a finish project with no
+        structural, plumbing, or electrical change, and municipalities
+        generally do not permit it. Two watch-outs remain. First, product
+        rules: some states and air-quality districts limit volatile organic
+        compounds (VOCs) in architectural coatings, so a product sold freely
+        in one state may be restricted or sold only in a low-VOC formula in
+        another — check the label against your local rule before ordering.
+        Second, commercial floors are different: floors open to the public
+        or employees carry slip-resistance expectations, and a glossy coating
+        that is fine in a home garage can be a liability in a shop or
+        restaurant. If the floor is commercial, confirm the coating&apos;s
+        slip rating with the supplier before you buy.
+      </p>
+
       <Faq items={faqs} heading="Concrete paint questions, answered" />
     </GuideArticle>
   );
