@@ -126,6 +126,11 @@ const routes = [
   { path: "/guides/how-to-quote-a-wallpaper-installation-job", priority: 0.7, changeFrequency: "monthly" },
   { path: "/guides/roof-cleaning-cost", priority: 0.7, changeFrequency: "monthly" },
   { path: "/guides/how-to-bid-a-window-replacement-job", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/water-heater-replacement-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/sewer-line-replacement-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/plumber-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/drain-cleaning-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/ac-replacement-cost", priority: 0.7, changeFrequency: "monthly" },
   { path: "/pricing", priority: 0.8, changeFrequency: "monthly" },
 ];
 
