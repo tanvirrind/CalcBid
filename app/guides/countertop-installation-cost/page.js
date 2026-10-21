@@ -225,6 +225,92 @@ export default function Guide() {
         the slab, and the bid that arrives first usually wins.
       </p>
 
+      <h2>Worked example: a 38 sq ft quartz kitchen, full invoice</h2>
+      <p>
+        Here is a typical quartz job itemized the way this guide says every
+        bid should be — a 38 sq ft kitchen, one seam, an undermount sink,
+        and an upgraded edge. Each line is priced inside the ranges above:
+      </p>
+      <table className="q-table">
+        <thead>
+          <tr>
+            <th>Line item</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Quartz slab material and base fabrication — 38 sq ft × $78/sq ft</td>
+            <td className="num">$2,964</td>
+          </tr>
+          <tr>
+            <td>Templating (laser measurement after cabinets are set)</td>
+            <td className="num">$350</td>
+          </tr>
+          <tr>
+            <td>Edge profile upgrade — 24 linear ft × $20/ft over the standard eased edge</td>
+            <td className="num">$480</td>
+          </tr>
+          <tr>
+            <td>Undermount sink cutout, polished edge</td>
+            <td className="num">$200</td>
+          </tr>
+          <tr>
+            <td>Undermount sink unit</td>
+            <td className="num">$280</td>
+          </tr>
+          <tr>
+            <td>One seam</td>
+            <td className="num">$200</td>
+          </tr>
+          <tr>
+            <td>Old countertop removal and disposal</td>
+            <td className="num">$450</td>
+          </tr>
+          <tr>
+            <td><strong>Total</strong></td>
+            <td className="num"><strong>$4,924</strong></td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        Check the total two ways. Per square foot, $4,924 ÷ 38 is about $130
+        — inside the $75–$150 installed quartz range, in the upper half
+        because of the edge upgrade and the sink. Against the whole-kitchen
+        range, it sits comfortably inside the $3,000–$6,000 band quoted for a
+        40 sq ft quartz kitchen. Delivery and set are carried in the
+        fabrication line here, as they are in most bids; if a quote you are
+        comparing lists them separately, add them before comparing totals or
+        you will pick the wrong &ldquo;cheaper&rdquo; bid. Swap the ogee-style
+        edge for the standard eased edge and this same kitchen drops to
+        $4,444 — the edge profile is the easiest $480 decision on the
+        invoice.
+      </p>
+
+      <h2>Fabrication markets: why quotes vary by region</h2>
+      <p>
+        Countertop pricing is local because fabrication is local — slabs are
+        heavy, and shops cut close to where they install. In large metros
+        with dozens of fabricators competing for the same kitchens, shop
+        density keeps fabrication pricing tight and lead times short, and
+        big-box programs add a price ceiling no independent shop can ignore.
+        Regions near major slab distribution yards — the import hubs where
+        containers of quartz and granite arrive — often see lower material
+        pricing for the same reason: the slab travels hundreds of fewer
+        miles, and yards compete on volume.
+      </p>
+      <p>
+        Rural markets invert both advantages. One or two shops may serve a
+        whole county, templating is a dedicated trip, and delivery runs
+        beyond the radius most fabricators include in their base price — past
+        that radius, expect per-trip travel charges for the template visit,
+        the delivery, or both, and longer waits while the shop batches rural
+        installs into one route. None of that means a rural quote is padded;
+        it means the same 38 sq ft kitchen genuinely costs more to measure,
+        cut, and carry. Compare rural bids against each other, line by line,
+        rather than against a metro price the job can never be delivered at.
+      </p>
+
       <Faq items={faqs} heading="Countertop questions, answered" />
     </GuideArticle>
   );

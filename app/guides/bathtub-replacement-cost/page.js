@@ -265,6 +265,89 @@ export default function Guide() {
         conversion</a> needs both bids on the same page to decide.
       </p>
 
+      <h2>Worked example: an alcove tub swap with surround, full invoice</h2>
+      <p>
+        Here is the standard job from the breakdown table as one invoice: a
+        60&Prime; alcove tub, same drain location, acrylic surround, new
+        valve and trim. Every line is priced inside the ranges above:
+      </p>
+      <table className="q-table">
+        <thead>
+          <tr>
+            <th>Line item</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Alcove tub (from the $200–$1,000 unit range)</td>
+            <td className="num">$650</td>
+          </tr>
+          <tr>
+            <td>Demo of old tub and surround, plus disposal</td>
+            <td className="num">$480</td>
+          </tr>
+          <tr>
+            <td>Plumbing — drain, overflow, and supplies, same location</td>
+            <td className="num">$850</td>
+          </tr>
+          <tr>
+            <td>Valve and trim kit (from the $200–$1,000 fixtures range)</td>
+            <td className="num">$320</td>
+          </tr>
+          <tr>
+            <td>Acrylic surround kit, installed</td>
+            <td className="num">$1,150</td>
+          </tr>
+          <tr>
+            <td>Subfloor check and minor repair allowance</td>
+            <td className="num">$250</td>
+          </tr>
+          <tr>
+            <td><strong>Total</strong></td>
+            <td className="num"><strong>$3,700</strong></td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        The $3,700 total sits in the middle of the $1,500–$5,000 installed
+        range for an alcove replacement, on the standard 1–2 day timeline.
+        Two details make this invoice honest. First, the subfloor line is an
+        allowance, not a charge: the subfloor gets inspected at demo, the
+        $250 covers minor repair if rot is found, and it is not billed if
+        the floor is sound — that is the concealed-damage contingency from
+        the breakdown, given a number and a rule instead of left as a
+        surprise. Second, there is no drain relocation line, because the
+        drain stayed put. Move it and this same invoice grows by
+        $1,000–$3,000, which is why the drain decision is step one of the
+        process above.
+      </p>
+
+      <h2>Regional variation and seasonal timing</h2>
+      <p>
+        The tub, surround kit, and fixtures ship nationally and cost about
+        the same everywhere; the installed total moves because labor does.
+        The same $3,700 invoice prices toward the bottom of the
+        $1,500–$5,000 range in lower-cost markets where plumbers and
+        remodelers compete on price, and toward the top in high-cost metros,
+        where the plumbing line alone can run at the upper end of its
+        $500–$1,500 range and demo crews bill more for disposal. Rural jobs
+        can land in between on labor but pick up trip charges when the
+        nearest licensed plumber drives an hour each way.
+      </p>
+      <p>
+        Timing moves the number too. Bathroom remodelers are busiest in
+        spring and early summer, when quotes harden and start dates stretch
+        weeks out. In the winter off-season — January and February in most
+        markets — schedules open up, and some contractors will trim labor
+        pricing or waive small adders to keep crews working. The saving is
+        real but modest, and it never applies to the tub or fixtures. The
+        larger seasonal win is availability: an off-season booking gets the
+        crew you want on the week you want, while a spring booking takes the
+        crew that is left. If the bathroom can wait six weeks, quote it in
+        both seasons and let the bids make the decision.
+      </p>
+
       <Faq items={faqs} heading="Bathtub replacement questions, answered" />
     </GuideArticle>
   );

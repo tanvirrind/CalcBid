@@ -209,6 +209,92 @@ export default function Guide() {
         that arrives the same day wins.
       </p>
 
+      <h2>Worked example: a 60-inch double vanity swap, full invoice</h2>
+      <p>
+        Here is what the 60&Prime; double row of the size table looks like as
+        an actual invoice — same footprint, plumbing stays where it is, both
+        sinks get new faucets, and the client refreshes the mirror and light
+        while the wall is exposed. Every line is drawn from the ranges above:
+      </p>
+      <table className="q-table">
+        <thead>
+          <tr>
+            <th>Line item</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>60&Prime; double vanity with top (from the $1,000–$2,500 size-table range)</td>
+            <td className="num">$1,750</td>
+          </tr>
+          <tr>
+            <td>Install labor — set, level, fasten to studs, connect both sinks</td>
+            <td className="num">$850</td>
+          </tr>
+          <tr>
+            <td>Two faucets, at $220 each</td>
+            <td className="num">$440</td>
+          </tr>
+          <tr>
+            <td>Supply valves and lines, both sinks</td>
+            <td className="num">$120</td>
+          </tr>
+          <tr>
+            <td>Two trap and drain assemblies, at $65 each</td>
+            <td className="num">$130</td>
+          </tr>
+          <tr>
+            <td>Old vanity and top removal and disposal</td>
+            <td className="num">$120</td>
+          </tr>
+          <tr>
+            <td>Mirror replacement</td>
+            <td className="num">$280</td>
+          </tr>
+          <tr>
+            <td>Vanity light fixture replacement</td>
+            <td className="num">$240</td>
+          </tr>
+          <tr>
+            <td><strong>Total</strong></td>
+            <td className="num"><strong>$3,930</strong></td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        The total lands inside the $2,000–$4,500 all-in range for a 60&Prime;
+        double — toward the upper half, because the mirror and lighting
+        refresh adds $520 that a vanity-only swap would not carry. Strip
+        those two lines out and the same job is $3,410. Note also what is not
+        on this invoice: no drain or supply relocation. The moment the
+        rough-in moves, add the $500–$1,500 plumbing line from the short
+        answer, and the job needs a licensed plumber rather than a handyman
+        swap.
+      </p>
+
+      <h2>Regional labor variation</h2>
+      <p>
+        The vanity and top cost roughly the same everywhere — they ship
+        nationally. Labor is the regional variable. A same-footprint swap is
+        2–4 hours of work, but the rate attached to those hours swings with
+        the market: handymen in small markets commonly charge $50–$85 per
+        hour, while licensed plumbers in high-cost metros can run
+        $150–$250 per hour, with most markets falling between those poles.
+      </p>
+      <p>
+        In practice, that spread lands on the install-only line. The
+        $300–$800 labor range for a single vanity prices at the bottom in
+        small and mid-sized markets, and at — or occasionally above — the
+        top in metros like New York, Boston, the Bay Area, and Seattle,
+        where a double-vanity install can push past the $500–$1,200 table
+        range once travel, parking, and building-access time are billed. The
+        defense is the same in every market: get the install-only price as
+        its own line, separate from the vanity, top, and faucets. A quote
+        that bundles everything into one number hides exactly the line that
+        varies by region — and the one a second bid will beat.
+      </p>
+
       <Faq items={faqs} heading="Vanity installation questions, answered" />
     </GuideArticle>
   );
