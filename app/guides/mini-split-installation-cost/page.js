@@ -238,6 +238,17 @@ export default function Guide() {
         which makes the mini split cheaper than central in any no-duct home.
         That&apos;s your #1 sales scenario — lead with it.
       </p>
+      <p>
+        And when the home already has serviceable ducts and the system is
+        simply at end of life, that is the other branch of the decision —
+        priced in full in our{" "}
+        <a href="/guides/ac-replacement-cost">AC replacement cost guide</a>,
+        the pillar of this HVAC cluster: tonnage and SEER2 pricing, the
+        furnace-at-the-same-time question, and the R-454B refrigerant
+        changeover. Quote the client the option they did not ask about and
+        you become the contractor who educated them, not the one who just
+        sold the box they googled.
+      </p>
 
       <h2>Sizing: the bid lives or dies here</h2>
       <p>

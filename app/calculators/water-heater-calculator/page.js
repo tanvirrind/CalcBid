@@ -94,6 +94,8 @@ export default function WaterHeaterCalculatorPage() {
         <Faq items={faqs} heading="Questions plumbing pros actually ask" />
         <p style={{ marginTop: 28, maxWidth: 640, color: "var(--muted)" }}>
           <strong style={{ color: "var(--ink)" }}>Related guides:</strong>{" "}
+          <Link href="/guides/water-heater-replacement-cost" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Water Heater Replacement Cost</Link>
+          {" · "}
           <Link href="/guides/bathtub-replacement-cost" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Bathtub Replacement Cost</Link>
           {" · "}
           <Link href="/guides/mini-split-installation-cost" style={{ color: "var(--accent-deep)", fontWeight: 700 }}>Mini-Split Installation Cost</Link>
