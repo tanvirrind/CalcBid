@@ -121,6 +121,11 @@ const routes = [
   { path: "/guides/carpet-tile-installation-cost", priority: 0.7, changeFrequency: "monthly" },
   { path: "/guides/contractor-estimate-template", priority: 0.7, changeFrequency: "monthly" },
   { path: "/guides/how-to-quote-drywall-job", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/how-to-bid-an-attic-insulation-job", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/how-to-bid-a-stucco-job", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/how-to-quote-a-wallpaper-installation-job", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/roof-cleaning-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/how-to-bid-a-window-replacement-job", priority: 0.7, changeFrequency: "monthly" },
   { path: "/pricing", priority: 0.8, changeFrequency: "monthly" },
 ];
 
