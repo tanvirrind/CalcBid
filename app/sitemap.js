@@ -131,6 +131,11 @@ const routes = [
   { path: "/guides/plumber-cost", priority: 0.7, changeFrequency: "monthly" },
   { path: "/guides/drain-cleaning-cost", priority: 0.7, changeFrequency: "monthly" },
   { path: "/guides/ac-replacement-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/furnace-replacement-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/heat-pump-installation-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/ductwork-installation-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/how-to-bid-a-water-heater-replacement", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/how-to-bid-a-mulch-installation-job", priority: 0.7, changeFrequency: "monthly" },
   { path: "/pricing", priority: 0.8, changeFrequency: "monthly" },
 ];
 
