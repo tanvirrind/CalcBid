@@ -136,6 +136,11 @@ const routes = [
   { path: "/guides/ductwork-installation-cost", priority: 0.7, changeFrequency: "monthly" },
   { path: "/guides/how-to-bid-a-water-heater-replacement", priority: 0.7, changeFrequency: "monthly" },
   { path: "/guides/how-to-bid-a-mulch-installation-job", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/electrical-panel-upgrade-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/electrician-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/ceiling-fan-installation-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/ev-charger-installation-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/cost-to-rewire-a-house", priority: 0.7, changeFrequency: "monthly" },
   { path: "/pricing", priority: 0.8, changeFrequency: "monthly" },
 ];
 
