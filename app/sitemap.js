@@ -141,6 +141,11 @@ const routes = [
   { path: "/guides/ceiling-fan-installation-cost", priority: 0.7, changeFrequency: "monthly" },
   { path: "/guides/ev-charger-installation-cost", priority: 0.7, changeFrequency: "monthly" },
   { path: "/guides/cost-to-rewire-a-house", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/generator-installation-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/recessed-lighting-installation-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/radiant-floor-heating-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/landscape-lighting-installation-cost", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/guides/water-softener-installation-cost", priority: 0.7, changeFrequency: "monthly" },
   { path: "/pricing", priority: 0.8, changeFrequency: "monthly" },
 ];
 
