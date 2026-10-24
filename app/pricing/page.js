@@ -6,12 +6,6 @@ export const metadata = {
   title: "Pricing — Free, Solo $19, Crew $49",
   description:
     "CalcBid pricing: free calculators and quote builder forever. Solo $19/mo and Crew $49/mo add saved quotes, customers, and pipeline tracking.",
-  keywords: [
-    "calcbid pricing",
-    "contractor quote software pricing",
-    "painting estimate software cost",
-    "free contractor quote builder",
-  ],
   alternates: { canonical: "https://calcbid.com/pricing" },
   openGraph: {
     images: [
@@ -89,7 +83,7 @@ const tiers = [
 const faqs = [
   {
     q: "Is the Free plan really free?",
-    a: "Yes — free forever. All six calculators, the quote builder with shareable links, print/PDF, and every guide. No card required, no trial that quietly expires.",
+    a: "Yes — free forever. All 24 calculators, the quote builder with shareable links, print/PDF, and every guide. No card required, no trial that quietly expires.",
   },
   {
     q: "When do Solo and Crew launch?",

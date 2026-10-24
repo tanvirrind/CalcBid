@@ -7,13 +7,6 @@ export const metadata = {
   },
   description:
     "Free calculators for paint, roofing, tile, deck, HVAC and concrete pros — estimate materials and costs, then send a client-ready quote in minutes.",
-  keywords: [
-    "contractor calculators",
-    "free contractor calculators",
-    "contractor quote builder",
-    "construction cost estimator",
-    "trade calculators",
-  ],
   alternates: { canonical: "https://calcbid.com" },
   openGraph: {
     images: [
@@ -26,13 +19,13 @@ export const metadata = {
     ],
     title: "CalcBid — Free Contractor Calculators & Quote Builder",
     description:
-      "Six free trade calculators plus a quote builder: estimate materials and job costs, then send a client-ready quote in minutes.",
+      "24 free trade calculators plus a quote builder: estimate materials and job costs, then send a client-ready quote in minutes.",
     url: "https://calcbid.com",
   },
   twitter: {
     card: "summary_large_image",
     title: "CalcBid — Free Contractor Calculators & Quote Builder",
-    description: "Six free trade calculators plus a quote builder: estimate materials and job costs, then send a client-ready quote in minutes.",
+    description: "24 free trade calculators plus a quote builder: estimate materials and job costs, then send a client-ready quote in minutes.",
   },
 };
 

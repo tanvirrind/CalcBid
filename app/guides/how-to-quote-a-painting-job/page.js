@@ -249,7 +249,7 @@ export default function Guide() {
       </p>
       <h2>Costly mistakes that eat painters&apos; margins</h2>
       <ul>
-        <li><strong>Quoting off floor square footage.</strong> A 12×12 room is 144 sq ft of floor and ~400 sq ft of wall. Price the walls.</li>
+        <li><strong>Quoting off floor square footage.</strong> A 12×12 room is 144 sq ft of floor and 384 sq ft of wall. Price the walls.</li>
         <li><strong>Forgetting the primer coat.</strong> Dark-to-light color changes, bare drywall, and stained walls need primer — effectively +50% on wall gallons. Ask about the current color before you quote.</li>
         <li><strong>One-coat promises.</strong> One-coat coverage exists in marketing, not on walls. Quote two coats; if one suffices, you look like a hero.</li>
         <li><strong>Ignoring the ceiling.</strong> Clients assume ceilings are included unless you say otherwise. List ceilings as included or excluded — in writing.</li>
